@@ -37,9 +37,10 @@
     <link rel="alternate" hreflang="en" href="https://your-domain.example/?lang=en" />
     <link rel="alternate" hreflang="zh" href="https://your-domain.example/?lang=zh" />
     <link rel="alternate" hreflang="ja" href="https://your-domain.example/?lang=ja" />
+    <link rel="preload" href="assets/clinic-hero.png" as="image" />
     <link rel="preload" href="assets/main.jpg" as="image" />
     <link rel="preload" href="assets/logo.png" as="image" />
-    <link rel="stylesheet" href="styles.css?v=20260727-reserve" />
+    <link rel="stylesheet" href="styles.css?v=20260728-carousel-full" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -136,6 +137,31 @@
     </header>
 
     <main id="main">
+      <section class="hero-carousel" aria-label="리메디 대표 이미지">
+        <div class="hero-carousel-shell" data-reveal>
+          <div class="hero-carousel-header">
+            <p class="eyebrow">re:medi scenes</p>
+            <div class="hero-carousel-controls" aria-label="대표 이미지 넘기기">
+              <button type="button" class="carousel-button" data-carousel-prev aria-label="이전 이미지">&lt;</button>
+              <button type="button" class="carousel-button" data-carousel-next aria-label="다음 이미지">&gt;</button>
+            </div>
+          </div>
+          <div class="hero-carousel-track" data-carousel-track tabindex="0">
+            <article class="hero-slide">
+              <img src="assets/clinic-hero.png" alt="리메디 한의원 가로형 대표 이미지" fetchpriority="high" />
+              <div class="hero-slide-caption"><strong>본연의 균형을 찾는 공간</strong></div>
+            </article>
+            <article class="hero-slide">
+              <img src="assets/location_pictures.jpg" alt="리메디 한의원 내부 공간 이미지" loading="lazy" />
+              <div class="hero-slide-caption"><strong>차분하게 상담하는 진료 공간</strong></div>
+            </article>
+            <article class="hero-slide">
+              <img src="assets/location_details.jpg" alt="리메디 한의원 공간 상세 이미지" loading="lazy" />
+              <div class="hero-slide-caption"><strong>예약 중심의 세심한 진료 동선</strong></div>
+            </article>
+          </div>
+        </div>
+      </section>
       <section class="hero" id="top" aria-labelledby="hero-title" data-section>
         <div class="hero-layout">
           <figure class="hero-media" data-reveal>
@@ -373,6 +399,6 @@
       <p>© 2026 re:medi Korean Medicine Clinic. All rights reserved.</p>
     </footer>
 
-    <script src="script.js?v=20260727-pages" defer></script>
+    <script src="script.js?v=20260728-carousel" defer></script>
   </body>
 </html>

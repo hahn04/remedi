@@ -173,3 +173,26 @@ function initKakaoMapIfAvailable() {
 }
 
 initKakaoMapIfAvailable();
+function initHeroCarousel() {
+  const track = document.querySelector("[data-carousel-track]");
+  const prev = document.querySelector("[data-carousel-prev]");
+  const next = document.querySelector("[data-carousel-next]");
+  if (!track || !prev || !next) return;
+
+  function getScrollAmount() {
+    const slide = track.querySelector(".hero-slide");
+    if (!slide) return track.clientWidth;
+    const gap = Number.parseFloat(getComputedStyle(track).columnGap || "0");
+    return slide.getBoundingClientRect().width + gap;
+  }
+
+  prev.addEventListener("click", () => {
+    track.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
+  });
+
+  next.addEventListener("click", () => {
+    track.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
+  });
+}
+
+initHeroCarousel();
