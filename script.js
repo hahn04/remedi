@@ -27,6 +27,58 @@ const sectionItems = document.querySelectorAll("[data-section]");
 const revealItems = document.querySelectorAll("[data-reveal]");
 const countItems = document.querySelectorAll("[data-count]");
 const backTop = document.querySelector(".back-top");
+const menuThemeById = {
+  top: "soft",
+  intro: "soft",
+  asymmetry: "green",
+  posture: "taupe",
+  diet: "line",
+  bride: "brown",
+  pain: "dark",
+  reviews: "soft",
+  contact: "line"
+};
+
+function getMenuThemeForElement(element) {
+  if (!element) return "soft";
+  if (element.classList.contains("hero-carousel")) return "dark";
+  if (element.classList.contains("decoction-section")) return "green";
+  if (element.id && menuThemeById[element.id]) return menuThemeById[element.id];
+  if (document.body.dataset.page && menuThemeById[document.body.dataset.page]) return menuThemeById[document.body.dataset.page];
+  return "soft";
+}
+
+function updateMenuTheme() {
+  const targets = Array.from(
+    document.querySelectorAll(
+      ".hero-carousel, .hero, .intro-section, .asymmetry-section, .posture-section, .diet-section, .bride-section, .pain-section, .decoction-section, .reviews-section, .contact-section, .page-hero"
+    )
+  );
+
+  if (!targets.length) {
+    document.body.dataset.menuTheme = "soft";
+    header?.setAttribute("data-menu-theme", "soft");
+    return;
+  }
+
+  const headerBottom = header?.getBoundingClientRect().bottom || 0;
+  const samplePoint = Math.min(window.innerHeight - 1, headerBottom + 8);
+  let current = targets[0];
+
+  for (const target of targets) {
+    const rect = target.getBoundingClientRect();
+    if (rect.top <= samplePoint && rect.bottom > samplePoint) {
+      current = target;
+      break;
+    }
+
+    if (rect.top <= samplePoint) current = target;
+  }
+
+  const theme = getMenuThemeForElement(current);
+  document.body.dataset.menuTheme = theme;
+  header?.setAttribute("data-menu-theme", theme);
+}
 function setCurrentPageNavigation() {
   const currentFile = window.location.pathname.split("/").filter(Boolean).pop() || "index.html";
 
@@ -67,6 +119,7 @@ function updateScrollState() {
   header?.classList.toggle("is-scrolled", scrollTop > 24);
   if (progressBar) progressBar.style.width = `${progress}%`;
   backTop?.classList.toggle("is-visible", scrollTop > 520);
+  updateMenuTheme();
 }
 
 function animateCount(element) {
