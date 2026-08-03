@@ -249,3 +249,144 @@ function initHeroCarousel() {
 }
 
 initHeroCarousel();
+const eventPopupImages = [
+  {
+    src: "assets/event_aug1.jpeg",
+    alt: "리메디 한의원 8월 이벤트 안내 1"
+  },
+  {
+    src: "assets/event_aug2.jpeg",
+    alt: "리메디 한의원 8월 이벤트 안내 2"
+  }
+];
+
+const eventReservationUrl = "https://m.booking.naver.com/booking/16/bizes/1692308?theme=place&lang=ko&area=pll";
+const eventPopupStorageKey = "remedi-event-aug-2026-hidden-date";
+
+function getLocalDateKey() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function isEventPopupHiddenToday() {
+  try {
+    return localStorage.getItem(eventPopupStorageKey) === getLocalDateKey();
+  } catch {
+    return false;
+  }
+}
+
+function hideEventPopupToday() {
+  try {
+    localStorage.setItem(eventPopupStorageKey, getLocalDateKey());
+  } catch {
+    // Storage can be blocked in some privacy modes; closing still works.
+  }
+}
+
+function initEventPopup() {
+  if (!eventPopupImages.length || isEventPopupHiddenToday()) return;
+
+  const popup = document.createElement("aside");
+  popup.className = "event-popup";
+  popup.setAttribute("role", "dialog");
+  popup.setAttribute("aria-modal", "true");
+  popup.setAttribute("aria-labelledby", "event-popup-title");
+
+  popup.innerHTML = `
+    <div class="event-popup-panel">
+      <div class="event-popup-head">
+        <div>
+          <p class="event-popup-kicker">re:medi event</p>
+          <h2 id="event-popup-title">8월 이벤트 안내</h2>
+        </div>
+        <button type="button" class="event-popup-close" data-event-close aria-label="이벤트 팝업 닫기">닫기</button>
+      </div>
+      <div class="event-popup-stage">
+        <div class="event-popup-slides">
+          ${eventPopupImages
+            .map(
+              (image, index) => `
+                <a class="event-popup-slide${index === 0 ? " is-active" : ""}" href="${eventReservationUrl}" target="_blank" rel="noopener" data-event-slide>
+                  <img src="${image.src}" alt="${image.alt}" />
+                </a>
+              `
+            )
+            .join("")}
+        </div>
+        <button type="button" class="event-popup-nav event-popup-prev" data-event-prev aria-label="이전 이벤트 이미지">&lt;</button>
+        <button type="button" class="event-popup-nav event-popup-next" data-event-next aria-label="다음 이벤트 이미지">&gt;</button>
+      </div>
+      <div class="event-popup-footer">
+        <div class="event-popup-dots" aria-label="이벤트 이미지 선택">
+          ${eventPopupImages
+            .map(
+              (_, index) => `<button type="button" class="event-popup-dot${index === 0 ? " is-active" : ""}" data-event-dot="${index}" aria-label="${index + 1}번째 이벤트 이미지 보기"></button>`
+            )
+            .join("")}
+        </div>
+        <div class="event-popup-actions">
+          <button type="button" class="event-popup-today" data-event-today>오늘 하루 보지 않기</button>
+          <a class="event-popup-book" href="${eventReservationUrl}" target="_blank" rel="noopener">예약하기</a>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(popup);
+  document.body.classList.add("has-event-popup");
+
+  const slides = Array.from(popup.querySelectorAll("[data-event-slide]"));
+  const dots = Array.from(popup.querySelectorAll("[data-event-dot]"));
+  const closeButton = popup.querySelector("[data-event-close]");
+  const todayButton = popup.querySelector("[data-event-today]");
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    currentIndex = (index + slides.length) % slides.length;
+    slides.forEach((slide, slideIndex) => {
+      slide.classList.toggle("is-active", slideIndex === currentIndex);
+    });
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === currentIndex);
+    });
+  }
+
+  function closePopup() {
+    popup.classList.remove("is-visible");
+    document.body.classList.remove("has-event-popup");
+    document.removeEventListener("keydown", handleKeydown);
+    window.setTimeout(() => popup.remove(), 180);
+  }
+
+  function handleKeydown(event) {
+    if (event.key === "Escape") closePopup();
+    if (event.key === "ArrowLeft") showSlide(currentIndex - 1);
+    if (event.key === "ArrowRight") showSlide(currentIndex + 1);
+  }
+
+  popup.querySelector("[data-event-prev]")?.addEventListener("click", () => showSlide(currentIndex - 1));
+  popup.querySelector("[data-event-next]")?.addEventListener("click", () => showSlide(currentIndex + 1));
+  dots.forEach((dot) => {
+    dot.addEventListener("click", () => showSlide(Number(dot.dataset.eventDot || 0)));
+  });
+  closeButton?.addEventListener("click", closePopup);
+  todayButton?.addEventListener("click", () => {
+    hideEventPopupToday();
+    closePopup();
+  });
+  popup.addEventListener("click", (event) => {
+    if (event.target === popup) closePopup();
+  });
+  document.addEventListener("keydown", handleKeydown);
+
+  window.setTimeout(() => {
+    popup.classList.add("is-visible");
+    closeButton?.focus({ preventScroll: true });
+  }, 80);
+}
+
+initEventPopup();
