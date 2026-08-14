@@ -3771,3 +3771,44 @@ body {
     padding-bottom: 96px;
   }
 }
+/* 20260814 mobile header logo compact */
+@media (max-width: 560px) {
+  .topbar {
+    min-height: 60px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-logo {
+    width: clamp(108px, 32vw, 132px);
+    max-width: 36vw;
+  }
+
+  .header-actions {
+    gap: 6px;
+  }
+
+  .language-control select {
+    width: 82px;
+    padding: 6px 7px;
+    font-size: 12px;
+  }
+
+  .nav-toggle {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 370px) {
+  .brand-logo {
+    width: clamp(96px, 30vw, 116px);
+    max-width: 34vw;
+  }
+
+  .language-control select {
+    width: 76px;
+  }
+}
