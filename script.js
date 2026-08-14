@@ -41,7 +41,7 @@ const menuThemeById = {
 
 function getMenuThemeForElement(element) {
   if (!element) return "soft";
-  if (element.classList.contains("hero-carousel")) return "dark";
+  if (element.classList.contains("hero-carousel")) return "soft";
   if (element.classList.contains("decoction-section")) return "green";
   if (element.id && menuThemeById[element.id]) return menuThemeById[element.id];
   if (document.body.dataset.page && menuThemeById[document.body.dataset.page]) return menuThemeById[document.body.dataset.page];
