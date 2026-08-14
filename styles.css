@@ -3812,3 +3812,30 @@ body {
     width: 76px;
   }
 }
+/* 20260814 brand tagline under logo */
+.brand {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3px;
+}
+
+.brand-text {
+  line-height: 1;
+}
+
+.brand small {
+  margin-top: 0;
+  font-size: 10.5px;
+  line-height: 1.15;
+}
+
+@media (max-width: 560px) {
+  .brand {
+    gap: 2px;
+  }
+
+  .brand small {
+    font-size: 9.5px;
+  }
+}
