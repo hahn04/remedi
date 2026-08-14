@@ -3839,3 +3839,53 @@ body {
     font-size: 9.5px;
   }
 }
+/* 20260814 dark menu band below logo */
+body[data-menu-theme] .nav-menu,
+body[data-menu-theme] .service-tabs {
+  background: var(--black);
+  color: var(--soft);
+  box-shadow: 0 0 0 100vmax var(--black);
+  clip-path: inset(0 -100vmax);
+}
+
+body[data-menu-theme] .nav-menu {
+  border-color: var(--black);
+}
+
+body[data-menu-theme] .service-tabs {
+  border-top: 1px solid rgba(237, 237, 237, 0.14);
+}
+
+body[data-menu-theme] .nav-menu a,
+body[data-menu-theme] .service-tabs a,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a,
+body[data-menu-theme] .site-header.is-scrolled .service-tabs a {
+  color: var(--soft);
+  border-color: rgba(237, 237, 237, 0.24);
+}
+
+body[data-menu-theme] .nav-menu a.is-active,
+body[data-menu-theme] .nav-menu a:hover,
+body[data-menu-theme] .service-tabs a:hover,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a.is-active,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a:hover,
+body[data-menu-theme] .site-header.is-scrolled .service-tabs a:hover {
+  background: rgba(237, 237, 237, 0.14);
+  color: var(--soft);
+}
+
+body[data-menu-theme] .nav-menu .nav-cta,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu .nav-cta {
+  background: var(--soft);
+  color: var(--black);
+}
+
+@media (max-width: 1079px) {
+  body[data-menu-theme] .nav-menu {
+    background: var(--black);
+    color: var(--soft);
+    border-color: rgba(237, 237, 237, 0.18);
+    box-shadow: var(--shadow);
+    clip-path: none;
+  }
+}
