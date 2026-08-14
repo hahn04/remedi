@@ -3753,3 +3753,21 @@ body[data-menu-theme="taupe"] .site-header.is-scrolled .nav-menu .nav-cta {
     grid-template-columns: 76px minmax(0, 1fr);
   }
 }
+/* 20260814 fixed action bottom spacing */
+body {
+  padding-bottom: calc(148px + env(safe-area-inset-bottom));
+}
+
+.footer {
+  padding-bottom: calc(104px + env(safe-area-inset-bottom));
+}
+
+@media (min-width: 760px) {
+  body {
+    padding-bottom: 104px;
+  }
+
+  .footer {
+    padding-bottom: 96px;
+  }
+}
