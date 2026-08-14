@@ -3941,3 +3941,15 @@ body[data-menu-theme] .site-header.is-scrolled .service-tabs a {
     clip-path: none;
   }
 }
+/* 20260814 service tabs top spacing */
+body[data-menu-theme] .service-tabs,
+body[data-menu-theme] .site-header.is-scrolled .service-tabs {
+  padding-top: 12px;
+}
+
+@media (max-width: 560px) {
+  body[data-menu-theme] .service-tabs,
+  body[data-menu-theme] .site-header.is-scrolled .service-tabs {
+    padding-top: 10px;
+  }
+}
