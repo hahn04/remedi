@@ -3705,3 +3705,51 @@ body[data-menu-theme="taupe"] .site-header.is-scrolled .nav-menu .nav-cta {
   background: var(--green);
   color: var(--soft);
 }
+/* 20260814 business footer */
+.footer-brand {
+  display: grid;
+  gap: 6px;
+}
+
+.footer-business {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 18px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.footer-business div {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+
+.footer-business dt {
+  color: var(--brown);
+  font-weight: 900;
+}
+
+.footer-business dd {
+  color: var(--gray);
+}
+
+.footer-business a {
+  color: inherit;
+}
+
+.footer-copy {
+  margin-top: 4px;
+}
+
+@media (max-width: 720px) {
+  .footer-business {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-business div {
+    grid-template-columns: 76px minmax(0, 1fr);
+  }
+}
