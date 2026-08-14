@@ -3889,3 +3889,55 @@ body[data-menu-theme] .site-header.is-scrolled .nav-menu .nav-cta {
     clip-path: none;
   }
 }
+/* 20260814 service tabs dark only */
+body[data-menu-theme] .nav-menu {
+  background: var(--soft);
+  color: var(--black);
+  border-color: var(--line);
+  box-shadow: 0 0 0 100vmax var(--soft);
+  clip-path: inset(0 -100vmax);
+}
+
+body[data-menu-theme] .nav-menu a,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a {
+  color: var(--black);
+  border-color: rgba(71, 49, 36, 0.18);
+}
+
+body[data-menu-theme] .nav-menu a.is-active,
+body[data-menu-theme] .nav-menu a:hover,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a.is-active,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu a:hover {
+  background: rgba(45, 66, 57, 0.1);
+  color: var(--black);
+}
+
+body[data-menu-theme] .nav-menu .nav-cta,
+body[data-menu-theme] .site-header.is-scrolled .nav-menu .nav-cta {
+  background: var(--green);
+  color: var(--soft);
+}
+
+body[data-menu-theme] .service-tabs,
+body[data-menu-theme] .site-header.is-scrolled .service-tabs {
+  background: var(--black);
+  color: var(--soft);
+  box-shadow: 0 0 0 100vmax var(--black);
+  clip-path: inset(0 -100vmax);
+}
+
+body[data-menu-theme] .service-tabs a,
+body[data-menu-theme] .site-header.is-scrolled .service-tabs a {
+  color: var(--soft);
+  border-color: rgba(237, 237, 237, 0.24);
+}
+
+@media (max-width: 1079px) {
+  body[data-menu-theme] .nav-menu {
+    background: var(--soft);
+    color: var(--black);
+    border-color: var(--line);
+    box-shadow: var(--shadow);
+    clip-path: none;
+  }
+}
