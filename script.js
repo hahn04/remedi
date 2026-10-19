@@ -288,7 +288,7 @@ function hideEventPopupToday() {
 }
 
 function initEventPopup() {
-  if (!eventPopupImages.length || isEventPopupHiddenToday()) return;
+  if (document.body.dataset.page === "asymmetry" || !eventPopupImages.length || isEventPopupHiddenToday()) return;
 
   const popup = document.createElement("aside");
   popup.className = "event-popup";

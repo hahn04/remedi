@@ -1,0 +1,265 @@
+/* Information guide styles are isolated from the other clinic pages. */
+html,
+body[data-page="asymmetry"] {
+  /* Clip horizontal overflow without creating a scroll container for sticky navigation. */
+  overflow-x: clip;
+}
+
+body[data-page="asymmetry"] .naver-reservation-toast {
+  /* The bottom action bar and clinic section already provide the booking path. */
+  display: none;
+}
+
+.asymmetry-guide {
+  --guide-ink: #263b32;
+  --guide-muted: #526158;
+  --guide-paper: #fafbf8;
+  background: var(--guide-paper);
+  color: var(--guide-ink);
+}
+
+.guide-hero,
+.guide-content,
+.guide-nav-inner {
+  width: var(--content-width);
+  margin-inline: auto;
+}
+
+.guide-hero {
+  padding-block: clamp(32px, 5vw, 64px) 36px;
+}
+
+.guide-kicker,
+.guide-section-label {
+  color: var(--guide-muted);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.guide-kicker { margin-top: 28px; }
+
+.guide-hero h1 {
+  margin-top: 10px;
+  font-size: clamp(38px, 7vw, 64px);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.guide-subtitle {
+  margin-top: 14px;
+  font-size: clamp(20px, 3vw, 28px);
+  line-height: 1.5;
+}
+
+.guide-intro {
+  max-width: 44em;
+  margin-top: 16px;
+  color: var(--guide-muted);
+  line-height: 1.85;
+}
+
+.guide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  margin-top: 24px;
+  color: var(--guide-muted);
+  font-size: 12px;
+}
+
+.guide-nav {
+  position: sticky;
+  top: var(--header-offset);
+  z-index: 40;
+  background: var(--guide-paper);
+  border-block: 1px solid #d5ddd5;
+}
+
+.guide-nav-inner {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.guide-nav a {
+  display: grid;
+  place-items: center;
+  min-height: 50px;
+  padding: 10px 4px;
+  border-bottom: 3px solid transparent;
+  text-align: center;
+  color: var(--guide-muted);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.guide-nav a:hover,
+.guide-nav a[aria-current="location"] {
+  border-bottom-color: var(--green);
+  background: #e9eee7;
+  color: var(--green);
+}
+
+.guide-nav .guide-clinic-link {
+  color: var(--green);
+  background: #e9eee7;
+}
+
+.asymmetry-guide a:focus-visible,
+.asymmetry-guide [tabindex]:focus-visible {
+  outline: 3px solid #846541;
+  outline-offset: 3px;
+}
+
+.guide-content { max-width: 960px; }
+
+.guide-section,
+.guide-sources li {
+  scroll-margin-top: calc(var(--guide-nav-height, 112px) + 24px);
+}
+
+.guide-section {
+  padding-block: clamp(36px, 5vw, 60px);
+  border-bottom: 1px solid #d5ddd5;
+}
+
+.guide-section h2 {
+  margin: 10px 0 24px;
+  font-size: clamp(25px, 4vw, 34px);
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.guide-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.guide-section p,
+.guide-section li { line-height: 1.9; }
+
+.guide-summary {
+  display: grid;
+  gap: 0;
+  margin-top: 24px;
+  padding: 8px 22px;
+  border: 1px solid #d5ddd5;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.guide-summary > div {
+  display: grid;
+  gap: 4px 24px;
+  padding-block: 15px;
+}
+
+.guide-summary > div + div { border-top: 1px solid #e7ebe5; }
+.guide-summary dt { font-weight: 600; }
+.guide-summary dd { color: var(--guide-muted); }
+
+.guide-callout {
+  margin-top: 24px;
+  padding: 18px 22px;
+  border-left: 3px solid #809780;
+  background: #eef2eb;
+}
+
+.guide-card-grid,
+.guide-two-columns {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.guide-card {
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid #d5ddd5;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.guide-card p { color: var(--guide-muted); }
+.guide-card ul { margin: 0; padding-left: 20px; }
+.guide-card li + li { margin-top: 8px; }
+
+.guide-urgent {
+  margin-top: 24px;
+  padding: 22px 24px;
+  border-left: 3px solid #9b6846;
+  background: #f5efe6;
+  color: #654b36;
+}
+
+.guide-treatment-list { margin-top: 24px; }
+.guide-treatment-list article { padding: 24px 0; border-top: 1px solid #d5ddd5; }
+.guide-inline-link { margin-top: 8px; }
+
+.guide-citation,
+.guide-inline-link a,
+.guide-related-links a,
+.guide-sources a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.guide-citation { white-space: nowrap; font-size: 13px; }
+.guide-faq article + article { margin-top: 28px; padding-top: 28px; border-top: 1px solid #d5ddd5; }
+.guide-faq h3::before { content: "Q. "; color: #647c66; }
+
+.guide-clinic {
+  margin-top: 32px;
+  padding: clamp(22px, 4vw, 40px);
+  border: 1px solid #bbcdbb;
+  border-radius: 12px;
+  background: #eef2eb;
+}
+
+.guide-clinic-note { margin-top: 24px; color: var(--guide-muted); font-size: 14px; }
+
+.guide-booking {
+  display: grid;
+  gap: 24px;
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid #c8d5c6;
+}
+
+.guide-booking p { font-size: 14px; }
+.guide-booking-actions { display: grid; gap: 10px; align-content: start; }
+.guide-booking .button { min-width: 0; text-align: center; font-size: 14px; }
+.guide-booking .button.primary { color: #fff; background: var(--green); }
+.guide-booking .button.outline { color: var(--green); border-color: #90a28f; background: transparent; }
+.guide-related-links { display: flex; flex-wrap: wrap; gap: 16px 28px; margin-top: 24px; font-size: 14px; }
+
+.guide-sources { padding-block: 36px 56px; color: var(--guide-muted); font-size: 13px; }
+.guide-sources h2 { margin-bottom: 12px; font-size: 18px; }
+.guide-sources ol { padding-left: 22px; }
+.guide-sources li { padding-block: 6px; overflow-wrap: anywhere; }
+
+@media (min-width: 760px) {
+  .guide-nav-inner { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .guide-nav a { min-height: 60px; font-size: 15px; }
+  .guide-summary > div { grid-template-columns: 180px minmax(0, 1fr); }
+  .guide-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .guide-two-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guide-booking { grid-template-columns: minmax(0, 1fr) minmax(260px, 0.85fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+@media print {
+  body[data-page="asymmetry"] { padding-bottom: 0; }
+  body[data-page="asymmetry"] .site-header,
+  body[data-page="asymmetry"] .bottom-cta,
+  body[data-page="asymmetry"] .naver-reservation-toast,
+  .guide-nav { display: none; }
+  .guide-section { break-inside: avoid; }
+  .guide-hero, .guide-content { width: 100%; }
+}
