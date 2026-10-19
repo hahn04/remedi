@@ -45,42 +45,39 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MedicalClinic",
-        "name": "re:medi 한의원",
-        "alternateName": ["리메디 한의원", "리메디", "remedi Korean Medicine Clinic"],
-        "url": "https://k-remedi.com/",
-        "image": "https://k-remedi.com/assets/main.jpg",
-        "priceRange": "$$",
-        "description": "re:medi 한의원은 안면비대칭, 골격교정, 바른자세, 라인관리, 다이어트, 급만성통증, 교통사고후유증을 상담하는 예약 중심 한의원입니다.",
-        "medicalSpecialty": ["Korean Medicine", "Facial asymmetry consultation", "Posture correction consultation", "Pain management consultation", "Diet consultation"],
-        "availableLanguage": ["Korean", "English", "Chinese", "Japanese"],
-        "availableService": [
-          { "@type": "Service", "name": "안면비대칭 클리닉" },
-          { "@type": "Service", "name": "골격교정 집중치료 및 바른자세 클리닉" },
-          { "@type": "Service", "name": "리프팅 및 팔뚝·허벅지·뱃살 라인관리" },
-          { "@type": "Service", "name": "심플 다이어트 및 비대면진료 상담" },
-          { "@type": "Service", "name": "예비신부 클리닉" },
-          { "@type": "Service", "name": "교통사고후유증 및 급만성통증 클리닉" },
-          { "@type": "Service", "name": "원내 직접 탕전" }
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "월드컵로1길 14, 마포한강푸르지오 1차아파트 1층",
-          "addressLocality": "마포구",
-          "addressRegion": "서울특별시",
-          "addressCountry": "KR"
-        },
-        "areaServed": ["마포", "합정", "홍대", "상수", "망원"],
-        "openingHoursSpecification": [
+        "@graph": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "10:00",
-            "closes": "20:00"
+            "@type": "MedicalClinic",
+            "@id": "https://k-remedi.com/#clinic",
+            "name": "경희 리메디한의원",
+            "alternateName": [
+              "re:medi 한의원",
+              "리메디한의원",
+              "리메디 한의원"
+            ],
+            "url": "https://k-remedi.com/",
+            "image": "https://k-remedi.com/assets/main.jpg",
+            "telephone": "+82-2-6951-1075",
+            "description": "re:medi 한의원은 안면비대칭, 골격교정, 바른자세, 라인관리, 다이어트, 급만성통증, 교통사고후유증을 상담하는 예약 중심 한의원입니다.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "월드컵로1길 14, 마포한강푸르지오 1차아파트 1층",
+              "addressLocality": "마포구",
+              "addressRegion": "서울특별시",
+              "addressCountry": "KR"
+            }
           },
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "15:00" }
-        ],
-        "sameAs": []
+          {
+            "@type": "WebSite",
+            "@id": "https://k-remedi.com/#website",
+            "name": "re:medi 한의원",
+            "url": "https://k-remedi.com/",
+            "inLanguage": "ko-KR",
+            "publisher": {
+              "@id": "https://k-remedi.com/#clinic"
+            }
+          }
+        ]
       }
     </script>
   </head>

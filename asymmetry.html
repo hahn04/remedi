@@ -24,6 +24,84 @@
     <link rel="preload" href="assets/logo.png" as="image" />
     <link rel="stylesheet" href="styles.css?v=20260814-service-tabs-spacing" />
     <link rel="stylesheet" href="asymmetry.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://k-remedi.com/#clinic",
+            "name": "경희 리메디한의원",
+            "alternateName": ["re:medi 한의원", "리메디한의원", "리메디 한의원"],
+            "url": "https://k-remedi.com/",
+            "telephone": "+82-2-6951-1075",
+            "image": "https://k-remedi.com/assets/main.jpg",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "월드컵로1길 14, 마포한강푸르지오 1차아파트 1층",
+              "addressLocality": "마포구",
+              "addressRegion": "서울특별시",
+              "addressCountry": "KR"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://k-remedi.com/#website",
+            "url": "https://k-remedi.com/",
+            "name": "re:medi 한의원",
+            "inLanguage": "ko-KR",
+            "publisher": { "@id": "https://k-remedi.com/#clinic" }
+          },
+          {
+            "@type": "MedicalWebPage",
+            "@id": "https://k-remedi.com/asymmetry#webpage",
+            "url": "https://k-remedi.com/asymmetry",
+            "name": "안면비대칭 원인·증상·진단과 치료 방향 | 리메디한의원",
+            "description": "안면비대칭의 의미와 원인, 동반 증상, 진단과 치료 방향을 알아보세요. 진료가 필요한 경우와 마포 리메디한의원의 상담·예약 방법을 안내합니다.",
+            "inLanguage": "ko-KR",
+            "dateModified": "2026-10-19",
+            "publisher": { "@id": "https://k-remedi.com/#clinic" },
+            "isPartOf": { "@id": "https://k-remedi.com/#website" },
+            "breadcrumb": { "@id": "https://k-remedi.com/asymmetry#breadcrumb" },
+            "about": {
+              "@type": "MedicalCondition",
+              "name": "안면비대칭",
+              "alternateName": "Facial asymmetry"
+            },
+            "citation": [
+              {
+                "@type": "WebPage",
+                "name": "서울대학교병원 · 안면비대칭",
+                "url": "https://www.snuh.org/health/nMedInfo/nView.do?medid=AA001272"
+              },
+              {
+                "@type": "WebPage",
+                "name": "서울아산병원 · 안면 비대칭 질환백과",
+                "url": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31764"
+              },
+              {
+                "@type": "WebPage",
+                "name": "미국 국립치과·두개안면연구소(NIDCR) · 턱관절장애",
+                "url": "https://www.nidcr.nih.gov/health-info/tmd"
+              },
+              {
+                "@type": "WebPage",
+                "name": "질병관리청 국가건강정보포털 · 뇌졸중",
+                "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495"
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://k-remedi.com/asymmetry#breadcrumb",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://k-remedi.com/" },
+              { "@type": "ListItem", "position": 2, "name": "안면비대칭", "item": "https://k-remedi.com/asymmetry" }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body data-page="asymmetry">
     <div class="scroll-progress" aria-hidden="true"><span></span></div>
