@@ -262,6 +262,7 @@ button {
   background: rgba(237, 237, 237, 0.98);
   color: var(--black);
   box-shadow: var(--shadow);
+  visibility: hidden;
   opacity: 0;
   transform: translateY(-8px);
   pointer-events: none;
@@ -271,6 +272,7 @@ button {
 }
 
 .nav-menu.is-open {
+  visibility: visible;
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
@@ -947,11 +949,16 @@ h2 {
 }
 
 [data-reveal] {
-  opacity: 0;
-  transform: translateY(22px);
+  opacity: 1;
+  transform: none;
   transition:
     opacity 560ms ease,
     transform 560ms ease;
+}
+
+[data-reveal].is-reveal-pending {
+  opacity: 0;
+  transform: translateY(22px);
 }
 
 [data-reveal].is-visible {
@@ -968,7 +975,8 @@ h2 {
     animation: none !important;
   }
 
-  [data-reveal] {
+  [data-reveal],
+  [data-reveal].is-reveal-pending {
     opacity: 1;
     transform: none;
   }
@@ -1009,6 +1017,7 @@ h2 {
     background: transparent;
     color: currentColor;
     box-shadow: none;
+    visibility: visible;
     opacity: 1;
     transform: none;
     pointer-events: auto;
@@ -1527,12 +1536,14 @@ h2 {
     background: rgba(237, 237, 237, 0.98);
     color: var(--black);
     box-shadow: var(--shadow);
+    visibility: hidden;
     opacity: 0;
     transform: translateY(-8px);
     pointer-events: none;
   }
 
   .nav-menu.is-open {
+    visibility: visible;
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
@@ -1919,6 +1930,16 @@ body {
   display: grid;
   gap: 10px;
   max-width: 420px;
+}
+
+body[data-page="contact"] .page-quick-actions .button.primary {
+  background: var(--green);
+  color: #fff;
+}
+
+body[data-page="contact"] .page-quick-actions .button.ghost {
+  border-color: var(--green);
+  color: var(--green);
 }
 
 .page-hero-media {

@@ -79,16 +79,25 @@ function updateMenuTheme() {
   document.body.dataset.menuTheme = theme;
   header?.setAttribute("data-menu-theme", theme);
 }
+function getPagePath(pathname) {
+  return pathname.replace(/\/+$/, "").replace(/\/index(?:\.html)?$/, "").replace(/\.html$/, "") || "/";
+}
+
 function setCurrentPageNavigation() {
-  const currentFile = window.location.pathname.split("/").filter(Boolean).pop() || "index.html";
+  const currentPath = getPagePath(window.location.pathname);
 
   navLinks.forEach((link) => {
     const href = link.getAttribute("href");
     if (!href || href.startsWith("#")) return;
 
     const linkUrl = new URL(href, window.location.href);
-    const linkFile = linkUrl.pathname.split("/").filter(Boolean).pop() || "index.html";
-    link.classList.toggle("is-active", linkFile === currentFile);
+    const isCurrentPage = linkUrl.origin === window.location.origin && getPagePath(linkUrl.pathname) === currentPath;
+    link.classList.toggle("is-active", isCurrentPage);
+    if (isCurrentPage) {
+      link.setAttribute("aria-current", "page");
+    } else {
+      link.removeAttribute("aria-current");
+    }
   });
 }
 
@@ -96,7 +105,7 @@ setCurrentPageNavigation();
 
 function applyLanguage(language) {
   const dictionary = translations[language] || translations.ko;
-  document.documentElement.lang = language;
+  // Only interface labels are translated; the page content remains Korean.
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
@@ -108,7 +117,11 @@ function applyLanguage(language) {
     languageSelect.setAttribute("aria-label", dictionary.languageLabel);
   }
 
-  localStorage.setItem("remedi-language", language);
+  try {
+    localStorage.setItem("remedi-language", language);
+  } catch {
+    // The interface still works when browser storage is unavailable.
+  }
 }
 
 function updateScrollState() {
@@ -141,7 +154,12 @@ function animateCount(element) {
 
 if (languageSelect) {
   const params = new URLSearchParams(window.location.search);
-  const savedLanguage = localStorage.getItem("remedi-language");
+  let savedLanguage = null;
+  try {
+    savedLanguage = localStorage.getItem("remedi-language");
+  } catch {
+    // Use the URL preference or Korean when browser storage is unavailable.
+  }
   const initialLanguage = params.get("lang") || savedLanguage || "ko";
   languageSelect.value = translations[initialLanguage] ? initialLanguage : "ko";
   applyLanguage(languageSelect.value);
@@ -152,25 +170,36 @@ if (languageSelect) {
 }
 
 if (navToggle && navMenu) {
+  function closeNavigation() {
+    navMenu.classList.remove("is-open");
+    navToggle.setAttribute("aria-expanded", "false");
+  }
+
   navToggle.addEventListener("click", () => {
     const isOpen = navMenu.classList.toggle("is-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
   });
 
   navMenu.addEventListener("click", (event) => {
-    if (event.target instanceof HTMLAnchorElement) {
-      navMenu.classList.remove("is-open");
-      navToggle.setAttribute("aria-expanded", "false");
+    if (event.target instanceof Element && event.target.closest("a")) {
+      closeNavigation();
     }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !navMenu.classList.contains("is-open")) return;
+    closeNavigation();
+    if (navToggle.getClientRects().length) navToggle.focus();
   });
 }
 
-if ("IntersectionObserver" in window) {
+if (typeof window.IntersectionObserver === "function") {
   const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add("is-visible");
+        entry.target.classList.remove("is-reveal-pending");
         entry.target.querySelectorAll?.("[data-count]").forEach(animateCount);
         if (entry.target.matches("[data-count]")) animateCount(entry.target);
         revealObserver.unobserve(entry.target);
@@ -179,7 +208,10 @@ if ("IntersectionObserver" in window) {
     { threshold: 0.16, rootMargin: "0px 0px -8%" }
   );
 
-  revealItems.forEach((item) => revealObserver.observe(item));
+  revealItems.forEach((item) => {
+    revealObserver.observe(item);
+    item.classList.add("is-reveal-pending");
+  });
   countItems.forEach((item) => revealObserver.observe(item));
 
   const sectionObserver = new IntersectionObserver(
