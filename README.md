@@ -36,6 +36,9 @@
 | 일반 웹 검색 도구 | `site:k-remedi.com 안면비대칭`, `"k-remedi.com/asymmetry"`, `"리메디한의원" "안면비대칭"` 세 질의에서 반환 결과 없음. 네이버 순위나 미색인의 증거로 사용하지 않음. |
 | 네이버 실제 검색·성과 보고서 | 검색결과 페이지는 현재 도구에서 접근 불가. 계정의 노출·클릭 보고서는 미열람. 미확인 수치를 0으로 기록하지 않음. |
 | AI 답변의 실제 홈페이지 인용 | 미측정. 이번 웹 검색을 AI 서비스별 답변 인용 검사로 간주하지 않음. |
+| 공개 robots.txt 추가 정책 | Cloudflare가 원본 앞에 관리 정책을 추가함. `search=yes,ai-train=no,use=reference`, `Google-Extended`·`GPTBot` 등의 차단이 있음. 저장소의 `Allow: /`만으로 모든 AI 활용이 허용된다고 판단하지 않음. |
+
+공개 robots 규칙상 Yeti·Googlebot·bingbot·OAI-SearchBot은 `/asymmetry`에 접근할 수 있습니다. 이는 실제 봇 IP의 방화벽 통과나 AI 답변 인용을 검증한 결과는 아닙니다. Cloudflare의 `use=reference`는 색인·발췌·링크 범위를 뜻하며, Google-Extended는 Google 검색 노출과 별도로 Gemini 학습 및 일부 grounding 활용을 제어합니다. [Cloudflare 공식 정책](https://developers.cloudflare.com/bots/additional-configurations/managed-robots-txt/), [Google 공식 크롤러 안내](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers#google-extended)
 
 추후 비교할 때는 조회한 날과 보고서의 업데이트 기준일·집계 기간을 따로 기록합니다. 네이버 노출·클릭 보고서는 반영 시차와 집계 영역 제한이 있으므로 제출 직후 수치만으로 성과를 판단하지 않습니다. [네이버 공식 보고서 안내](https://searchadvisor.naver.com/guide/report-expose-ctr)
 
@@ -59,5 +62,9 @@ AI 인용은 병원명이나 도메인을 미리 제시하지 않은 질문으�
 - [ ] **의료진 확인 후 병원 고유 설명 보강**
   - 실제 초진 평가 순서, 진료 범위, 다른 진료과 평가가 필요한 기준, 기대 변화와 한계를 확인합니다.
   - 확인받은 내용과 실제 검수자·검수일만 반영합니다. 로컬 검토 초안은 `GEO_CLINIC_REVIEW_TEMP.txt`에 있습니다.
+- [ ] **Cloudflare의 AI 검색·답변 활용 설정 확인**
+  - 실제 계정의 Security 설정에서 AI bot policies / Bot Preference Sync와 AI Crawl Control을 확인합니다. 현재 연결된 계정 도구가 없어 대시보드 설정·실제 봇 로그는 확인하지 못했습니다.
+  - 현재 공개 관리 정책과 원하는 AI 검색·요약 활용 범위가 일치하는지 확인합니다. 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향도 확인합니다.
+  - 이번 작업에서는 기존 차단 정책을 변경하지 않았습니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
 
 나중에 재개할 때: **“README TODO의 분석도구 연결부터 진행해줘”**라고 요청하면 됩니다.
