@@ -66,7 +66,8 @@ AI 인용은 병원명이나 도메인을 미리 제시하지 않은 질문으�
 - [ ] **Cloudflare의 AI 검색·답변 활용 설정 확인**
   - 2026-10-20 공개 정책 추가 점검 완료: 주요 검색·사용자 요청용 봇 9종의 `/asymmetry` 접근은 robots 규칙상 허용. 학습용 봇 차단을 AI 검색 전체 차단으로 해석하지 않습니다.
   - 2026-10-20 기본 정책 확인 완료(사용자 답변 기준): Search=`Allow`, Agent=`Allow`, Training=`Disallow`, Bot Preference Sync=`On`. 현재 학습 거부를 유지하면서 검색 접근을 허용하는 기준과 일치하므로 이 네 항목은 변경할 필요가 없습니다. `Training=Block`은 혼합목적 검색봇까지 막을 수 있어 구분합니다. [Cloudflare 공식 설명](https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/)
-  - 남은 확인: AI Crawl Control의 OAI-SearchBot·Claude-SearchBot·PerplexityBot 개별 Block/Charge 여부, 별도 WAF 차단·챌린지와 실제 봇 요청 로그. 현재 계정 연결 도구가 없어 직접 열람하지 못했습니다. 개별 검색봇 설정은 사용자에게 확인 요청한 상태입니다.
+  - 남은 확인: AI Crawl Control의 OAI-SearchBot·Claude-SearchBot·PerplexityBot 개별 Block/Charge 여부, 별도 WAF 차단·챌린지와 실제 봇 요청 로그. 2026-10-20 사용자가 메뉴나 해당 봇을 찾지 못했다고 답했으므로 개별 설정은 미확인 TODO로 유지합니다. 메뉴를 찾지 못한 사실을 차단 또는 허용의 증거로 사용하지 않습니다.
+  - 추후 확인할 때는 [Cloudflare 공식 AI Crawl Control 바로가기](https://dash.cloudflare.com/?to=/:account/:zone/ai)에서 계정과 `k-remedi.com`을 선택합니다. 공식 문서에 Security·Crawlers 탭 표기가 함께 있으므로 크롤러 목록의 Action 값을 기준으로 확인합니다. 목록·기능이 보이지 않는 이유는 계정 화면을 직접 확인하지 않아 알 수 없습니다. 현재 기본 정책을 유지하고 콘텐츠 개선·검색 성과 관찰은 계속 진행할 수 있습니다. [공식 크롤러 관리 안내](https://developers.cloudflare.com/ai-crawl-control/features/manage-ai-crawlers/)
   - 로컬 상세 확인 결과와 절차는 `CLOUDFLARE_GEO_CHECK_TEMP.txt`에 정리했습니다.
   - 현재 공개 관리 정책과 원하는 AI 검색·요약 활용 범위가 일치하는지 확인합니다. 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향도 확인합니다.
   - 이번 작업에서는 기존 차단 정책을 변경하지 않았습니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
