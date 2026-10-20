@@ -37,6 +37,7 @@
 | 네이버 실제 검색·성과 보고서 | 검색결과 페이지는 현재 도구에서 접근 불가. 계정의 노출·클릭 보고서는 미열람. 미확인 수치를 0으로 기록하지 않음. |
 | AI 답변의 실제 홈페이지 인용 | 미측정. 이번 웹 검색을 AI 서비스별 답변 인용 검사로 간주하지 않음. |
 | 공개 robots.txt 추가 정책 | Cloudflare가 원본 앞에 관리 정책을 추가함. `search=yes,ai-train=no,use=reference`, `Google-Extended`·`GPTBot` 등의 차단이 있음. 저장소의 `Allow: /`만으로 모든 AI 활용이 허용된다고 판단하지 않음. |
+| Cloudflare 기본 AI 정책 | 사용자 확인: Search=`Allow`, Agent=`Allow`, Training=`Disallow`, Bot Preference Sync=`On`. 검색·사용자 요청 접근을 허용하고 학습을 거부하는 기준과 일치하므로 네 항목은 변경하지 않음. 개별 크롤러 규칙과 실제 봇 요청 로그는 별도 확인 대상. |
 
 공개 robots 규칙상 Yeti·Googlebot·bingbot·OAI-SearchBot은 `/asymmetry`에 접근할 수 있습니다. 이는 실제 봇 IP의 방화벽 통과나 AI 답변 인용을 검증한 결과는 아닙니다. Cloudflare의 `use=reference`는 색인·발췌·링크 범위를 뜻하며, Google-Extended는 Google 검색 노출과 별도로 Gemini 학습 및 일부 grounding 활용을 제어합니다. [Cloudflare 공식 정책](https://developers.cloudflare.com/bots/additional-configurations/managed-robots-txt/), [Google 공식 크롤러 안내](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers#google-extended)
 
@@ -63,7 +64,10 @@ AI 인용은 병원명이나 도메인을 미리 제시하지 않은 질문으�
   - 실제 초진 평가 순서, 진료 범위, 다른 진료과 평가가 필요한 기준, 기대 변화와 한계를 확인합니다.
   - 확인받은 내용과 실제 검수자·검수일만 반영합니다. 로컬 검토 초안은 `GEO_CLINIC_REVIEW_TEMP.txt`에 있습니다.
 - [ ] **Cloudflare의 AI 검색·답변 활용 설정 확인**
-  - 실제 계정의 Security 설정에서 AI bot policies / Bot Preference Sync와 AI Crawl Control을 확인합니다. 현재 연결된 계정 도구가 없어 대시보드 설정·실제 봇 로그는 확인하지 못했습니다.
+  - 2026-10-20 공개 정책 추가 점검 완료: 주요 검색·사용자 요청용 봇 9종의 `/asymmetry` 접근은 robots 규칙상 허용. 학습용 봇 차단을 AI 검색 전체 차단으로 해석하지 않습니다.
+  - 2026-10-20 기본 정책 확인 완료(사용자 답변 기준): Search=`Allow`, Agent=`Allow`, Training=`Disallow`, Bot Preference Sync=`On`. 현재 학습 거부를 유지하면서 검색 접근을 허용하는 기준과 일치하므로 이 네 항목은 변경할 필요가 없습니다. `Training=Block`은 혼합목적 검색봇까지 막을 수 있어 구분합니다. [Cloudflare 공식 설명](https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/)
+  - 남은 확인: AI Crawl Control의 OAI-SearchBot·Claude-SearchBot·PerplexityBot 개별 Block/Charge 여부, 별도 WAF 차단·챌린지와 실제 봇 요청 로그. 현재 계정 연결 도구가 없어 직접 열람하지 못했습니다. 개별 검색봇 설정은 사용자에게 확인 요청한 상태입니다.
+  - 로컬 상세 확인 결과와 절차는 `CLOUDFLARE_GEO_CHECK_TEMP.txt`에 정리했습니다.
   - 현재 공개 관리 정책과 원하는 AI 검색·요약 활용 범위가 일치하는지 확인합니다. 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향도 확인합니다.
   - 이번 작업에서는 기존 차단 정책을 변경하지 않았습니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
 
