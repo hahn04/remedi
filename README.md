@@ -73,8 +73,11 @@ AI 인용은 병원명이나 도메인을 미리 제시하지 않은 질문으�
   - OAI-SearchBot은 ChatGPT 검색용, GPTBot은 학습용 수집 경로이며 두 설정은 독립적입니다. 검색 노출을 위해 GPTBot이나 Training 정책을 허용으로 바꿀 필요는 없습니다. 이번 확인 과정에서 정책을 변경하지 않았습니다. [OpenAI 공식 봇 안내](https://developers.openai.com/api/docs/bots)
   - 로컬 상세 확인 결과와 절차는 `CLOUDFLARE_GEO_CHECK_TEMP.txt`에 정리했습니다.
 - [ ] **안면비대칭 대표 페이지의 AI 봇 요청·인용 확인**
+  - 2026-10-20 대표 페이지 공개 응답 점검 완료: `/asymmetry` HTTP 200, UTF-8 정상, 색인 금지 meta·X-Robots-Tag 없음, canonical·정적 본문·구조화 데이터·사이트맵 정상. `/asymmetry.html`은 대표 주소로 307 이동합니다. 일반 점검용 요청으로 확인했으며 실제 AI 봇으로 가장하지 않았습니다.
+  - 공개 robots 규칙상 검색·사용자 요청용 봇 9종 접근 허용을 재확인했습니다. 수집을 직접 막는 기술적 문제는 이번 확인 범위에서 발견되지 않았습니다. 상세 원본 기록은 로컬 `SEO_GEO_OBSERVATION_TEMP.json`에 저장했으며 커밋·운영 배포에는 포함하지 않습니다.
   - Overview의 회사별 카드에는 여러 봇이 묶여 있습니다. Allowed는 2xx 응답 건수이며, Unsuccessful 17건 전체를 방화벽 차단으로 단정하지 않습니다. Anthropic의 Allowed 0건도 Claude-SearchBot 차단의 증거는 아닙니다. [공식 통계 안내](https://developers.cloudflare.com/ai-crawl-control/features/analyze-ai-traffic/)
-  - 다음 상세 확인은 Metrics에서 집계 기간·호스트 `k-remedi.com`·경로 `/asymmetry`·개별 크롤러를 구분해 2xx와 기타 응답을 살펴보는 것입니다. 별도 WAF 규칙·검증된 실제 봇 출발지와 AI 답변 인용은 아직 확인하지 않았습니다. 이미 확인한 기본 정책은 유지합니다.
+  - Metrics의 Last 7 days·호스트 `k-remedi.com`·경로 `/asymmetry`에 대한 Allowed·Unsuccessful 값을 사용자에게 확인 요청했습니다. 아직 경로별 수치는 확인 전이며 개별 크롤러·응답 코드를 함께 구분해야 합니다. 별도 WAF 규칙·검증된 실제 봇 출발지와 AI 답변 인용은 아직 확인하지 않았습니다. 이미 확인한 기본 정책은 유지합니다.
+  - 후속 웹 검색 도구의 도메인·브랜드 질의 2개도 반환 결과가 없었고 직접 페이지 열기는 Cache miss였습니다. 일반 HTTP 요청의 성공과 구분하며 이 결과만으로 네이버 미색인·AI 봇 차단·AI 인용 부재를 판정하지 않습니다.
   - 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향은 위 관찰 기록을 참고합니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
 
 나중에 재개할 때: **“README TODO의 분석도구 연결부터 진행해줘”**라고 요청하면 됩니다.
