@@ -39,7 +39,7 @@
 | 공개 robots.txt 추가 정책 | Cloudflare가 원본 앞에 관리 정책을 추가함. `search=yes,ai-train=no,use=reference`, `Google-Extended`·`GPTBot` 등의 차단이 있음. 저장소의 `Allow: /`만으로 모든 AI 활용이 허용된다고 판단하지 않음. |
 | Cloudflare 기본 AI 정책 | 사용자 확인: Search=`Allow`, Agent=`Allow`, Training=`Disallow`, Bot Preference Sync=`On`. 검색·사용자 요청 접근을 허용하고 학습을 거부하는 기준과 일치하므로 네 항목은 변경하지 않음. 개별 크롤러 규칙과 실제 봇 요청 로그는 별도 확인 대상. |
 | Cloudflare 요청 통계 화면 | 2026-10-20 사용자 제공 Overview 화면: 총 93건, Allowed 76건, Unsuccessful 17건. 운영사별 Allowed는 Google 44·Microsoft 23·Baidu 4·Apple 3·OpenAI 1·Perplexity 1·Anthropic 0건. 집계 기간·호스트·경로 필터는 화면에 없어 미확인. 개별 봇이나 `/asymmetry`의 접근·AI 인용 완료로 확대 해석하지 않음. |
-| Cloudflare 개별 검색봇 화면 | 후속 Security 화면의 기간은 `Last 7 days`. OAI-SearchBot과 PerplexityBot 각각 Allowed 1건·Unsuccessful 0건, 차단 스위치는 회색(꺼짐)으로 표시됨. GPTBot은 파란 스위치와 기존 AI 정책에 의한 차단 안내가 보임. Claude-SearchBot은 제공 화면에 없으며 요청 경로·AI 인용은 미확인. |
+| Cloudflare 개별 검색봇 확인 | Security 화면의 기간은 `Last 7 days`. OAI-SearchBot과 PerplexityBot 각각 Allowed 1건·Unsuccessful 0건, 차단 스위치는 회색(꺼짐)으로 표시됨. Claude-SearchBot의 회색(꺼짐)은 후속 사용자 답변으로 확인. GPTBot은 파란 스위치와 기존 AI 정책에 의한 차단 안내가 보임. 요청 경로·AI 인용은 미확인. |
 
 공개 robots 규칙상 Yeti·Googlebot·bingbot·OAI-SearchBot은 `/asymmetry`에 접근할 수 있습니다. 이는 실제 봇 IP의 방화벽 통과나 AI 답변 인용을 검증한 결과는 아닙니다. Cloudflare의 `use=reference`는 색인·발췌·링크 범위를 뜻하며, Google-Extended는 Google 검색 노출과 별도로 Gemini 학습 및 일부 grounding 활용을 제어합니다. [Cloudflare 공식 정책](https://developers.cloudflare.com/bots/additional-configurations/managed-robots-txt/), [Google 공식 크롤러 안내](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers#google-extended)
 
@@ -65,15 +65,16 @@ AI 인용은 병원명이나 도메인을 미리 제시하지 않은 질문으�
 - [ ] **의료진 확인 후 병원 고유 설명 보강**
   - 실제 초진 평가 순서, 진료 범위, 다른 진료과 평가가 필요한 기준, 기대 변화와 한계를 확인합니다.
   - 확인받은 내용과 실제 검수자·검수일만 반영합니다. 로컬 검토 초안은 `GEO_CLINIC_REVIEW_TEMP.txt`에 있습니다.
-- [ ] **Cloudflare의 AI 검색·답변 활용 설정 확인**
+- [x] **Cloudflare 기본 AI 정책·검색봇 3종의 차단 스위치 확인**
   - 2026-10-20 공개 정책 추가 점검 완료: 주요 검색·사용자 요청용 봇 9종의 `/asymmetry` 접근은 robots 규칙상 허용. 학습용 봇 차단을 AI 검색 전체 차단으로 해석하지 않습니다.
   - 2026-10-20 기본 정책 확인 완료(사용자 답변 기준): Search=`Allow`, Agent=`Allow`, Training=`Disallow`, Bot Preference Sync=`On`. 현재 학습 거부를 유지하면서 검색 접근을 허용하는 기준과 일치하므로 이 네 항목은 변경할 필요가 없습니다. `Training=Block`은 혼합목적 검색봇까지 막을 수 있어 구분합니다. [Cloudflare 공식 설명](https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/)
   - 2026-10-20 후속 Security 화면에서 OAI-SearchBot·PerplexityBot의 차단 스위치가 꺼져 있고 최근 7일 각각 허용 1건·실패 0건인 것을 확인했습니다. 이 두 검색봇의 설정은 유지합니다. GPTBot의 파란 스위치는 기존 AI 정책에 따른 차단을 뜻하며 학습 거부 방침에 맞게 유지합니다. [공식 크롤러 관리 안내](https://developers.cloudflare.com/ai-crawl-control/features/manage-ai-crawlers/)
-  - Claude-SearchBot은 제공 화면에 없어 미확인입니다. 상단 Select crawler에서 이름을 선택해 스위치 상태를 확인 요청했습니다. 학습용 ClaudeBot과 구분합니다.
+  - Claude-SearchBot의 회색(꺼짐) 상태는 후속 사용자 답변으로 확인했습니다. 확인 근거는 화면을 직접 읽은 두 봇과 구분하며, Claude-SearchBot의 요청 건수는 아직 확인하지 않았습니다.
+  - OAI-SearchBot은 ChatGPT 검색용, GPTBot은 학습용 수집 경로이며 두 설정은 독립적입니다. 검색 노출을 위해 GPTBot이나 Training 정책을 허용으로 바꿀 필요는 없습니다. 이번 확인 과정에서 정책을 변경하지 않았습니다. [OpenAI 공식 봇 안내](https://developers.openai.com/api/docs/bots)
+  - 로컬 상세 확인 결과와 절차는 `CLOUDFLARE_GEO_CHECK_TEMP.txt`에 정리했습니다.
+- [ ] **안면비대칭 대표 페이지의 AI 봇 요청·인용 확인**
   - Overview의 회사별 카드에는 여러 봇이 묶여 있습니다. Allowed는 2xx 응답 건수이며, Unsuccessful 17건 전체를 방화벽 차단으로 단정하지 않습니다. Anthropic의 Allowed 0건도 Claude-SearchBot 차단의 증거는 아닙니다. [공식 통계 안내](https://developers.cloudflare.com/ai-crawl-control/features/analyze-ai-traffic/)
   - 다음 상세 확인은 Metrics에서 집계 기간·호스트 `k-remedi.com`·경로 `/asymmetry`·개별 크롤러를 구분해 2xx와 기타 응답을 살펴보는 것입니다. 별도 WAF 규칙·검증된 실제 봇 출발지와 AI 답변 인용은 아직 확인하지 않았습니다. 이미 확인한 기본 정책은 유지합니다.
-  - 로컬 상세 확인 결과와 절차는 `CLOUDFLARE_GEO_CHECK_TEMP.txt`에 정리했습니다.
-  - 현재 공개 관리 정책과 원하는 AI 검색·요약 활용 범위가 일치하는지 확인합니다. 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향도 확인합니다.
-  - 이번 작업에서는 기존 차단 정책을 변경하지 않았습니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
+  - 검색용 접근과 학습용 활용을 구분하고, Google-Extended처럼 여러 용도를 함께 제어하는 항목의 영향은 위 관찰 기록을 참고합니다. 로컬 robots에 중복 허용 규칙을 넣어 호스팅 정책이 해제됐다고 간주하지 않습니다.
 
 나중에 재개할 때: **“README TODO의 분석도구 연결부터 진행해줘”**라고 요청하면 됩니다.
