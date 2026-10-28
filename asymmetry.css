@@ -115,6 +115,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-content { max-width: 960px; }
 
 .guide-section,
+.guide-illustration,
 .guide-faq article[id],
 .guide-sources li {
   scroll-margin-top: calc(var(--guide-nav-height, 112px) + 24px);
@@ -141,6 +142,46 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 
 .guide-section p,
 .guide-section li { line-height: 1.9; }
+
+.guide-illustration {
+  display: grid;
+  gap: 0;
+  margin: 28px 0;
+  overflow: hidden;
+  border: 1px solid #d5ddd5;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.guide-illustration img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+.guide-illustration-labels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 18px 12px;
+  background: #eef2eb;
+  font-size: clamp(13px, 2vw, 18px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.guide-illustration-labels span:last-child { color: #934828; }
+.guide-illustration-image { display: block; }
+
+.guide-illustration figcaption {
+  min-width: 0;
+  padding: 24px;
+  align-self: center;
+}
+
+.guide-illustration h3 { margin-top: 10px; }
+.guide-illustration-note { margin-top: 16px; font-size: 13px; color: var(--guide-muted); }
+.guide-illustration-expand { display: inline-block; margin-top: 16px; font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
 
 .guide-summary {
   display: grid;
