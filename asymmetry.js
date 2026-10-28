@@ -79,9 +79,10 @@
 
   // Preserve native anchor links, history, keyboard behavior and restored scrolling.
   const initialHash = window.location.hash;
-  const initialEntry = entries.find((entry) => `#${entry.section.id}` === initialHash);
+  const initialTarget = document.getElementById(initialHash.slice(1));
   const navigationType = window.performance?.getEntriesByType?.("navigation")?.[0]?.type;
-  if (!initialEntry || navigationType !== "navigate") return;
+  if (!initialTarget?.matches("section[data-guide-section], .guide-faq article[id], .guide-sources li[id]") ||
+      navigationType !== "navigate") return;
 
   let userInteracted = false;
   const interactionEvents = ["pointerdown", "touchstart", "wheel", "keydown"];
@@ -102,8 +103,8 @@
 
         // Late font/header sizing can hide a direct fragment's heading.
         const visibleTop = headerHeight + navigationHeight + 24;
-        if (initialEntry.section.getBoundingClientRect().top < visibleTop - 2) {
-          initialEntry.section.scrollIntoView({ block: "start", behavior: "instant" });
+        if (initialTarget.getBoundingClientRect().top < visibleTop - 2) {
+          initialTarget.scrollIntoView({ block: "start", behavior: "instant" });
         }
       });
     });

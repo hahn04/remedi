@@ -115,6 +115,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-content { max-width: 960px; }
 
 .guide-section,
+.guide-faq article[id],
 .guide-sources li {
   scroll-margin-top: calc(var(--guide-nav-height, 112px) + 24px);
 }
@@ -200,6 +201,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-inline-link { margin-top: 8px; }
 
 .guide-citation,
+.guide-faq h3 a,
 .guide-inline-link a,
 .guide-related-links a,
 .guide-sources a {
