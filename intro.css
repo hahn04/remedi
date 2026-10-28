@@ -1,0 +1,26 @@
+.page-card-grid.director-credentials {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  margin-block: 24px 32px;
+  scroll-margin-top: 24px;
+}
+
+.director-credentials article { min-width: 0; }
+.director-credentials h3 { margin-top: 0; }
+
+.director-credentials ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.director-credentials li + li { margin-top: 10px; }
+
+@media (min-width: 760px) {
+  .page-card-grid.director-credentials {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
