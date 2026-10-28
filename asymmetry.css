@@ -116,6 +116,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 
 .guide-section,
 .guide-illustration,
+.guide-subsection,
 .guide-faq article[id],
 .guide-sources li {
   scroll-margin-top: calc(var(--guide-nav-height, 112px) + 24px);
@@ -226,8 +227,41 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 }
 
 .guide-card p { color: var(--guide-muted); }
+.guide-card p + p { margin-top: 12px; }
 .guide-card ul { margin: 0; padding-left: 20px; }
 .guide-card li + li { margin-top: 8px; }
+
+.guide-evaluation-points { margin-block: 18px 24px; }
+.guide-evaluation-points > div { padding-block: 18px; border-bottom: 1px solid #d5ddd5; }
+.guide-evaluation-points dt { margin-bottom: 8px; font-weight: 600; }
+.guide-evaluation-points dd { color: var(--guide-muted); line-height: 1.9; }
+.guide-subsection { margin-top: 36px; }
+.guide-subsection > h3 { margin-bottom: 18px; font-size: 23px; }
+.guide-subsection > p + p { margin-top: 14px; }
+.guide-section h4 { margin: 0 0 10px; font-size: 18px; font-weight: 600; line-height: 1.6; }
+.guide-types ul { margin-block: 14px; }
+.guide-types article:last-child { grid-column: 1 / -1; }
+
+.guide-check-group {
+  min-width: 0;
+  margin: 0;
+  padding: 16px 20px 20px;
+  border: 1px solid #d5ddd5;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.guide-check-group legend { padding-inline: 6px; font-size: 18px; font-weight: 600; }
+.guide-checklist { margin: 0; padding: 0; list-style: none; }
+.guide-checklist label { display: flex; align-items: flex-start; gap: 10px; min-height: 44px; padding-block: 8px; cursor: pointer; }
+.guide-checklist input { flex: 0 0 18px; width: 18px; height: 18px; margin: 6px 0 0; accent-color: var(--green); }
+.guide-checklist input:focus-visible { outline: 3px solid #846541; outline-offset: 3px; }
+.guide-checklist span { min-width: 0; overflow-wrap: anywhere; }
+.guide-check-groups { margin-bottom: 24px; }
+.guide-assessment-steps { margin: 24px 0 0; padding: 0; list-style: none; }
+.guide-assessment-steps > li { padding-block: 24px; border-top: 1px solid #d5ddd5; }
+.guide-assessment-steps p + p,
+.guide-treatment-list p + p { margin-top: 12px; }
 
 .guide-urgent {
   margin-top: 24px;
@@ -252,6 +286,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 
 .guide-citation { white-space: nowrap; font-size: 13px; }
 .guide-faq article + article { margin-top: 28px; padding-top: 28px; border-top: 1px solid #d5ddd5; }
+.guide-faq p + p { margin-top: 12px; }
 .guide-faq h3::before { content: "Q. "; color: #647c66; }
 
 .guide-clinic {

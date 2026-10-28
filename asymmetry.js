@@ -81,7 +81,7 @@
   const initialHash = window.location.hash;
   const initialTarget = document.getElementById(initialHash.slice(1));
   const navigationType = window.performance?.getEntriesByType?.("navigation")?.[0]?.type;
-  if (!initialTarget?.matches("section[data-guide-section], .guide-faq article[id], .guide-sources li[id]") ||
+  if (!initialTarget?.matches("section[data-guide-section], .guide-subsection[id], .guide-faq article[id], .guide-sources li[id]") ||
       navigationType !== "navigate") return;
 
   let userInteracted = false;
