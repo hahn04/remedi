@@ -117,6 +117,7 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-section,
 .guide-illustration,
 .guide-subsection,
+.guide-check-result,
 .guide-faq article[id],
 .guide-sources li {
   scroll-margin-top: calc(var(--guide-nav-height, 112px) + 24px);
@@ -258,6 +259,30 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-checklist input:focus-visible { outline: 3px solid #846541; outline-offset: 3px; }
 .guide-checklist span { min-width: 0; overflow-wrap: anywhere; }
 .guide-check-groups { margin-bottom: 24px; }
+.guide-check-controls:not([hidden]) { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-block: 24px; }
+.guide-check-count { font-weight: 600; }
+.guide-check-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.guide-check-actions .button { min-height: 44px; cursor: pointer; font: inherit; }
+.guide-check-actions .button:disabled { opacity: 0.5; cursor: default; }
+.guide-check-result { padding: clamp(18px, 4vw, 28px); margin-bottom: 24px; border: 1px solid #b6c5b6; border-radius: 8px; background: #eff3ec; }
+.guide-check-result h4 { font-size: 22px; }
+.guide-check-result h5 { margin: 0 0 10px; font-size: 18px; line-height: 1.6; }
+.guide-check-result a { text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.guide-check-result a:focus-visible,
+.guide-check-result summary:focus-visible,
+.guide-check-actions .button:focus-visible { outline: 3px solid #846541; outline-offset: 3px; }
+.guide-check-totals { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 10px; margin-block: 20px; }
+.guide-check-totals > div { padding: 14px; border-radius: 6px; background: #fff; }
+.guide-check-totals dt { font-size: 14px; }
+.guide-check-totals dd { margin: 6px 0 0; font-size: 18px; font-weight: 600; }
+.guide-check-advice-list article { padding-block: 20px; border-top: 1px solid #cbd6cb; }
+.guide-check-advice-list a { display: inline-block; margin-top: 10px; }
+.guide-check-selected { margin-top: 8px; padding-block: 16px; border-top: 1px solid #cbd6cb; }
+.guide-check-selected summary { cursor: pointer; font-weight: 600; }
+.guide-check-selected ul { margin: 12px 0 0; padding-left: 20px; }
+.guide-check-selected li + li { margin-top: 8px; }
+.guide-check-note { margin-top: 12px; font-size: 14px; color: var(--guide-muted); }
+.guide-check-emergency { margin-top: 20px; padding: 16px; border-left: 3px solid #9b6846; background: #f5efe6; color: #654b36; }
 .guide-assessment-steps { margin: 24px 0 0; padding: 0; list-style: none; }
 .guide-assessment-steps > li { padding-block: 24px; border-top: 1px solid #d5ddd5; }
 .guide-assessment-steps p + p,

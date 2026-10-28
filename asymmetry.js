@@ -1,6 +1,70 @@
 (() => {
   "use strict";
 
+  const checklist = document.getElementById("self-check");
+  if (!checklist) return;
+
+  const inputs = Array.from(checklist.querySelectorAll('.guide-checklist input[type="checkbox"]'));
+  const controls = checklist.querySelector("[data-check-controls]");
+  const count = checklist.querySelector("[data-check-count]");
+  const showButton = checklist.querySelector("[data-check-show]");
+  const resetButton = checklist.querySelector("[data-check-reset]");
+  const result = checklist.querySelector("#check-result");
+  const resultTitle = checklist.querySelector("#check-result-title");
+  const empty = checklist.querySelector("[data-check-empty]");
+  const details = checklist.querySelector("[data-check-details]");
+  const selectedList = checklist.querySelector("[data-check-selected]");
+  const selectedDisclosure = checklist.querySelector(".guide-check-selected");
+  const groups = Array.from(checklist.querySelectorAll("[data-check-group]"));
+  const advice = Array.from(checklist.querySelectorAll("[data-check-advice]"));
+  if (!inputs.length || !controls || !count || !showButton || !resetButton ||
+      !result || !resultTitle || !empty || !details || !selectedList || !selectedDisclosure) return;
+
+  function updateSummary() {
+    const selected = inputs.filter((input) => input.checked);
+    const values = new Set(selected.map((input) => input.value));
+    count.textContent = `${inputs.length}개 중 ${selected.length}개 선택`;
+    resetButton.disabled = selected.length === 0;
+    empty.hidden = selected.length > 0;
+    details.hidden = selected.length === 0;
+
+    groups.forEach((group) => {
+      const total = checklist.querySelector(`[data-check-total="${group.dataset.checkGroup}"]`);
+      if (total) total.textContent = group.querySelectorAll('input[type="checkbox"]:checked').length;
+    });
+
+    // Show every relevant topic. Counts are a summary, never a severity score.
+    advice.forEach((card) => {
+      card.hidden = !card.dataset.checkAdvice.split(/\s+/).some((value) => values.has(value));
+    });
+    selectedList.replaceChildren(...selected.map((input) => {
+      const item = document.createElement("li");
+      item.textContent = input.closest("label").querySelector("span").textContent;
+      return item;
+    }));
+  }
+
+  inputs.forEach((input) => input.addEventListener("change", updateSummary));
+  showButton.addEventListener("click", () => {
+    updateSummary();
+    result.hidden = false;
+    resultTitle.focus({ preventScroll: true });
+    result.scrollIntoView({ block: "start", behavior: "instant" });
+  });
+  resetButton.addEventListener("click", () => {
+    inputs.forEach((input) => { input.checked = false; });
+    selectedDisclosure.open = false;
+    updateSummary();
+    showButton.focus({ preventScroll: true });
+  });
+  window.addEventListener("pageshow", updateSummary);
+  updateSummary();
+  controls.hidden = false;
+})();
+
+(() => {
+  "use strict";
+
   const navigation = document.querySelector("[data-guide-nav]");
   if (!navigation) return;
 
