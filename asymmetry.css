@@ -288,14 +288,6 @@ body[data-page="asymmetry"] .naver-reservation-toast {
 .guide-assessment-steps p + p,
 .guide-treatment-list p + p { margin-top: 12px; }
 
-.guide-urgent {
-  margin-top: 24px;
-  padding: 22px 24px;
-  border-left: 3px solid #9b6846;
-  background: #f5efe6;
-  color: #654b36;
-}
-
 .guide-treatment-list { margin-top: 24px; }
 .guide-treatment-list article { padding: 24px 0; border-top: 1px solid #d5ddd5; }
 .guide-inline-link { margin-top: 8px; }
