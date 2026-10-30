@@ -15,6 +15,13 @@
 
 대표 페이지: https://k-remedi.com/asymmetry
 
+## Meta 픽셀
+
+- 2026-10-30 사용자 제공 픽셀 `1152863100747905`를 운영 HTML 9개에 연결했습니다. 각 head의 `meta-pixel.js` 공통 로더와 body의 JavaScript 미사용 이미지 대체 코드는 한 번씩만 넣습니다.
+- 직접 호출하는 이벤트는 `PageView`입니다. `autoConfig=false`로 자동 이벤트 탐지를 끄고, 별도의 예약·전화·체크리스트 이벤트나 고급 매칭 정보는 추가하지 않았습니다. 기존 GA4 연결 보류는 유지합니다.
+- JavaScript 로더는 `k-remedi.com`·`www.k-remedi.com`에서만 동작하며 같은 문서에서 재실행해도 중복 호출하지 않습니다. JavaScript를 끈 경우의 정적 이미지 대체 코드는 이 호스트 검사와 별개이므로 개발 검증 시 Meta 요청을 차단합니다.
+- Chrome에서 외부 Meta 요청을 가로막고 9개 페이지·중복 로더·로컬 미리보기·JavaScript 미사용 대체 동작을 확인했습니다. 호출 검증과 Meta 계정의 실제 수신은 구분하며, 수신 여부는 이벤트 관리자의 테스트 이벤트에서 확인합니다.
+
 ## 2026-10-20 후속 개선
 
 - 사이트 내부의 안면비대칭 링크 21개를 `/asymmetry`로 통일해 대표 URL 선언·사이트맵과 일치시켰습니다. 기존 `.html` 주소의 접근 경로는 유지합니다. [대표 URL에 대한 내부 링크 권고](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls#best-practices)
