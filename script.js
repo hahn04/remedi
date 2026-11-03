@@ -178,6 +178,7 @@ if (navToggle && navMenu) {
   navToggle.addEventListener("click", () => {
     const isOpen = navMenu.classList.toggle("is-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) navMenu.querySelector("a")?.focus();
   });
 
   navMenu.addEventListener("click", (event) => {
@@ -191,7 +192,28 @@ if (navToggle && navMenu) {
     closeNavigation();
     if (navToggle.getClientRects().length) navToggle.focus();
   });
+
+  document.addEventListener("click", (event) => {
+    if (event.target instanceof Node && !header?.contains(event.target)) closeNavigation();
+  });
+
+  document.addEventListener("focusin", (event) => {
+    if (event.target instanceof Node && !header?.contains(event.target)) closeNavigation();
+  });
+
+  window.matchMedia("(min-width: 1200px)").addEventListener("change", closeNavigation);
+  header?.classList.add("is-navigation-ready");
 }
+
+// Keep anchor targets clear of the shared header at every viewport size.
+function updateHeaderOffset() {
+  if (header) document.documentElement.style.setProperty("--header-offset", `${Math.ceil(header.getBoundingClientRect().height)}px`);
+}
+
+updateHeaderOffset();
+if (header && "ResizeObserver" in window) new ResizeObserver(updateHeaderOffset).observe(header);
+window.addEventListener("resize", updateHeaderOffset);
+document.fonts?.ready.then(updateHeaderOffset);
 
 if (typeof window.IntersectionObserver === "function") {
   const revealObserver = new IntersectionObserver(

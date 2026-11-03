@@ -3735,3 +3735,160 @@ body[data-menu-theme] .site-header.is-scrolled .service-tabs {
     padding-top: 10px;
   }
 }
+
+/* One shared navigation; without JavaScript, all links remain available. */
+:root { --header-offset: 131px; }
+
+body .site-header--single[data-header],
+body .site-header--single[data-header].is-scrolled {
+  background: rgba(250, 251, 248, 0.97);
+  color: var(--green);
+  border-color: #dce1da;
+  box-shadow: 0 4px 20px rgba(38, 59, 50, 0.04);
+}
+
+.site-header--single .topbar {
+  width: min(1280px, calc(100% - 32px));
+  min-height: 76px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: 52px auto;
+  grid-template-areas: "brand actions" "navigation navigation";
+  gap: 0 20px;
+  padding-block: 12px;
+}
+
+.site-header--single .brand { grid-area: brand; justify-self: start; }
+.site-header--single .brand-logo { width: clamp(108px, 32vw, 156px); max-width: none; }
+.site-header--single .header-actions { grid-area: actions; }
+
+body .site-header--single .brand small,
+body[data-menu-theme] .site-header--single[data-header].is-scrolled .brand small { color: #646b65; }
+
+body .site-header--single[data-header] .language-control select,
+body .site-header--single[data-header] .nav-toggle,
+body[data-menu-theme] .site-header--single[data-header].is-scrolled .language-control select,
+body[data-menu-theme] .site-header--single[data-header].is-scrolled .nav-toggle {
+  min-height: 40px;
+  border-color: #d5ddd5;
+  background: transparent;
+  color: var(--green);
+}
+
+.site-header--single .nav-toggle { display: none; }
+
+.site-header--single #nav-menu {
+  grid-area: navigation;
+  position: static;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 10px 0 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--green);
+  box-shadow: none;
+  clip-path: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+  visibility: visible;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.site-header--single #nav-menu::-webkit-scrollbar { display: none; }
+
+.site-header--single #nav-menu a {
+  flex: 0 0 auto;
+  min-height: 42px;
+  padding-inline: 9px;
+  border: 0;
+  border-radius: 6px;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.site-header--single #nav-menu a:is(:hover, .is-active) {
+  background: #e9eee7;
+  color: var(--green);
+}
+
+.site-header--single #nav-menu .nav-cta {
+  margin-left: 8px;
+  padding-inline: 16px;
+  background: var(--green);
+  color: #fff;
+}
+
+.site-header--single #nav-menu .nav-cta:hover { background: #20372c; }
+
+.site-header--single :is(a, button, select):focus-visible {
+  outline: 2px solid #846541;
+  outline-offset: 3px;
+}
+
+@media (max-width: 1199px) {
+  .site-header--single.is-navigation-ready .topbar {
+    grid-template-areas: "brand actions";
+    grid-template-rows: 52px;
+  }
+
+  .site-header--single.is-navigation-ready .nav-toggle { display: flex; }
+
+  .site-header--single.is-navigation-ready #nav-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 16px;
+    right: 16px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    justify-content: stretch;
+    width: auto;
+    max-height: calc(100vh - 100px);
+    max-height: calc(100dvh - 100px);
+    padding: 12px;
+    border: 1px solid #dce1da;
+    border-radius: 10px;
+    background: #fafbf8;
+    box-shadow: 0 16px 40px rgba(38, 59, 50, 0.12);
+    overflow: auto;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .site-header--single.is-navigation-ready #nav-menu.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .site-header--single #nav-menu a { min-height: 44px; }
+  .site-header--single.is-navigation-ready #nav-menu .nav-cta { margin: 6px 0 0; }
+}
+
+@media (min-width: 1200px) {
+  :root { --header-offset: 89px; }
+
+  .site-header--single .topbar {
+    width: min(1280px, calc(100% - 64px));
+    min-height: 88px;
+    grid-template-columns: 156px minmax(0, 1fr) auto;
+    grid-template-rows: 64px;
+    grid-template-areas: "brand navigation actions";
+    gap: 20px;
+  }
+
+  .site-header--single .brand-logo { width: 156px; }
+  .site-header--single #nav-menu { justify-content: flex-end; padding: 0; overflow: visible; }
+  .site-header--single .language-control select { width: 82px; font-size: 12px; }
+}

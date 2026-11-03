@@ -38,7 +38,7 @@
     <link rel="preload" href="assets/clinic-hero.png" as="image" />
     <link rel="preload" href="assets/main.jpg" as="image" />
     <link rel="preload" href="assets/logo.png" as="image" />
-    <link rel="stylesheet" href="styles.css?v=20261022-no-event-popup" />
+    <link rel="stylesheet" href="styles.css?v=20261103-single-nav" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -87,7 +87,7 @@
     <div class="scroll-progress" aria-hidden="true"><span></span></div>
     <a class="skip-link" href="#main">본문 바로가기</a>
 
-    <header class="site-header" data-header>
+    <header class="site-header site-header--single" data-header>
       <div class="topbar">
         <a class="brand" href="index.html" aria-label="re:medi 한의원 홈">
           <img class="brand-logo" src="assets/logo.png" alt="re:medi 한의원" />
@@ -95,6 +95,18 @@
             <small>자연스럽게 균형을 찾는 곳</small>
           </span>
         </a>
+
+        <nav class="nav-menu" id="nav-menu" aria-label="주요 메뉴">
+          <a href="intro.html" data-nav-target="intro">리메디소개</a>
+          <a href="/asymmetry" data-nav-target="asymmetry">안면비대칭</a>
+          <a href="posture.html" data-nav-target="posture">골격교정</a>
+          <a href="diet.html" data-nav-target="diet">다이어트·라인</a>
+          <a href="bride.html" data-nav-target="bride">예비신부</a>
+          <a href="pain.html" data-nav-target="pain">교통사고·통증</a>
+          <a href="reviews.html" data-nav-target="reviews">치료후기</a>
+          <a href="contact.html" data-nav-target="contact">오시는길</a>
+          <a class="nav-cta" href="contact.html">예약</a>
+        </nav>
 
         <div class="header-actions">
           <label class="language-control">
@@ -113,26 +125,6 @@
             <span aria-hidden="true"></span>
           </button>
         </div>
-      </div>
-
-      <nav class="nav-menu" id="nav-menu" aria-label="주요 메뉴">
-        <a href="intro.html" data-nav-target="intro">리메디소개</a>
-        <a href="/asymmetry" data-nav-target="asymmetry">안면비대칭</a>
-        <a href="posture.html" data-nav-target="posture">바른자세</a>
-        <a href="diet.html" data-nav-target="diet">심플 다이어트</a>
-        <a href="bride.html" data-nav-target="bride">예비신부</a>
-        <a href="pain.html" data-nav-target="pain">교통사고·통증</a>
-        <a href="reviews.html" data-nav-target="reviews">치료후기</a>
-        <a href="contact.html" data-nav-target="contact">오시는길</a>
-        <a class="nav-cta" href="contact.html">예약</a>
-      </nav>
-
-      <div class="service-tabs" aria-label="핵심 진료 바로가기">
-        <a href="/asymmetry">안면비대칭</a>
-        <a href="posture.html">골격교정</a>
-        <a href="diet.html">라인관리</a>
-        <a href="pain.html">교통사고후유증</a>
-        <a href="bride.html">예비신부</a>
       </div>
     </header>
 
@@ -410,6 +402,6 @@
       <p class="footer-copy">© 2026 re:medi Korean Medicine Clinic. All rights reserved.</p>
     </footer>
 
-    <script src="script.js?v=20261022-no-event-popup" defer></script>
+    <script src="script.js?v=20261103-single-nav" defer></script>
   </body>
 </html>
