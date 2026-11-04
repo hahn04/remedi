@@ -92,9 +92,10 @@ function setCurrentPageNavigation() {
 
     const linkUrl = new URL(href, window.location.href);
     const isCurrentPage = linkUrl.origin === window.location.origin && getPagePath(linkUrl.pathname) === currentPath;
-    link.classList.toggle("is-active", isCurrentPage);
-    if (isCurrentPage) {
-      link.setAttribute("aria-current", "page");
+    const isCurrentSection = linkUrl.origin === window.location.origin && link.dataset.navTarget === "columns" && currentPath.startsWith("/columns/");
+    link.classList.toggle("is-active", isCurrentPage || isCurrentSection);
+    if (isCurrentPage || isCurrentSection) {
+      link.setAttribute("aria-current", isCurrentPage ? "page" : "location");
     } else {
       link.removeAttribute("aria-current");
     }
