@@ -19,6 +19,10 @@ html:not([lang="ko"]) .guide-checklist input { margin-top: 5px; }
 html:not([lang="ko"]) .hero-carousel-header .eyebrow { top: 24px; bottom: auto; }
 html:not([lang="ko"]) .bottom-cta a,
 html:not([lang="ko"]) .bottom-cta button { min-width: 0; padding: 8px; text-align: center; line-height: 1.4; }
+html:not([lang="ko"]) .page-hero-media img[src*="/assets/i18n/"][src*="/location"],
+html:not([lang="ko"]) .page-hero-media img[src$="/remedi-clinic.jpg"] { height: auto; min-height: 0; object-fit: contain; }
+html:not([lang="ko"]) .hero-slide img[src*="/assets/i18n/"][src*="/location_"] { object-fit: contain; background: #f8f7f3; }
+html:not([lang="ko"]) .location-gallery img[src*="/assets/i18n/"] { height: auto; aspect-ratio: auto; object-fit: contain; }
 @media (min-width: 1400px) {
   html:not([lang="ko"]) .site-header--single #nav-menu a { padding-inline: 7px; font-size: 12px; }
   html:not([lang="ko"]) .site-header--single .topbar { gap: 14px; }

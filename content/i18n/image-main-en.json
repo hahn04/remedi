@@ -1,0 +1,8 @@
+{
+  "source": "assets/main.jpg",
+  "output": "assets/i18n/en/main.jpg",
+  "generatedSource": "C:/Users/hahn04/.codex/generated_images/01a1525a-07da-7190-b9a4-4ef61502f2de/exec-325a6cbb-d6c0-4224-9d0a-23dd8d45a125.png",
+  "mode": "built-in image_gen; text-localization",
+  "prompt": "Use case: text-localization. Image 1 is the edit target: the clinic's vertical stone-balancing photograph for the English version of its website.\nChange ONLY the small Korean text below the large Latin wordmark from \"리메디 한의원\" to the exact English text \"Korean Medicine Clinic\". Preserve the existing \"re;Medi\" wordmark itself, every stone, photo composition, dimensions/aspect ratio, blue background, shadows, texture and colors. Keep the replacement text in the same region underneath the wordmark, dark green/charcoal, a clean legible sans-serif slightly smaller to fit; no other text anywhere. Do not crop, restyle, add objects or redraw the photograph.",
+  "review": "Wordmark, stone arrangement, colors and vertical composition retained. Subtitle reads Korean Medicine Clinic. JPEG quality 90 via System.Drawing; original Korean source untouched."
+}

@@ -1,0 +1,182 @@
+{
+  "language": "ja",
+  "tool": "image_gen__imagegen",
+  "mode": "built-in edit",
+  "use_case": "text-localization",
+  "scope": "Only source-image editorial Korean text was localized; no HTML or generators changed by this task.",
+  "review_method": "Source and saved output opened for visual comparison. Original-file SHA256 values rechecked. This is visual layout/content verification, not a claim of pixel-identical generative output.",
+  "originals_unchanged": true,
+  "assets": [
+    {
+      "source": "assets/main.jpg",
+      "output": "assets/i18n/ja/main.jpg",
+      "source_dimensions": [
+        810,
+        1440
+      ],
+      "output_dimensions": [
+        941,
+        1672
+      ],
+      "source_sha256": "E74518B2399F1C36DBE82615306294A45045DD50A0107E0F6BCBD976FF07F5CD",
+      "output_sha256": "D1D7D504852ACBAF2E7D493A4606FE6A61CA0BBB5AAC0428C06DFB6D70562982",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-f7146f55-50ad-4971-9d1c-d93bdf89f050.png",
+      "prompt": "Use case: text-localization. Edit target: the supplied portrait photo, original 810x1440 (9:16). Change ONLY the small Korean caption directly below the existing Latin re;Medi wordmark from '리메디 한의원' to exactly 'リメディ韓医院'. Keep that Japanese caption small, dark, right-aligned beneath the unchanged Latin wordmark. Preserve every other visual element: the exact re;Medi Latin letter shapes and punctuation, every stone, the balancing arrangement, stone textures, coast, sky, blur, colors, composition, and original portrait aspect ratio. Do not crop, move or redraw the stones or wordmark; no extra text or objects. This is a tiny localized text replacement, not a new design.",
+      "iterations": [],
+      "file_handling": "Windows System.Drawing JPEG conversion at quality 90; no resizing or compositing.",
+      "output_bytes": 137117,
+      "pixel_format": "Format24bppRgb",
+      "corner_alpha": 255,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Japanese caption reads リメディ韓医院. Latin re;Medi wordmark, six balancing stones and coastal composition visually retained.",
+        "Original 9:16 composition retained to within output-dimension rounding; saved image reopened and reviewed."
+      ]
+    },
+    {
+      "source": "assets/location.jpg",
+      "output": "assets/i18n/ja/location.jpg",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "output_dimensions": [
+        1254,
+        1254
+      ],
+      "source_sha256": "76F94880952C3BC720050AC8824A81D1B9A87A323353D4207F9EF1F3C220AE54",
+      "output_sha256": "2F515608C2EE50FFCB0838630DC20C60250CF45DFF3FDC594C9A2A23D2C75BB4",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-39ff80df-77f9-4d62-9736-320023676bdb.png",
+      "prompt": "Use case: text-localization. Edit target: supplied 1080x1080 Korean directions infographic. Keep original square aspect ratio, all map geometry, building outlines, streets, green/brown subway lines, brown clinic pin, dotted route arrow, all icons and their positions, numbered yellow exits 8, 10, 5 and brown-circle line number 6. Change ONLY the editorial Korean text into Japanese, fitting text within existing text areas without covering map features. Preserve Latin 'Location'. Exact replacements: heading '찾아 오시는 길' -> 'アクセス'; top right two lines -> '迷わずご来院いただけるよう、' / '慶熙リメディ韓医院への道順をご案内します。'. Clinic callout -> '慶熙リメディ韓医院' / 'ワールドカップ路1ギル14' / '店舗1階113号'. Map landmark translations at the original locations: 청담동순도리 한정식집 -> 'チョンダムドン・スンドリ' / '韓定食店'; 세아타워 -> 'セアタワー'; 스타벅스 -> 'スターバックス'; 마포한강푸르지오 에스컬레이터 -> 'マポ・ハンガン・プルジオ' / 'エスカレーター'; 6호선 -> '6号線'; 10번 출구 -> '10番出口'; 합정역 -> 'ハプチョン駅'; 이가네양꼬치 -> 'イガネ羊串'; 양화정 -> 'ヤンファジョン'; 루다리 -> 'ルダリ'; 메가MGC커피 -> 'メガMGCコーヒー'. Keep all numbered markers unchanged, including 8, 10, 5, 6, and the room number 113. Bottom three transport blocks retain their original icons and rows. Labels: '車でお越しの方', 'バスでお越しの方', '地下鉄でお越しの方'. Car rows: '1. ナビで「マポ・ハンガン・プルジオ1階店舗駐車場」を検索して駐車（3時間分を補助）' / '2. 1階行きのエレベーターを利用'. Bus rows: '1.「マポ・ハンガン・プルジオ」停留所で下車し、ハプチョン駅8番出口（スターバックス方面）まで直進' / '2. スターバックスの入口を正面に見て、左の角から入る'. Subway rows: '1. 8番出口の直前で「マポ・ハンガン・プルジオ専用出口エスカレーター」を利用' / '2. スターバックスの入口を正面に見て、左の角から入る'. Use readable Japanese type, reduce font size or wrap only inside existing text areas if needed. Do not change routes, move map labels to different locations, add roads, remove numbers, or invent information. No unrelated changes.",
+      "iterations": [],
+      "file_handling": "Windows System.Drawing JPEG conversion at quality 90; no resizing or compositing.",
+      "output_bytes": 228906,
+      "pixel_format": "Format24bppRgb",
+      "corner_alpha": 255,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Clinic name, address, room 113, exits 8/10/5, line 6 and parking duration 3 hours visually checked.",
+        "Map streets, building regions, pin, dotted route and transit symbols visually compared with source; no route-direction change observed.",
+        "Japanese car/bus/subway directions fit within the original transport panels."
+      ]
+    },
+    {
+      "source": "assets/location_details.jpg",
+      "output": "assets/i18n/ja/location_details.jpg",
+      "source_dimensions": [
+        898,
+        916
+      ],
+      "output_dimensions": [
+        1241,
+        1267
+      ],
+      "source_sha256": "6742543D25B0C349BD77EF91DDB368EFB2B75D8DB3E1D0ED76B88CC16C191CF3",
+      "output_sha256": "1783568BDCADC2134DBABB6FD66E832F1B582C40B873A56146C1BC2798498A7E",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-283138df-b37c-43af-9d36-d64d6f4795ab.png",
+      "prompt": "Use case: text-localization. Edit target: supplied Korean clinic floor-plan directions image, original 898x916, retain this near-square aspect ratio and full original canvas. Replace ONLY editorial Korean labels with Japanese. Copy the original park photograph unchanged: same people, trees, grass, bicycles, background; no alteration or invented people. Preserve the 3D floor plan exactly, all rooms and corridor geometry, red pin at room 113, every printed room number (including 101,102,103,105,106,107,108,110,112,113,114,115,116), the turquoise divider lines and left exit block, the original '8 8' exit pylon, coffee cup icon, logo symbol and Latin lettering. Text replacements: top '찾아 오시는 길' -> 'アクセス'; preserve large 'Location'. Contact line must read exactly '02.6951.1075 | 010.4799.0365 | (カカオトーク)慶熙リメディ韓医院'. Address line -> 'ソウル市マポ区ハプチョン洞 ワールドカップ路1ギル14 店舗1階113号'. Korean clinic name on white logo banner -> '慶熙リメディ韓医院', preserve its infinity/leaf symbol and Latin subline. Left exit label -> 'ハプチョン駅' / '建物連絡通路出口'. Labels in existing boxes: 까까주까 -> 'カッカジュッカ'; 스타벅스 -> 'スターバックス'; 청담동순도리 -> 'チョンダムドン・スンドリ'. Bottom-right lines -> '（L階との間違いに注意）' / 'スターバックスとシルプリ福祉センターの間' / 'メガコーヒーの上の階'. Match font colors and relative text sizes. Fit long Japanese lines inside the same labeled areas without obscuring floor numbers, walls, arrows or photographs. Do not redesign, crop, change any number, reposition the pin, or alter architectural detail. This is only a text translation.",
+      "iterations": [
+        {
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-1c6f7fef-6adf-42e2-8495-410360f55663.png",
+          "prompt": "Use case: text-localization. Edit target: supplied Korean clinic floor-plan directions image, original 898x916, retain this near-square aspect ratio and full original canvas. Replace ONLY editorial Korean labels with Japanese. Copy the original park photograph unchanged: same people, trees, grass, bicycles, background; no alteration or invented people. Preserve the 3D floor plan exactly, all rooms and corridor geometry, red pin at room 113, every printed room number (including 101,102,103,105,106,107,108,110,112,113,114,115,116), the turquoise divider lines and left exit block, the original '8 8' exit pylon, coffee cup icon, logo symbol and Latin lettering. Text replacements: top '찾아 오시는 길' -> 'アクセス'; preserve large 'Location'. Contact line must read exactly '02.6951.1075 | 010.4799.0365 | (カカオトーク)慶熙リメディ韓医院'. Address line -> 'ソウル市マポ区ハプチョン洞 ワールドカップ路1ギル14 店舗1階113号'. Korean clinic name on white logo banner -> '慶熙リメディ韓医院', preserve its infinity/leaf symbol and Latin subline. Left exit label -> 'ハプチョン駅' / '建物連絡通路出口'. Labels in existing boxes: 까까주까 -> 'カッカジュッカ'; 스타벅스 -> 'スターバックス'; 청담동순도리 -> 'チョンダムドン・スンドリ'. Bottom-right lines -> '（L階との間違いに注意）' / 'スターバックスとシルプリ福祉センターの間' / 'メガコーヒーの上の階'. Match font colors and relative text sizes. Fit long Japanese lines inside the same labeled areas without obscuring floor numbers, walls, arrows or photographs. Do not redesign, crop, change any number, reposition the pin, or alter architectural detail. This is only a text translation.",
+          "status": "superseded: 08 missing leading 1"
+        },
+        {
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-283138df-b37c-43af-9d36-d64d6f4795ab.png",
+          "prompt": "Use case: text-localization, single-character correction. The supplied image is the already completed Japanese clinic floor-plan guide. Make exactly ONE tiny change: on the bottom-left edge of the 3D floor plan, immediately left of room 107 and below room 110, the current small black room label reads '08'. Correct that label to exactly '108' by adding the missing leading digit 1. It is room ONE ZERO EIGHT. Keep its position and small black number style. EVERYTHING ELSE MUST REMAIN UNCHANGED: all Japanese typography, every other room number (113,114,115,116,110,112,101,102,103,105,106,107), park photo including people and bicycles, full architecture and corridor geometry, clinic pin, icons, 8/8 pylon, colors, size and aspect ratio. Preserve contact numbers exactly 02.6951.1075 and 010.4799.0365. No redesign, no new text, no movement, no crop. Change ONLY 08 to 108.",
+          "status": "accepted: corrected 108"
+        }
+      ],
+      "file_handling": "Windows System.Drawing JPEG conversion at quality 90; no resizing or compositing.",
+      "output_bytes": 248340,
+      "pixel_format": "Format24bppRgb",
+      "corner_alpha": 255,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Phone numbers 02.6951.1075 and 010.4799.0365, address/floor/room 113 and exit pylon 8/8 visually verified.",
+        "Final room numbers checked: 101,102,103,105,106,107,108,110,112,113,114,115,116. Initial 08 defect corrected to 108 with a single targeted follow-up edit.",
+        "Floor-plan shape, room arrangement, red pin, park photograph and Japanese labels visually retained after correction."
+      ]
+    },
+    {
+      "source": "assets/location_pictures.jpg",
+      "output": "assets/i18n/ja/location_pictures.jpg",
+      "source_dimensions": [
+        1440,
+        1440
+      ],
+      "output_dimensions": [
+        1254,
+        1254
+      ],
+      "source_sha256": "98E32F7D28EC94716F7E1C70144F08A1F10CE635ABCF0CA8E08221DE893AE9CA",
+      "output_sha256": "59355630735CBFAD6738D356A81978577A99EA031A421799FB4BB4AE8AFE4538",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-21c3855e-deb3-4c9a-b393-3d57ae8a9af2.png",
+      "prompt": "Use case: text-localization. Edit target: supplied 1440x1440 directions infographic with four real location photographs. Preserve square aspect ratio, full layout, all four photos, their frames, the exact real photographed people/buildings/escalator/storefronts and all real-world Korean station/shop signs INSIDE the photos unchanged for visitors to recognize on location. Preserve STARBUCKS lettering, all dashed white route arrows, their exact curves, directions and positions. Preserve bottom-right floor map geometry, blocks, path and clinic pin. Replace ONLY editorial Korean text OUTSIDE the four photos with these exact Japanese texts. Top clinic name: '慶熙リメディ韓医院'. Main title: 'アクセスのご案内'. Keep 'DIRECTIONS'. Intro sentence: 'ハプチョン駅から慶熙リメディ韓医院までの道順をご案内します。'. Four photo captions left to right: 1 '8番出口から地上に出ず、' / 'マポ・ハンガン・プルジオ' / '方面へ進んでください。'; 2 '通路の突き当たりまで直進し、' / '左へ曲がってください。'; 3 '正面のエスカレーターで' / '1階へ上がってください。'; 4 'スターバックスに沿って' / '右へ進んでください。'. Bottom-left labels: '住所', '電話・相談', '駐車場のご案内'. Address: 'ソウル市マポ区ワールドカップ路1ギル14、マポ・ハンガン・プルジオ店舗1階113号'. Contact: preserve phone exactly '02-6951-1075', separator and TALK icon, then '慶熙リメディ韓医院'. Parking: '店舗駐車場をご利用ください｜来院の方は3時間分を補助'. Bottom warning lines: '※ L階との混同に注意' / 'スターバックスとシルプリ福祉センターの間・メガコーヒーの上の階'. Labels on the illustrated map only (not actual shop signage within photos): clinic -> '慶熙リメディ韓医院'; 스타벅스 -> 'スターバックス'; 청담동순도리 -> 'チョンダムドン・スンドリ'. Match original dark-green and black palette, weight hierarchy and white space. Adjust Japanese font size or wrap within original text regions only to avoid clipping. Do not change phone, 8, floor 1, room 113, 3 hours, arrow direction or physical locations. No added facts, no redesign, no photo replacement.",
+      "iterations": [],
+      "file_handling": "Windows System.Drawing JPEG conversion at quality 90; no resizing or compositing.",
+      "output_bytes": 237693,
+      "pixel_format": "Format24bppRgb",
+      "corner_alpha": 255,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Four location-photo panels, actual Korean station signs and Latin STARBUCKS storefront sign retained for real-world recognition.",
+        "Dashed arrow directions and illustrated route/clinic pin visually compared with source.",
+        "Japanese captions, phone 02-6951-1075, exit 8, floor 1, room 113, 3-hour parking wording and L-floor warning checked."
+      ]
+    },
+    {
+      "source": "assets/remedi-clinic.jpg",
+      "output": "assets/i18n/ja/remedi-clinic.jpg",
+      "source_dimensions": [
+        697,
+        699
+      ],
+      "output_dimensions": [
+        1254,
+        1254
+      ],
+      "source_sha256": "7AAFE69B457FA4CD751A92EADD628EE029B88D11F875ECE997C9EEA42B3F41B8",
+      "output_sha256": "28DCE23D5795F1F239E23E8EF4995460A8F902B87729A93F703DC9D6F78634C5",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-825443a8-dfee-4e23-9c9e-e146ca1d08ab.png",
+      "prompt": "Use case: text-localization. Edit target: the supplied dark green clinic brand square, original 697x699. Replace ONLY the large white Korean clinic name '경희리메디한의원' with exactly '慶熙リメディ韓医院'. Keep the existing infinity-leaf logo above it and the exact small Latin line 'KYUNGHEE RE:MEDI KOREAN MEDICINE CLINIC' below it unchanged. Match white text, centered typography and existing spacing. Preserve the dark green background, exact logo silhouette, layout, empty space, and original near-square aspect ratio. No new design, no additional objects or text.",
+      "iterations": [],
+      "file_handling": "Windows System.Drawing JPEG conversion at quality 90; no resizing or compositing.",
+      "output_bytes": 78726,
+      "pixel_format": "Format24bppRgb",
+      "corner_alpha": 255,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Japanese clinic name reads 慶熙リメディ韓医院. Infinity-leaf symbol and KYUNGHEE RE:MEDI KOREAN MEDICINE CLINIC subline retained.",
+        "Generated near-square original became exactly square; no content cropped. Minor generated background-texture variation."
+      ]
+    },
+    {
+      "source": "assets/logo.png",
+      "output": "assets/i18n/ja/logo.png",
+      "source_dimensions": [
+        1620,
+        414
+      ],
+      "output_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "BB4590D266C90571D9FF3DEB3DB4F90DB8B563A02A1AF6A18E9D65111FA390CC",
+      "output_sha256": "91AAC7BCA3A71CD9AA09DD6F3934A3FD0FFC4561F01349647633222DE706437F",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525b-b75d-7022-8981-e3c784a2946f\\exec-4fe2743b-c15b-4ac9-8b9d-3e0623e5c8d8.png",
+      "prompt": "Use case: text-localization. Edit target: the supplied transparent PNG wordmark, original 1620x414. Replace ONLY the small lower-right Korean caption '리메디 한의원' with exactly 'リメディ韓医院', in the same dark green color and similar modest sans-serif weight, right aligned beneath the wordmark. Preserve the original large Latin re;Medi wordmark completely unchanged: same letters, punctuation, letterforms, spacing, color and proportions. Preserve a genuinely transparent alpha background, not a white rectangle or a checkerboard. Keep the full original very wide 1620:414 canvas aspect ratio, all margins, and the original Latin wordmark's position and scale. No crop, no extra padding, no logo redesign, no opaque background. Return transparent PNG.",
+      "iterations": [],
+      "file_handling": "Copied generated PNG unchanged; alpha preserved.",
+      "output_bytes": 303465,
+      "pixel_format": "Format32bppArgb",
+      "corner_alpha": 0,
+      "review_status": "reviewed",
+      "review_notes": [
+        "Japanese subtitle reads リメディ韓医院; Latin re;Medi lettering visually retained.",
+        "PNG is Format32bppArgb and top-left pixel alpha is 0: actual transparency confirmed.",
+        "Generator returned a 3:1 transparent canvas rather than the original 1620:414 ratio, increasing vertical transparent space. Parent explicitly accepted this output and is checking header sizing; no crop or flattening applied."
+      ]
+    }
+  ]
+}

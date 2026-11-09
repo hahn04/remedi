@@ -1,0 +1,172 @@
+{
+  "locale": "en",
+  "created": "2026-11-09",
+  "tool": "Built-in image_gen.imagegen",
+  "skill": "C:/Users/hahn04/.codex/skills/.system/imagegen/SKILL.md",
+  "scope": "Five English localized raster assets. Korean source images, HTML, JavaScript, CSS and generators were not modified by this subtask. main.jpg is handled separately by the root agent.",
+  "review_scope": "Visual text, numeric-label and route comparison against originals; generated rasters are not pixel-identical source photographs.",
+  "logo_alpha_sample": {
+    "Minimum": 0,
+    "Maximum": 255,
+    "TransparentSamples": 22004,
+    "TopLeft": 0,
+    "TopRight": 0,
+    "BottomLeft": 0,
+    "BottomRight": 1
+  },
+  "assets": [
+    {
+      "source": "assets/location.jpg",
+      "destination": "assets/i18n/en/location.jpg",
+      "source_dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "output_dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "source_sha256": "76f94880952c3bc720050ac8824a81d1b9a87a323353d4207f9ef1f3c220ae54",
+      "output_sha256": "9b149287e43fceece2bb11325f4cd71083c2671c8181f5f69111ee9f4655965a",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-6086ef67-c288-4fd9-bb88-3be7d907ae7e.png",
+      "output_hint": "Generated images are saved to C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd as C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-6086ef67-c288-4fd9-bb88-3be7d907ae7e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "transparent_background": false,
+      "save_method": "System.Drawing JPEG encoder, quality 90; format conversion only",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: ONLY the supplied location.jpg, an existing 1080 x 1080 English/Korean directions infographic. Produce an English edition with the same square framing, same colors, layout, roads, buildings, all icons, all map geometry, location pin, dashed route and arrow direction, and EVERY numeral unchanged, including exits 8, 10, 5, line 6, room 113 and address 14. Change only editorial Korean labels and instructions to crisp readable English; do not redesign the map or invent any information. The existing \"Location\" title remains.\nExact replacement copy:\nTop subtitle \"Directions\". Top explanation \"Directions to Kyung Hee Remedi Korean Medicine Clinic for an easier visit.\"\nMap clinic callout \"Kyung Hee Remedi Korean Medicine Clinic\" / \"14, World Cup-ro 1-gil\" / \"1F, Unit 113\".\nMap labels: \"Cheongdam-dong Sundori\" / \"Hapjeong branch\"; \"SeAH Tower\"; \"Starbucks\"; \"Igane Lamb Skewers\"; \"Yanghwajeong\"; \"Rudari\"; \"MEGA MGC COFFEE\"; \"Hapjeong Station\"; \"Line 6\"; \"Exit 10\". Keep the original numbered exit circles exactly at their original coordinates. Map escalator callout \"Mapo Hangang Prugio escalator\".\nBottom three original instruction rows:\n\"By car\"\n\"1. Search for 'Mapo Hangang Prugio 1F retail car park' and park (3 hours supported).\"\n\"2. Take the elevator to 1F.\"\n\"By bus\"\n\"1. Get off at 'Mapo Hangang Prugio' and continue to Hapjeong Station Exit 8 (toward Starbucks).\"\n\"2. Face the Starbucks entrance, then enter around the left corner.\"\n\"By subway\"\n\"1. Just before Exit 8, take the 'Mapo Hangang Prugio dedicated-exit escalator'.\"\n\"2. Face the Starbucks entrance, then enter around the left corner.\"\nFit the exact semantic content by modest font resizing/wrapping in the existing zones, retaining sufficient margins. Preserve the number and meaning of steps. The original dotted route and every orientation must be unchanged. No additional claims, no rewritten telephone numbers, no new objects. Output is opaque.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-6086ef67-c288-4fd9-bb88-3be7d907ae7e.png",
+          "selected": true
+        }
+      ],
+      "visual_review": [
+        "English headings, map labels and car/bus/subway instructions reviewed against the Korean original.",
+        "Exit numbers 8, 10 and 5, Line 6, address 14 and Unit 113 retained; dotted route and arrow direction visually compared."
+      ]
+    },
+    {
+      "source": "assets/location_details.jpg",
+      "destination": "assets/i18n/en/location_details.jpg",
+      "source_dimensions": {
+        "width": 898,
+        "height": 916
+      },
+      "output_dimensions": {
+        "width": 1241,
+        "height": 1267
+      },
+      "source_sha256": "6742543d25b0c349bd77ef91ddb368efb2b75d8db3e1d0ed76b88cc16c191cf3",
+      "output_sha256": "e3d816ffe9ee6942938c25d2172b54854a8fff1bb89add6551831f730ab2f323",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-c25819f0-a2e6-43c4-8702-2c200079f2b7.png",
+      "output_hint": "Generated images are saved to C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd as C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-c25819f0-a2e6-43c4-8702-2c200079f2b7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "transparent_background": false,
+      "save_method": "System.Drawing JPEG encoder, quality 90; format conversion only",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: ONLY the supplied location_details.jpg, an existing 898 x 916 directions/floorplan infographic. Create the English-language edition, preserving the original aspect ratio, full framing, background park photograph, EVERY person and bicycle, the 3D floorplan and its perspective, unit labels and numerals, turquoise lines, exact red location pin position, Starbucks cup, subway exit-8 marker and EVERY arrow/geometry. Change only Korean editorial labels to English, not the photo or architecture. Preserve all existing numbers and phone punctuation exactly, especially 02.6951.1075 | 010.4799.0365, unit 113, 1F, and all unit numbers 101 to 116 shown on plan. Keep existing large \"Location\".\nExact replacement copy:\nTop Korean subtitle -> \"Directions\".\nTelephone line -> \"02.6951.1075 | 010.4799.0365 | KakaoTalk: Kyung Hee Remedi Korean Medicine Clinic\".\nAddress -> \"Unit 113, 1F retail area, 14 World Cup-ro 1-gil, Hapjeong-dong, Mapo-gu, Seoul\".\nWhite clinic callout -> \"Kyung Hee Remedi Korean Medicine Clinic\" (keep its infinity-leaf icon and existing tiny Latin brand caption).\nLeft transit annotation -> \"Hapjeong Station\" / \"Building passage exit\".\nSmall store label 까까주까 -> \"Kkakkajukka\".\nLarge store label 스타벅스 -> \"Starbucks\".\nLarge store label 청담동순도리 -> \"Cheongdam-dong Sundori\".\nBottom-right note -> \"(Do not confuse with Level L)\" / \"Between Starbucks and the Silppuri Welfare Center\" / \"Above MEGA COFFEE\".\nUse legible tasteful English, resize or wrap labels within their original areas without covering unit numbers or moving map elements. All numbers, geographic routing and landmarks are invariants. No additions, no crop, no patient/medical claims. Output is opaque.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-fe2311a2-87bf-4ed2-82ce-2af73b2c2661.png",
+          "selected": false
+        },
+        {
+          "prompt": "Use case: precise-object-edit / text-localization correction. Image 1 is the EDIT TARGET: the completed English location_details.jpg infographic. Image 2 is the original Korean infographic provided only to verify the exact room number. Make ONE TINY correction to image 1: near the lower-left edge of the 3D floorplan, the room number currently reads \"08\" and must read exactly \"108\" (one-zero-eight), matching image 2. It sits below room 110 and to the left of room 107 along the outer wall. Insert the missing leading 1 and retain the label's black font, small size, white backing, position and perspective. No other edit anywhere. Preserve ALL other room numbers 101/102/103/105/106/107/110/112/113/114/115/116, the full floorplan geometry, red pin, exit 8 marker, Starbucks cup, all photos, people, trees, buildings, every English label and spelling, phone numbers 02.6951.1075 and 010.4799.0365, address, colors, layout, existing dimensions 1241 x 1267 and near-square aspect ratio. Do not translate the English back to Korean. Do not move/recreate any map elements. Do not touch the phone or address. Output the entire existing English infographic with just \"08\" corrected to \"108\". Opaque background.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-c25819f0-a2e6-43c4-8702-2c200079f2b7.png",
+          "supporting_reference": "assets/location_details.jpg",
+          "edit_target": "First generated English location_details.jpg",
+          "selected": true
+        }
+      ],
+      "visual_review": [
+        "Phone numbers 02.6951.1075 and 010.4799.0365, address, floor labels, exit 8 marker and pin visually compared.",
+        "First generated image omitted the leading 1 in room 108; one targeted image-tool correction restored 108. Final saved JPEG reopened and verified."
+      ]
+    },
+    {
+      "source": "assets/location_pictures.jpg",
+      "destination": "assets/i18n/en/location_pictures.jpg",
+      "source_dimensions": {
+        "width": 1440,
+        "height": 1440
+      },
+      "output_dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "source_sha256": "98e32f7d28ec94716f7e1c70144f08a1f10ce635abcf0ca8e08221de893ae9ca",
+      "output_sha256": "950cabd80df478b1daa4953194019ce97c2f7f810be5a0ea514288786124574a",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-9421f077-0548-4b20-a768-4b2548edcf6b.png",
+      "output_hint": "Generated images are saved to C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd as C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-9421f077-0548-4b20-a768-4b2548edcf6b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "transparent_background": false,
+      "save_method": "System.Drawing JPEG encoder, quality 90; format conversion only",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: ONLY the supplied location_pictures.jpg, an existing 1440 x 1440 directions photo infographic. Make an English edition in the identical square composition. Preserve ALL FOUR original photographs pixel-faithfully: station corridor signs, Korean lettering on real signs, English Starbucks signage, architecture, floors, walls, people, display boards, escalators and every white dashed arrow remain exactly as photographed. Do NOT translate or regenerate any text inside the four photographs. Only translate the designed Korean headings, captions OUTSIDE the photos, lower information labels and mini-map text labels. Preserve mini-map geometry, paths, elevator symbols, colors and pin coordinates. Preserve ALL numerals and phone 02-6951-1075 exactly.\nExact English copy:\nTop clinic heading \"Kyung Hee Remedi Korean Medicine Clinic\".\nMain title \"How to find us\". Keep the existing small spaced \"DIRECTIONS\".\nIntro sentence \"Directions from Hapjeong Station to Kyung Hee Remedi Korean Medicine Clinic.\"\nPhoto 1 caption: \"Do not leave through Exit 8. Follow the signs toward Mapo Hangang Prugio.\"\nPhoto 2 caption: \"Walk to the end of the passage, then turn left.\"\nPhoto 3 caption: \"Take the escalator ahead up to 1F.\"\nPhoto 4 caption: \"Go around Starbucks to the right and continue along the passage.\"\nLower information:\n\"Address\"\n\"Unit 113, 1F retail area, Mapo Hangang Prugio, 14 World Cup-ro 1-gil, Mapo-gu, Seoul\"\n\"Phone | Consultation\"\n\"02-6951-1075 | KakaoTalk: Kyung Hee Remedi Korean Medicine Clinic\"\n\"Parking\"\n\"Use the retail car park | 3 hours supported for clinic visitors\"\nBottom caution: \"Do not confuse with Level L\" / \"Between Starbucks and the Silppuri Welfare Center · Above MEGA COFFEE\"\nMini-map labels: \"Kyung Hee Remedi Korean Medicine Clinic\", \"Starbucks\", \"Cheongdam-dong Sundori\".\nUse modestly smaller font and appropriate line wrapping so every translated caption fits its current card/area. Do not enlarge or move cards, alter photos, alter arrows, or add directions. Nothing should overlap the mini-map. Output is opaque.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-9421f077-0548-4b20-a768-4b2548edcf6b.png",
+          "selected": true
+        }
+      ],
+      "visual_review": [
+        "Four route photographs and their in-photo Korean station signs remain for on-site recognition; captions outside the photographs translated.",
+        "Caption directions, dashed arrows, Unit 113, 1F and 02-6951-1075 visually compared with the source."
+      ]
+    },
+    {
+      "source": "assets/remedi-clinic.jpg",
+      "destination": "assets/i18n/en/remedi-clinic.jpg",
+      "source_dimensions": {
+        "width": 697,
+        "height": 699
+      },
+      "output_dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "source_sha256": "7aafe69b457fa4cd751a92eadd628ee029b88d11f875ece997c9eea42b3f41b8",
+      "output_sha256": "aa7d2ba9322f6369f40b4219efaf6d776bb171f8f518363058eac2f96c2e10cf",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-41f92d7a-de93-43b8-ab1a-9aa1fea7565c.png",
+      "output_hint": "Generated images are saved to C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd as C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-41f92d7a-de93-43b8-ab1a-9aa1fea7565c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "transparent_background": false,
+      "save_method": "System.Drawing JPEG encoder, quality 90; format conversion only",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: ONLY the supplied remedi-clinic.jpg, original 697 x 699 clinic brand tile. Preserve exact dark forest-green background color, original near-square aspect ratio, white infinity-leaf symbol, its design/position/size, overall generous spacing and centered layout. Replace ONLY the large Korean line 경희리메디한의원 with the exact English clinic name \"Kyung Hee Remedi Korean Medicine Clinic\", neatly centered and line-wrapped as \"Kyung Hee Remedi\" then \"Korean Medicine Clinic\" if required to preserve readable size and margins. Keep the existing small Latin caption \"KYUNGHEE RE:MEDI KOREAN MEDICINE CLINIC\" unchanged, and place it underneath without collision. No new branding, no symbol redesign, no additional claims. Output is opaque.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-41f92d7a-de93-43b8-ab1a-9aa1fea7565c.png",
+          "selected": true
+        }
+      ],
+      "visual_review": [
+        "Exact clinic name appears in English; infinity-leaf symbol and original small Latin caption retained.",
+        "Original is nearly square (697 x 699); output is square (1254 x 1254)."
+      ]
+    },
+    {
+      "source": "assets/logo.png",
+      "destination": "assets/i18n/en/logo.png",
+      "source_dimensions": {
+        "width": 1620,
+        "height": 414
+      },
+      "output_dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "source_sha256": "bb4590d266c90571d9ff3deb3db4f90db8b563a02a1af6a18e9d65111fa390cc",
+      "output_sha256": "28e01bd35fee87754418917692e44ee9d97d271787ebc180e0b8defa0a221454",
+      "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-b1a39f55-fe0c-45b1-910f-94064d84f6df.png",
+      "output_hint": "Generated images are saved to C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd as C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-b1a39f55-fe0c-45b1-910f-94064d84f6df.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "transparent_background": true,
+      "save_method": "Copied generated PNG unchanged, preserving alpha",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: ONLY the supplied logo.png, a 1620 x 401 transparent clinic wordmark. Preserve the source's exact wide aspect ratio, full canvas framing, deep-green color, and the large Latin \"re;Medi\" wordmark pixel-faithfully: same letterforms, unusual semicolon, spacing, size and positions. Do not recreate or modernize the wordmark. Change ONLY the small lower-right Korean subtitle 리메디 한의원 to exact English \"Korean Medicine Clinic\", in a clean bold sans-serif matching the original subtitle weight and dark green, right-aligned within the same lower-right subtitle zone. Use a modest font size to fit without touching the large wordmark and preserve all margins. The entire background MUST remain genuinely transparent alpha, with no white/black background or checkerboard baked in. No extra text, shadows, badges, border, crop or invented symbol. Keep original 1620 x 401 dimensions if supported; otherwise preserve the exact aspect ratio.",
+          "generated_file": "C:\\Users\\hahn04\\.codex\\generated_images\\01a1525a-70bb-7662-8111-8719455b7bbd\\exec-b1a39f55-fe0c-45b1-910f-94064d84f6df.png",
+          "selected": true
+        }
+      ],
+      "visual_review": [
+        "English subtitle is Korean Medicine Clinic; original large re;Medi letterforms visually compared.",
+        "Actual source dimensions are 1620 x 414; initial prompt estimated 1620 x 401. Tool output is 2172 x 724 (3:1), accepted for integration by the root agent with browser header sizing to be checked there.",
+        "Genuine alpha transparency verified using System.Drawing; no JPEG conversion or resizing applied."
+      ]
+    }
+  ]
+}

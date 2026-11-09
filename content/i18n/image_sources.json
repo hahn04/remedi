@@ -1,0 +1,17 @@
+{
+  "sourceHashes": {
+    "main.jpg": "e74518b2399f1c36dbe82615306294a45045dd50a0107e0f6bcbd976ff07f5cd",
+    "location.jpg": "76f94880952c3bc720050ac8824a81d1b9a87a323353d4207f9ef1f3c220ae54",
+    "location_details.jpg": "6742543d25b0c349bd77ef91ddb368efb2b75d8db3e1d0ed76b88cc16c191cf3",
+    "location_pictures.jpg": "98e32f7d28ec94716f7e1c70144f08a1f10ce635abcf0ca8e08221de893ae9ca",
+    "remedi-clinic.jpg": "7aafe69b457fa4cd751a92eadd628ee029b88d11f875ece997c9eea42b3f41b8",
+    "logo.png": "bb4590d266c90571d9ff3deb3db4f90db8b563a02a1af6a18e9d65111fa390cc"
+  },
+  "languages": [
+    "en",
+    "zh",
+    "ja"
+  ],
+  "method": "built-in image_gen text-localization",
+  "reviewed": "2026-11-09"
+}

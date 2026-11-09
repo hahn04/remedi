@@ -6,7 +6,7 @@ from urllib.parse import urlsplit, unquote, urljoin
 import json
 import re
 import xml.etree.ElementTree as ET
-from build_i18n import ROOT, BASE, LOCALES, PAGES, route
+from build_i18n import ROOT, BASE, LOCALES, PAGES, LOCALIZED_IMAGES, route
 
 class Page(HTMLParser):
     def __init__(self, text):
@@ -60,6 +60,12 @@ def main():
                 assert '{selected}' in template and '{total}' in template,path
             if locale!='ko':
                 assert 'site-header--single' in text,path
+                for tag,attrs in page.tags:
+                    for key in ('src','href'):
+                        value=attrs.get(key,'')
+                        assert urlsplit(value).path not in {'/assets/'+name for name in LOCALIZED_IMAGES},(path,value,'untranslated image')
+                    if tag=='meta' and (attrs.get('property')=='og:image' or attrs.get('name')=='twitter:image'):
+                        assert attrs['content']==BASE+f'/assets/i18n/{locale}/main.jpg',(path,'sharing image')
     for route_path,page in pages.items():
         locale = next((code for code in ('en','zh','ja') if route_path.startswith('/'+code+'/')), 'ko')
         for tag,attrs in page.tags:
@@ -85,6 +91,9 @@ def main():
     urls=[node.text for node in ET.parse(ROOT/'sitemap.xml').findall('s:url/s:loc',ns)]
     assert len(urls)==len(set(urls)) and set(urls)=={BASE+url for url in pages},urls
     for locale in ('en','zh','ja'): ET.parse(ROOT/f'assets/i18n/{locale}/photo-direction.svg')
+    for locale in ('en','zh','ja'):
+        for name in LOCALIZED_IMAGES:
+            assert (ROOT/'assets/i18n'/locale/name).is_file(),(locale,name)
     print(f'PASS: {len(pages)} HTML pages; reciprocal alternates, static body, language selectors, {checked_links} local links/assets, 19-item checklists, Pixel, SVG, and sitemap.')
 
 if __name__=='__main__': main()

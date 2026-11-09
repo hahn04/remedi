@@ -1,0 +1,133 @@
+{
+  "locale": "zh",
+  "language": "zh-Hans",
+  "tool": "built-in image_gen.imagegen",
+  "updated": "2026-11-09",
+  "scope": "Localize designed Korean text in six raster assets; original Korean asset files untouched.",
+  "postprocessing": "JPEG assets converted from selected generated PNG via Windows System.Drawing JPEG quality 90 only; transparent logo copied unchanged. No image resizing or compositing scripts.",
+  "assets": [
+    {
+      "source": "assets/main.jpg",
+      "output": "assets/i18n/zh/main.jpg",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-bd81715e-7155-4672-8ea3-3e1115204d0d.png",
+      "prompt": "Use case: text-localization. Edit target: attached main.jpg, a portrait image of balanced stones with a re;Medi wordmark. Change ONLY the small Korean sublabel '리메디 한의원' underneath the Latin wordmark to the exact Simplified Chinese text '韩医诊所'. Keep the original Latin re;Medi wordmark exactly unchanged, same size, spacing, color and location. Preserve original 9:16 portrait aspect ratio, complete framing, stones, sea, background, lighting and every other element. Keep the Chinese sublabel small, dark, clean and legible, aligned at the right under the existing wordmark in the same area. No other text, no translated Latin wordmark, no added content, no crop.",
+      "sourceDimensions": [
+        810,
+        1440
+      ],
+      "outputDimensions": [
+        941,
+        1672
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Small sublabel reads 韩医诊所; Latin re;Medi wordmark and stone/sea composition visually preserved.",
+        "Output preserves the original portrait framing with minor generation dimension rounding."
+      ]
+    },
+    {
+      "source": "assets/logo.png",
+      "output": "assets/i18n/zh/logo.png",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-f73deb8f-40f5-4cc8-a753-0d34f6a38e22.png",
+      "prompt": "Use case: text-localization. Edit target: logo.png transparent dark green re;Medi wordmark. Keep the exact existing Latin re;Medi wordmark, serif type, punctuation mark, proportions, dark-green ink and full composition. Replace ONLY small Korean sublabel '리메디 한의원' at lower right with exact Simplified Chinese '韩医诊所'. Keep it a small clean sans-serif sublabel at the lower-right, beneath the existing Medi, no repeated Remedi text. Preserve original very wide horizontal aspect ratio and framing (about 1631 by 414), no crop, no stretching, no added margins. Preserve genuine transparent background and alpha channel, never add a colored or white rectangle, shadow or checkerboard. All nontext parts unchanged.",
+      "sourceDimensions": [
+        1620,
+        414
+      ],
+      "outputDimensions": [
+        2172,
+        724
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Small sublabel reads 韩医诊所; Latin wordmark preserved without duplicating Remedi.",
+        "Genuine PNG transparency confirmed using System.Drawing: Format32bppArgb and corner alpha=0.",
+        "Output canvas is 2172x724 (3:1), versus original 1620x414. The generator added transparent vertical space; do not stretch to the original aspect ratio."
+      ]
+    },
+    {
+      "source": "assets/remedi-clinic.jpg",
+      "output": "assets/i18n/zh/remedi-clinic.jpg",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-972a0d85-5885-4cf3-993f-96db4f5e7a0d.png",
+      "prompt": "Use case: text-localization. Edit target: attached square remedi-clinic.jpg clinic identity image. Preserve dark forest-green flat square background, centered white infinity-and-leaf logo mark, spacing, original proportions and original English footer exactly 'KYUNGHEE RE:MEDI KOREAN MEDICINE CLINIC'. Replace ONLY the large Korean clinic name with exact Simplified Chinese text '庆熙Remedi韩医诊所', centered in the same area below the icon and above the English footer, clean bold type. Fit without overlap. No other edits, no new symbols, no border, no additional text. Keep full original square framing.",
+      "sourceDimensions": [
+        697,
+        699
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Main name reads 庆熙Remedi韩医诊所. Infinity-and-leaf symbol, green background, centered layout and English clinic name visually checked.",
+        "Original 697x699 near-square image becomes 1254x1254."
+      ]
+    },
+    {
+      "source": "assets/location.jpg",
+      "output": "assets/i18n/zh/location.jpg",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-aab69111-bdf6-4641-95be-272f91da2802.png",
+      "prompt": "Use case: text-localization. Edit target: location.jpg, square green-and-white clinic directions infographic. Replace designed Korean text with the exact Simplified Chinese labels below; preserve the original layout, green/brown colors, icons, square aspect ratio, all geometry of the map, building footprints, streets, routes, dotted walking arrow, map pin, train symbols and every numeral (8,10,6,5,113). Do not redraw or relocate map elements.\nHeader: keep English \"Location\"; replace 찾아 오시는 길 with \"交通指南\". Upper-right two-line sentence: \"为方便您前来就诊，\" / \"以下为庆熙Remedi韩医诊所的交通指南。\"\nClinic callout: \"庆熙Remedi韩医诊所\" / \"世界杯路1街14号\" / \"商铺1层113号\".\nMap labels in the same positions: 마포한강푸르지오 에스컬레이터 -> \"麻浦汉江Prugio\" / \"自动扶梯\"; 합정역 -> \"合井站\"; 6호선 -> \"6号线\"; 10번 출구 -> \"10号出口\"; 스타벅스 -> \"星巴克\"; 세아타워 -> \"SeAH Tower\"; 청담동순도리 한정식점 -> \"Cheongdam Sundori\" / \"韩餐\"; 이가네양꼬치 -> \"Iga羊肉串\"; 양화정 -> \"Yanghwajeong\"; 루다리 -> \"Rudari\"; 메가MGC커피 -> \"Mega MGC Coffee\".\nBottom categories and text, fit neatly in existing areas without crowding:\n\"自驾\"\n\"1. 导航搜索“麻浦汉江Prugio 1层商铺停车场”，停车后（免费3小时）\"\n\"2. 乘电梯至1层\"\n\"公交\"\n\"1. 在“麻浦汉江Prugio”站下车，直行至合井站8号出口（星巴克方向）\"\n\"2. 面向星巴克入口，从左侧转角进入\"\n\"地铁\"\n\"1. 在8号出口前，乘“麻浦汉江Prugio专用出口自动扶梯”\"\n\"2. 面向星巴克入口，从左侧转角进入\"\nKeep red emphasis only on corresponding parking and escalator phrases. No new claims, directions, numbers, phone or addresses. All text sharp readable Chinese; roman brand names above preserved as given. No Korean designed text left.",
+      "sourceDimensions": [
+        1080,
+        1080
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Clinic/address labels and driving, bus and subway instructions translated to Simplified Chinese.",
+        "Verified map pin/dotted route positions and original exit numbers 8,10,5, subway line 6, unit 113, floor 1 and parking 3 hours.",
+        "Romanized shop/landmark names avoid inventing official Chinese brand names; Starbucks is 星巴克. No additional clinical/services claims."
+      ]
+    },
+    {
+      "source": "assets/location_details.jpg",
+      "output": "assets/i18n/zh/location_details.jpg",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-51edb439-cce7-4af2-a19c-6cfe68a9f9ba.png",
+      "prompt": "Use case: text-localization. Edit target: location_details.jpg. Change ONLY designed Korean text to Simplified Chinese. Preserve original nearly-square aspect ratio (~898:916), full framing, all background park photographs including people and trees, green tint, blue dividing line, original floorplan geometry, rooms, outlines, arrows, cup, subway-exit cube, red pin and every room numeral (113,114,115,116,112,110,108,107,106,105,103,102,101). Do not move/redraw any map landmarks.\nExact replacement text in original text locations:\nTop heading \"交通指南\", retain large English \"Location\".\nPhone/contact line exactly \"02.6951.1075 | 010.4799.0365 | KakaoTalk：庆熙Remedi韩医诊所\".\nAddress line exactly \"首尔市麻浦区合井洞世界杯路1街14号 商铺1层113号\".\nWhite clinic-name banner: replace Korean with \"庆熙Remedi韩医诊所\"; retain infinity leaf mark and tiny English line \"KYUNGHEE RE:MEDI KOREAN MEDICINE CLINIC\".\nLeft exit label two lines \"合井站\" / \"建筑通道出口\".\nMap store labels: \"Kkakkajukka\" in small top box, \"星巴克\" in left large box, \"Cheongdam Sundori\" in right box.\nBottom-right note three lines: \"（请勿与L层混淆）\" / \"星巴克与Silppuri福利中心之间\" / \"Mega Coffee楼上\".\nKeep exactly both 8 numerals on exit pillar. Do not change photos or their actual on-location signs. Keep all telephone digits, address numbers, position of pin at 113 and distances exactly as source. Use clear Chinese sans-serif, keep text within boxes; no new factual content.",
+      "correction": {
+        "sourceGeneratedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-c8a3c7b3-0ada-4a82-9053-75b3a1a8082d.png",
+        "prompt": "Use case: text-localization, tiny targeted correction only. Edit target is the already localized Chinese clinic floorplan infographic. At the LOWER LEFT CORNER OF THE FLOORPLAN, directly below room 110 and immediately LEFT of room 107, the room number currently reads '08' because its first digit is missing. Correct that ONE ROOM NUMBER to the exact text '108' (three digits: one-zero-eight), using the same small black font. Ensure all THREE digits are fully visible on the light floorplan boundary. Do not modify any other pixel/content: keep all Chinese/Latin labels, clinic name, BOTH phone numbers 02.6951.1075 and 010.4799.0365, address, green park photograph, ALL room geometry and numbers 113 114 115 116 112 110 107 106 105 103 102 101, red pin, exit pillar two 8s and existing composition unchanged. Keep same original 1241:1267 portrait-ish aspect ratio and framing. Only fix '08' to '108'; no other changes."
+      },
+      "sourceDimensions": [
+        898,
+        916
+      ],
+      "outputDimensions": [
+        1241,
+        1267
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Verified both phone numbers 02.6951.1075 and 010.4799.0365, address number 14, floor 1, unit 113, and exit pillar 8/8.",
+        "First generation lost leading 1 in room 108; targeted imagegen correction restored exact 108. Final room labels 101,102,103,105,106,107,108,110,112,113,114,115,116 visually checked.",
+        "Red pin at unit 113, floorplan arrangement, background park photograph and existing landmarks visually compared; no new location information added.",
+        "L-floor caution preserved. Romanized Kkakkajukka, Cheongdam Sundori and Silppuri retained as proper-name labels."
+      ]
+    },
+    {
+      "source": "assets/location_pictures.jpg",
+      "output": "assets/i18n/zh/location_pictures.jpg",
+      "generatedFile": "C:\\Users\\hahn04\\.codex\\generated_images\\01a181f0-8d34-7052-8bea-a71d5de808ed\\exec-421cbe32-8222-45a5-b444-28f4f50e64d8.png",
+      "prompt": "Use case: text-localization. Edit target: location_pictures.jpg, square cream four-photo directions poster. Change ONLY the designed text OUTSIDE the four real photographs to Simplified Chinese. Keep ALL FOUR actual photo panels identical: buildings, corridors, escalator, doors, real Korean station/shop signs, Starbucks sign, people, lighting and white dotted path arrows. Do NOT translate or regenerate the signs visible inside photographs; they are real landmarks used for matching on site. Preserve square original framing, cream/green palette, borders, layout, map geometry and pin, phone number, address numerals and instructions' turn directions.\nExact text replacements by position:\nTop clinic name: \"庆熙Remedi韩医诊所\".\nLarge title: \"交通指南\". Retain English \"DIRECTIONS\".\nIntro sentence: \"从合井站前往庆熙Remedi韩医诊所的路线指南。\"\nFour captions below corresponding photos, exact text, with natural line wrapping:\n1. \"请勿从8号出口出站，\" / \"请往麻浦汉江Prugio\" / \"方向走。\"\n2. \"沿通道直行至尽头，\" / \"然后向左转。\"\n3. \"乘坐正前方的自动扶梯，\" / \"前往1层。\"\n4. \"沿星巴克旁边，\" / \"向右侧一直走即可。\"\nLower-left details:\n\"地址\"\n\"首尔市麻浦区世界杯路1街14号，麻浦汉江Prugio商铺1层113号\"\n\"电话 | 咨询\"\n\"02-6951-1075 | [keep TALK bubble icon] 庆熙Remedi韩医诊所\"\n\"停车指南\"\n\"请使用商铺停车场 | 就诊顾客免费停车3小时\"\nBottom note:\n\"※ 请勿与L层混淆\"\n\"星巴克与Silppuri福利中心之间 · Mega Coffee楼上\"\nLower-right diagram labels replace Korean clinic name with \"庆熙Remedi韩医诊所\", Starbucks label with \"星巴克\", restaurant label with \"Cheongdam Sundori\". Keep all label boxes/pin in their original positions.\nUse clear readable Chinese, fitting within existing caption areas. No new factual information, no extra photos or new symbols. Preserve telephone exactly 02-6951-1075 and floor/unit exactly 1层113号.",
+      "sourceDimensions": [
+        1440,
+        1440
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "reviewStatus": "visually_checked",
+      "reviewNotes": [
+        "Four route photographs, dotted direction arrows and real Korean station/shop signs visually compared with original; signs inside photos intentionally remain Korean for on-site matching.",
+        "Only designed headings, captions, contact/address/parking text and diagram labels localized. Original 8-exit caution, left turn in second panel, rightward route in fourth panel, floor 1/unit113 and 02-6951-1075 preserved.",
+        "Photographic content and route geometry are visually consistent; imagegen edits are not asserted to be pixel-identical to the source."
+      ]
+    }
+  ]
+}
