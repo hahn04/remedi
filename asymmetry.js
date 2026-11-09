@@ -23,7 +23,8 @@
   function updateSummary() {
     const selected = inputs.filter((input) => input.checked);
     const values = new Set(selected.map((input) => input.value));
-    count.textContent = `${inputs.length}개 중 ${selected.length}개 선택`;
+    const countTemplate = count.dataset.checkCountTemplate || "{total}개 중 {selected}개 선택";
+    count.textContent = countTemplate.replace("{total}", String(inputs.length)).replace("{selected}", String(selected.length));
     resetButton.disabled = selected.length === 0;
     empty.hidden = selected.length > 0;
     details.hidden = selected.length === 0;

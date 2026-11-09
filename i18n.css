@@ -1,0 +1,53 @@
+/* Language editions share the Korean layout and keep explicit language links available. */
+.language-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 24px 0 12px; font-size: 13px; color: #5a655a; }
+.language-links a { padding-block: 6px; text-decoration: underline; text-underline-offset: 4px; }
+.language-links a[aria-current] { color: #243b30; font-weight: 600; }
+.language-links a:focus-visible { outline: 2px solid #846541; outline-offset: 4px; }
+.language-service-note { max-width: 1140px; margin: 0 auto 32px; padding: 0 24px; color: #626b63; font-size: 13px; line-height: 1.8; }
+html:not([lang="ko"]) body { word-break: normal; overflow-wrap: break-word; }
+html[lang="zh-Hans"] body { font-family: "Microsoft YaHei", "Noto Sans SC", "PingFang SC", sans-serif; }
+html[lang="ja"] body { font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; }
+html:not([lang="ko"]) .site-header--single .language-control select { width: 96px; }
+html:not([lang="ko"]) .site-header--single .brand small { font-size: 10px; white-space: normal; line-height: 1.35; }
+html:not([lang="ko"]) .guide-nav a { white-space: nowrap; }
+html:not([lang="ko"]) .guide-evaluation-points dt,
+html:not([lang="ko"]) .footer-business dt { overflow-wrap: anywhere; }
+html:not([lang="ko"]) .column-sources a { overflow-wrap: anywhere; }
+html:not([lang="ko"]) .guide-illustration-labels { font-size: clamp(11px, 1.35vw, 15px); }
+html:not([lang="ko"]) .guide-checklist label { align-items: flex-start; }
+html:not([lang="ko"]) .guide-checklist input { margin-top: 5px; }
+html:not([lang="ko"]) .hero-carousel-header .eyebrow { top: 24px; bottom: auto; }
+html:not([lang="ko"]) .bottom-cta a,
+html:not([lang="ko"]) .bottom-cta button { min-width: 0; padding: 8px; text-align: center; line-height: 1.4; }
+@media (min-width: 1400px) {
+  html:not([lang="ko"]) .site-header--single #nav-menu a { padding-inline: 7px; font-size: 12px; }
+  html:not([lang="ko"]) .site-header--single .topbar { gap: 14px; }
+}
+@media (max-width: 1399px) {
+  html:not([lang="ko"]) .site-header--single .topbar {
+    width: calc(100% - 32px); min-height: 76px; padding-block: 12px;
+    grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: 52px auto;
+    grid-template-areas: "brand actions" "navigation navigation"; gap: 0 20px;
+  }
+  html:not([lang="ko"]) .site-header--single .brand-logo { width: clamp(108px, 32vw, 156px); }
+  html:not([lang="ko"]) .site-header--single #nav-menu { justify-content: flex-start; padding: 10px 0 0; overflow-x: auto; }
+  html:not([lang="ko"]) .site-header--single.is-navigation-ready .topbar { grid-template-areas: "brand actions"; grid-template-rows: 52px; }
+  html:not([lang="ko"]) .site-header--single.is-navigation-ready .nav-toggle { display: flex; }
+  html:not([lang="ko"]) .site-header--single.is-navigation-ready #nav-menu {
+    position: absolute; top: calc(100% + 8px); left: 16px; right: 16px;
+    display: grid; grid-template-columns: minmax(0, 1fr); justify-content: stretch;
+    width: auto; max-height: calc(100vh - 100px); max-height: calc(100dvh - 100px);
+    padding: 12px; border: 1px solid #dce1da; border-radius: 10px; background: #fafbf8;
+    box-shadow: 0 16px 40px rgba(38, 59, 50, .12); overflow: auto;
+    visibility: hidden; opacity: 0; pointer-events: none;
+  }
+  html:not([lang="ko"]) .site-header--single.is-navigation-ready #nav-menu.is-open { visibility: visible; opacity: 1; pointer-events: auto; }
+  html:not([lang="ko"]) .site-header--single #nav-menu a { min-height: 44px; }
+  html:not([lang="ko"]) .site-header--single.is-navigation-ready #nav-menu .nav-cta { margin: 6px 0 0; }
+}
+@media (max-width: 640px) {
+  html:not([lang="ko"]) .hero-summary { grid-template-columns: 1fr; }
+  html:not([lang="ko"]) .guide-hero h1 { font-size: clamp(30px, 8vw, 44px); }
+  html:not([lang="ko"]) .guide-check-actions { flex-wrap: wrap; }
+  html:not([lang="ko"]) .page-hero h1 { overflow-wrap: break-word; }
+}

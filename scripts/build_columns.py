@@ -249,6 +249,10 @@ def page(shell: SiteShell, title: str, description: str, canonical: str,
     </main>{shell.after_main}</body>
 </html>
 '''
+    if (ROOT / "content/i18n/settings.json").exists():
+        from build_i18n import enhance, Dictionary
+        name = canonical.removeprefix(BASE_URL + "/") + ".html"
+        document = enhance(document, name, "ko", Dictionary("ko"))
     return document.encode("utf-8")
 
 

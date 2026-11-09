@@ -22,6 +22,7 @@ const progressBar = document.querySelector(".scroll-progress span");
 const languageSelect = document.querySelector("#language-select");
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector("#nav-menu");
+const pageLanguage = document.documentElement.lang.split("-")[0] || "ko";
 const navLinks = document.querySelectorAll("[data-nav-target]");
 const sectionItems = document.querySelectorAll("[data-section]");
 const revealItems = document.querySelectorAll("[data-reveal]");
@@ -80,7 +81,7 @@ function updateMenuTheme() {
   header?.setAttribute("data-menu-theme", theme);
 }
 function getPagePath(pathname) {
-  return pathname.replace(/\/+$/, "").replace(/\/index(?:\.html)?$/, "").replace(/\.html$/, "") || "/";
+  return pathname.replace(/^\/(?:en|zh|ja)(?=\/|$)/, "").replace(/\/+$/, "").replace(/\/index(?:\.html)?$/, "").replace(/\.html$/, "") || "/";
 }
 
 function setCurrentPageNavigation() {
@@ -106,7 +107,7 @@ setCurrentPageNavigation();
 
 function applyLanguage(language) {
   const dictionary = translations[language] || translations.ko;
-  // Only interface labels are translated; the page content remains Korean.
+  // Each URL serves a complete static language edition; these are interface labels only.
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
@@ -154,20 +155,27 @@ function animateCount(element) {
 }
 
 if (languageSelect) {
-  const params = new URLSearchParams(window.location.search);
-  let savedLanguage = null;
-  try {
-    savedLanguage = localStorage.getItem("remedi-language");
-  } catch {
-    // Use the URL preference or Korean when browser storage is unavailable.
+  function switchLanguage(language, replace = false) {
+    const path = languageSelect.getAttribute(`data-language-${language}`);
+    if (!path || !translations[language]) return;
+    const destination = new URL(path, window.location.origin);
+    destination.search = window.location.search;
+    destination.searchParams.delete("lang");
+    destination.hash = window.location.hash;
+    if (destination.href === window.location.href) return;
+    if (replace) window.location.replace(destination.href);
+    else window.location.assign(destination.href);
   }
-  const initialLanguage = params.get("lang") || savedLanguage || "ko";
-  languageSelect.value = translations[initialLanguage] ? initialLanguage : "ko";
-  applyLanguage(languageSelect.value);
 
-  languageSelect.addEventListener("change", (event) => {
-    applyLanguage(event.target.value);
-  });
+  // The requested URL determines the language; saved preferences never override it.
+  languageSelect.value = translations[pageLanguage] ? pageLanguage : "ko";
+  applyLanguage(languageSelect.value);
+  languageSelect.addEventListener("change", (event) => switchLanguage(event.target.value));
+  window.addEventListener("pageshow", () => { languageSelect.value = pageLanguage; });
+
+  // Preserve explicitly requested links from the former ?lang= selector.
+  const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+  if (requestedLanguage && requestedLanguage !== pageLanguage) switchLanguage(requestedLanguage, true);
 }
 
 if (navToggle && navMenu) {
@@ -202,7 +210,7 @@ if (navToggle && navMenu) {
     if (event.target instanceof Node && !header?.contains(event.target)) closeNavigation();
   });
 
-  window.matchMedia("(min-width: 1200px)").addEventListener("change", closeNavigation);
+  window.matchMedia(pageLanguage === "ko" ? "(min-width: 1200px)" : "(min-width: 1400px)").addEventListener("change", closeNavigation);
   header?.classList.add("is-navigation-ready");
 }
 

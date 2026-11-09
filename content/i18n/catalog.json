@@ -1,0 +1,4422 @@
+{
+  "1725a6d10cbe": {
+    "source": "re:medi 한의원 | 리메디 안면비대칭·골격교정·라인관리",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "4347c0a8dc82": {
+    "source": "안면비대칭의 원인·증상과 진료 정보를 안내합니다. 마포·합정 경희 리메디한의원의 상담·예약을 확인하세요.",
+    "contexts": [
+      "index.html:meta"
+    ]
+  },
+  "757b22578b05": {
+    "source": "re:medi 한의원, 리메디 한의원, 마포 안면비대칭, 합정 골격교정, 바른자세 한의원, 심플 다이어트, 예비신부 클리닉, 교통사고후유증 한의원, 급만성통증 한의원",
+    "contexts": [
+      "index.html:meta"
+    ]
+  },
+  "aae7b8a57344": {
+    "source": "re:medi 한의원",
+    "contexts": [
+      "index.html:meta",
+      "index.html:schema:alternateName",
+      "index.html:schema:name",
+      "index.html:img@alt",
+      "index.html:text",
+      "intro.html:meta",
+      "intro.html:img@alt",
+      "intro.html:text",
+      "asymmetry.html:meta",
+      "asymmetry.html:schema:alternateName",
+      "asymmetry.html:schema:name",
+      "asymmetry.html:img@alt",
+      "asymmetry.html:text",
+      "posture.html:meta",
+      "posture.html:img@alt",
+      "posture.html:text",
+      "diet.html:meta",
+      "diet.html:img@alt",
+      "diet.html:text",
+      "bride.html:meta",
+      "bride.html:img@alt",
+      "bride.html:text",
+      "pain.html:meta",
+      "pain.html:img@alt",
+      "pain.html:text",
+      "reviews.html:meta",
+      "reviews.html:img@alt",
+      "reviews.html:text",
+      "contact.html:meta",
+      "contact.html:img@alt",
+      "contact.html:text",
+      "columns.html:meta",
+      "columns.html:schema:alternateName",
+      "columns.html:schema:name",
+      "columns.html:img@alt",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:meta",
+      "columns/facial-asymmetry-photos.html:schema:alternateName",
+      "columns/facial-asymmetry-photos.html:schema:name",
+      "columns/facial-asymmetry-photos.html:img@alt",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "62e47901d162": {
+    "source": "re:medi 한의원 | 자연스럽게 가장 아름다운 균형을 찾다",
+    "contexts": [
+      "index.html:meta"
+    ]
+  },
+  "3ab0fc79966f": {
+    "source": "re:medi 한의원 | 안면비대칭·골격교정·라인관리",
+    "contexts": [
+      "index.html:meta"
+    ]
+  },
+  "93f69f3f0221": {
+    "source": "경희 리메디한의원",
+    "contexts": [
+      "index.html:schema:name",
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:meta",
+      "columns.html:schema:name",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:meta",
+      "columns/facial-asymmetry-photos.html:schema:name",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "78516345b07a": {
+    "source": "리메디한의원",
+    "contexts": [
+      "index.html:schema:alternateName",
+      "asymmetry.html:schema:alternateName",
+      "columns.html:schema:alternateName",
+      "columns/facial-asymmetry-photos.html:schema:alternateName"
+    ]
+  },
+  "a360264d1086": {
+    "source": "리메디 한의원",
+    "contexts": [
+      "index.html:schema:alternateName",
+      "asymmetry.html:schema:alternateName",
+      "columns.html:schema:alternateName",
+      "columns/facial-asymmetry-photos.html:schema:alternateName"
+    ]
+  },
+  "5b9396305369": {
+    "source": "곰추한의원",
+    "contexts": [
+      "index.html:schema:alternateName",
+      "asymmetry.html:schema:alternateName",
+      "columns.html:schema:alternateName",
+      "columns/facial-asymmetry-photos.html:schema:alternateName"
+    ]
+  },
+  "910720eeefda": {
+    "source": "re:medi 한의원은 안면비대칭, 골격교정, 바른자세, 라인관리, 다이어트, 급만성통증, 교통사고후유증을 상담하는 예약 중심 한의원입니다.",
+    "contexts": [
+      "index.html:schema:description",
+      "columns.html:schema:description",
+      "columns/facial-asymmetry-photos.html:schema:description"
+    ]
+  },
+  "3d50636aa145": {
+    "source": "월드컵로1길 14, 마포한강푸르지오 1차아파트 1층",
+    "contexts": [
+      "index.html:schema:streetAddress",
+      "asymmetry.html:schema:streetAddress",
+      "columns.html:schema:streetAddress",
+      "columns/facial-asymmetry-photos.html:schema:streetAddress"
+    ]
+  },
+  "87f0aef66876": {
+    "source": "마포구",
+    "contexts": [
+      "index.html:schema:addressLocality",
+      "asymmetry.html:schema:addressLocality",
+      "columns.html:schema:addressLocality",
+      "columns/facial-asymmetry-photos.html:schema:addressLocality"
+    ]
+  },
+  "af6564d37582": {
+    "source": "서울특별시",
+    "contexts": [
+      "index.html:schema:addressRegion",
+      "asymmetry.html:schema:addressRegion",
+      "columns.html:schema:addressRegion",
+      "columns/facial-asymmetry-photos.html:schema:addressRegion"
+    ]
+  },
+  "04eb17f49528": {
+    "source": "본문 바로가기",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "cec5cf327ef3": {
+    "source": "re:medi 한의원 홈",
+    "contexts": [
+      "index.html:a@aria-label",
+      "intro.html:a@aria-label",
+      "asymmetry.html:a@aria-label",
+      "posture.html:a@aria-label",
+      "diet.html:a@aria-label",
+      "bride.html:a@aria-label",
+      "pain.html:a@aria-label",
+      "reviews.html:a@aria-label",
+      "contact.html:a@aria-label",
+      "columns.html:a@aria-label",
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "1f401a394e88": {
+    "source": "자연스럽게 균형을 찾는 곳",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "f00fbf9861fc": {
+    "source": "주요 메뉴",
+    "contexts": [
+      "index.html:nav@aria-label",
+      "intro.html:nav@aria-label",
+      "asymmetry.html:nav@aria-label",
+      "posture.html:nav@aria-label",
+      "diet.html:nav@aria-label",
+      "bride.html:nav@aria-label",
+      "pain.html:nav@aria-label",
+      "reviews.html:nav@aria-label",
+      "contact.html:nav@aria-label",
+      "columns.html:nav@aria-label",
+      "columns/facial-asymmetry-photos.html:nav@aria-label"
+    ]
+  },
+  "fcc9e32c495e": {
+    "source": "리메디소개",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "cd094680a7f8": {
+    "source": "안면비대칭",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e4c6c5475c72": {
+    "source": "골격교정",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e6c57e8ab7db": {
+    "source": "다이어트·라인",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "758b6cf727be": {
+    "source": "예비신부",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "623f73a6f975": {
+    "source": "교통사고·통증",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "fd9449fca2f6": {
+    "source": "치료후기",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "fb4de59e0c50": {
+    "source": "건강칼럼",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "6a0bb12354c0": {
+    "source": "오시는길",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "a04df23492bd": {
+    "source": "예약",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "19f9d4a5680e": {
+    "source": "언어 선택",
+    "contexts": [
+      "index.html:text",
+      "index.html:select@aria-label",
+      "intro.html:text",
+      "intro.html:select@aria-label",
+      "asymmetry.html:text",
+      "asymmetry.html:select@aria-label",
+      "posture.html:text",
+      "posture.html:select@aria-label",
+      "diet.html:text",
+      "diet.html:select@aria-label",
+      "bride.html:text",
+      "bride.html:select@aria-label",
+      "pain.html:text",
+      "pain.html:select@aria-label",
+      "reviews.html:text",
+      "reviews.html:select@aria-label",
+      "contact.html:text",
+      "contact.html:select@aria-label",
+      "columns.html:text",
+      "columns.html:select@aria-label",
+      "columns/facial-asymmetry-photos.html:text",
+      "columns/facial-asymmetry-photos.html:select@aria-label",
+      "shared:interface"
+    ]
+  },
+  "ff7070c7c006": {
+    "source": "메뉴 열기",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text",
+      "shared:interface"
+    ]
+  },
+  "3307d5625fb5": {
+    "source": "리메디 대표 이미지",
+    "contexts": [
+      "index.html:section@aria-label"
+    ]
+  },
+  "14b670709969": {
+    "source": "re:medi scenes",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "fa8510af62a3": {
+    "source": "대표 이미지 넘기기",
+    "contexts": [
+      "index.html:div@aria-label"
+    ]
+  },
+  "c97add834ae8": {
+    "source": "이전 이미지",
+    "contexts": [
+      "index.html:button@aria-label"
+    ]
+  },
+  "3f0e0ebdd86c": {
+    "source": "다음 이미지",
+    "contexts": [
+      "index.html:button@aria-label"
+    ]
+  },
+  "e1231a91bc08": {
+    "source": "리메디 한의원 가로형 대표 이미지",
+    "contexts": [
+      "index.html:img@alt"
+    ]
+  },
+  "5817ecfa48b9": {
+    "source": "본연의 균형을 찾는 공간",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "6543f1573d6f": {
+    "source": "리메디 한의원 내부 공간 이미지",
+    "contexts": [
+      "index.html:img@alt"
+    ]
+  },
+  "bb6f86783bb1": {
+    "source": "차분하게 상담하는 진료 공간",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "1bddd7d2df09": {
+    "source": "리메디 한의원 공간 상세 이미지",
+    "contexts": [
+      "index.html:img@alt"
+    ]
+  },
+  "f3427466290c": {
+    "source": "예약 중심의 세심한 진료 동선",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "49d6006c96c9": {
+    "source": "리메디 한의원의 중심 이미지를 담은 대표 비주얼",
+    "contexts": [
+      "index.html:img@alt"
+    ]
+  },
+  "27f23df80bec": {
+    "source": "re:medi Korean Medicine Clinic",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "f3aab6ef19ff": {
+    "source": "본연의 나로 되돌아 가는 여정",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "b559d07c0154": {
+    "source": "무너진 균형을 바로 세우고, 다시 나답게 태어나다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "18048dff9cf0": {
+    "source": "안면비대칭과 골격교정 집중치료를 중심으로, 리프팅 및 팔뚝·허벅지·뱃살 라인관리와 다이어트, 급만성통증, 자동차사고 후유증까지 세심하게 진료합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "deca4743e17c": {
+    "source": "예약 및 오시는 길",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "f11b5337f38e": {
+    "source": "안면비대칭 원인·진료 안내",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "54024cc3d2ee": {
+    "source": "리메디 핵심 운영 정보",
+    "contexts": [
+      "index.html:dl@aria-label"
+    ]
+  },
+  "16fab363f8f2": {
+    "source": "진료",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "5d30893a9b0d": {
+    "source": "안면비대칭·골격교정 집중",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "0928a1b8512f": {
+    "source": "운영",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "b4949e6aaaf4": {
+    "source": "평일 야간진료",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "5438490deb02": {
+    "source": "토·대체공휴일 진료",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "22a7c006cd33": {
+    "source": "상담",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a4a9a76e916f": {
+    "source": "대표원장 직접 상담",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "2f2d04f48622": {
+    "source": "탕전",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "b70c78c870a0": {
+    "source": "원내 직접 탕전",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "458c377aa6e7": {
+    "source": "핵심 진료 요약",
+    "contexts": [
+      "index.html:section@aria-label"
+    ]
+  },
+  "834d6f17cb7e": {
+    "source": "안면비대칭 · 골격교정 · 라인관리 · 다이어트 · 교통사고후유증",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "83f3fe3ed95f": {
+    "source": "상담 예약",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "9dabd8e2f227": {
+    "source": "About re:medi",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text"
+    ]
+  },
+  "16f97fe959e2": {
+    "source": "리메디는 얼굴과 몸의 균형을 함께 보는 한의원입니다. 의료진, 오시는 길, 예약, 야간진료, 원장상담, 원내 직접 탕전 정보를 첫 방문자가 바로 이해할 수 있게 정리했습니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "6b0efb7bbb42": {
+    "source": "리메디 한의원 대표원장 홍은빈",
+    "contexts": [
+      "index.html:img@alt",
+      "intro.html:img@alt"
+    ]
+  },
+  "8768c0a721b9": {
+    "source": "Medical Director",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text"
+    ]
+  },
+  "b9dda04e7f2c": {
+    "source": "대표원장 홍은빈",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text"
+    ]
+  },
+  "ae3b86a0838f": {
+    "source": "상담에서 현재 고민과 진료 방향을 직접 확인하고, 안면비대칭과 골격교정, 통증, 다이어트 진료를 개인 상태에 맞춰 설명합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "372ef663ab98": {
+    "source": "홍은빈 원장 학력·경력 보기",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "421213c9cd09": {
+    "source": "의료진",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text"
+    ]
+  },
+  "b0485b6db672": {
+    "source": "대표원장 홍은빈이 상담에서 현재 고민과 진료 방향을 직접 확인합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "6f7e369866a8": {
+    "source": "예약·야간진료",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "8f1a10bb9b80": {
+    "source": "월·화·수·목·금 야간진료를 운영하며, 예약 중심으로 대기와 동선을 줄입니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "39aef98de69d": {
+    "source": "원장상담",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text"
+    ]
+  },
+  "dd72ba77bac8": {
+    "source": "안면비대칭, 골격교정, 통증, 다이어트 상담을 개인 상태에 맞춰 설명합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "dff26b9687ad": {
+    "source": "진료 본 한의사가 원내에서 직접 탕전하여 더욱 믿을 수 있습니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "eb9cb9ce076f": {
+    "source": "Facial Asymmetry Clinic",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "7398090b852a": {
+    "source": "안면비대칭 클리닉",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "eec6f9e571c3": {
+    "source": "얼굴의 좌우 차이를 눈높이, 코끝, 입꼬리, 턱선만으로 보지 않고 턱관절, 목·어깨 긴장, 자세 습관과 함께 확인합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "87e9070a4bdd": {
+    "source": "안면비대칭 원인·증상과 진료 안내",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "5ffe7e90fdf2": {
+    "source": "함께 읽기 ·",
+    "contexts": [
+      "index.html:text",
+      "asymmetry.html:text"
+    ]
+  },
+  "58f95bad9e2b": {
+    "source": "사진 속 안면비대칭, 거울과 다르게 보이는 이유",
+    "contexts": [
+      "index.html:text",
+      "asymmetry.html:text",
+      "columns.html:schema:name",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:schema:name",
+      "columns/facial-asymmetry-photos.html:schema:headline",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "1c45edb6af9a": {
+    "source": "칼럼 모아보기",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "0c1b830c659b": {
+    "source": "안면비대칭 체크 포인트",
+    "contexts": [
+      "index.html:div@aria-label"
+    ]
+  },
+  "625d8a872167": {
+    "source": "눈높이",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "0b71f5ee3a79": {
+    "source": "코끝",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "595049059d8c": {
+    "source": "입꼬리",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a0082a825e41": {
+    "source": "턱선",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "7306100d451f": {
+    "source": "Face Balance Index",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "c84612d3aa59": {
+    "source": "사진에서 보이는 차이와 움직임에서 드러나는 차이를 함께 봅니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a7f13ec206f5": {
+    "source": "좌우 얼굴선",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "ba745c32a02c": {
+    "source": "눈, 코, 입, 턱의 기준선을 먼저 확인합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "8457af9c948e": {
+    "source": "턱관절 리듬",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "5c8d8c158aa5": {
+    "source": "입을 벌리고 닫을 때의 경로와 긴장을 살핍니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "454aeeef91a2": {
+    "source": "생활습관",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "12b3675a5324": {
+    "source": "씹는 방향, 수면 자세, 스마트폰 자세를 함께 점검합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "ea5f6bdc79b8": {
+    "source": "Skeleton",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "bdba27f66eb1": {
+    "source": "Posture",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "acabb444a60b": {
+    "source": "골격교정 집중치료와 바른자세 클리닉",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "339103b42d17": {
+    "source": "#거북목 #편평등 #고관절틀어짐처럼 반복되는 자세 문제를 얼굴선, 통증, 체형 변화와 연결해 봅니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "57c889905564": {
+    "source": "거북목",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "07065fdf1ca0": {
+    "source": "목과 턱 주변 긴장이 얼굴선과 어깨 통증에 미치는 영향을 확인합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "cf5cf20a8570": {
+    "source": "편평등",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "f9093e323465": {
+    "source": "등의 움직임과 흉곽 긴장을 살펴 호흡과 자세 균형을 함께 봅니다.",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "d93276a5ce0a": {
+    "source": "고관절 틀어짐",
+    "contexts": [
+      "index.html:text",
+      "posture.html:text"
+    ]
+  },
+  "b69697af0f9b": {
+    "source": "골반과 고관절의 좌우 차이를 보행, 허리 긴장, 체형 변화와 연결합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "af8f38965e04": {
+    "source": "Simple Diet",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "4e38249c388d": {
+    "source": "심플 다이어트",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "727f3b8876eb": {
+    "source": "부분비만시술, 바디리프팅, 비대면진료 상담까지 목표 부위와 생활 패턴에 맞춰 단순하고 지속 가능한 방향을 제안합니다.",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "959f303c4ff2": {
+    "source": "부분비만시술",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "e139ccff8a15": {
+    "source": "팔뚝, 허벅지, 뱃살처럼 신경 쓰이는 부위를 중심으로 상담합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a3258d0e7628": {
+    "source": "바디리프팅",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "32ab2e7c45fc": {
+    "source": "체중만이 아니라 라인과 탄력 변화를 함께 고려합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "8cb546acba8c": {
+    "source": "비대면진료",
+    "contexts": [
+      "index.html:text",
+      "diet.html:text"
+    ]
+  },
+  "c2a64fd34991": {
+    "source": "가능 범위와 기준을 확인한 뒤 개인 상태에 맞춰 안내합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "964be5bd00f3": {
+    "source": "리프팅·라인관리",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "46b0a785eb2f": {
+    "source": "얼굴과 바디 라인을 자연스럽게 정리하는 방향으로 상담합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a406155edf0f": {
+    "source": "Bride Balance",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "73574d47058b": {
+    "source": "예비신부클리닉",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "40c87c4bdbb9": {
+    "source": "촬영, 본식, 드레스 피팅처럼 일정이 정해진 순간을 앞두고 얼굴선, 붓기, 팔뚝·허벅지·뱃살 라인을 함께 관리합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "a676df22507f": {
+    "source": "일정 확인",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "67852b524437": {
+    "source": "촬영일과 본식일을 기준으로 상담 우선순위를 정합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "9e02a0b2d58d": {
+    "source": "얼굴 균형",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "3a96b6da2f22": {
+    "source": "안면비대칭, 붓기, 턱선 고민을 먼저 확인합니다.",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "295a034f2dd1": {
+    "source": "바디 라인",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "1fd804904e64": {
+    "source": "드레스 라인에 보이는 팔뚝, 허벅지, 복부 고민을 상담합니다.",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "c7fca0b4a062": {
+    "source": "컨디션 유지",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "2fa522a5422c": {
+    "source": "수면, 소화, 스트레스 리듬까지 함께 조정합니다.",
+    "contexts": [
+      "index.html:text",
+      "bride.html:text"
+    ]
+  },
+  "b94dac135b0b": {
+    "source": "Pain",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "30951b13a69f": {
+    "source": "Traffic Accident",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "3862c0d26a56": {
+    "source": "교통사고후유증 클리닉",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "908bdb93d634": {
+    "source": "급만성통증, 자동차사고 후유증, 목·허리·어깨 긴장과 불편감을 현재 상태와 사고 경과에 맞춰 살핍니다.",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "873f09ccb424": {
+    "source": "자동차사고 후유증",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "4330bc24efb9": {
+    "source": "사고 이후 남는 목, 허리, 어깨 불편감을 확인합니다.",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "b420d29077e9": {
+    "source": "급만성통증",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "ff2008f7d0a7": {
+    "source": "반복되는 통증의 위치, 기간, 악화 요인을 함께 정리합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "7d38aa9f7365": {
+    "source": "회복 루틴",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "a1817d9798ff": {
+    "source": "진료와 생활 관리가 이어질 수 있도록 내원 계획을 안내합니다.",
+    "contexts": [
+      "index.html:text",
+      "pain.html:text"
+    ]
+  },
+  "20596446fe32": {
+    "source": "In-house Decoction",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "f8486af738fd": {
+    "source": "진료 본 한의사가 원내에서 직접 탕전합니다",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "588b4fdf5ec5": {
+    "source": "상담과 처방, 탕전 과정을 한 공간에서 연결해 환자별 상태를 더 세심하게 반영합니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "aff0766a5290": {
+    "source": "Review",
+    "contexts": [
+      "index.html:text",
+      "reviews.html:text"
+    ]
+  },
+  "b8480457ffd8": {
+    "source": "실제 환자 동의가 확인된 후기만 게시하는 영역입니다. 현재는 진료 과목별 후기 구성을 준비 중입니다.",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "68ea33ee5255": {
+    "source": "안면비대칭 후기",
+    "contexts": [
+      "index.html:text",
+      "reviews.html:text"
+    ]
+  },
+  "f72356e58d61": {
+    "source": "좌우 얼굴선, 턱관절, 자세 변화 중심으로 정리 예정",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "5ef15b40676f": {
+    "source": "라인관리 후기",
+    "contexts": [
+      "index.html:text",
+      "reviews.html:text"
+    ]
+  },
+  "d1b94cbdc165": {
+    "source": "팔뚝, 허벅지, 뱃살, 바디리프팅 중심으로 정리 예정",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "ae025cd0f129": {
+    "source": "교통사고·통증 후기",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "67ee5543042a": {
+    "source": "사고 후 불편감과 급만성통증 중심으로 정리 예정",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "b456e6d5ae43": {
+    "source": "Reservation",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "15b61974b270": {
+    "source": "Location",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "aea58cdec34d": {
+    "source": "오시는길 및 예약",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "d91ad7d72036": {
+    "source": "서울 마포구 월드컵로1길 14, 마포한강푸르지오 1차아파트 1층에서 상담합니다.",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "190644a413e3": {
+    "source": "re:medi 한의원 위치 지도",
+    "contexts": [
+      "index.html:iframe@title",
+      "contact.html:iframe@title"
+    ]
+  },
+  "851c4961b213": {
+    "source": "서울특별시 마포구 월드컵로1길 14",
+    "contexts": [
+      "index.html:text",
+      "asymmetry.html:text",
+      "contact.html:text"
+    ]
+  },
+  "204b3ad0b3e4": {
+    "source": "마포한강푸르지오 1차아파트 1층",
+    "contexts": [
+      "index.html:text",
+      "asymmetry.html:text",
+      "contact.html:text"
+    ]
+  },
+  "6db518d738ed": {
+    "source": "전화",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "9abe0186cd00": {
+    "source": "카카오톡 *경희 리메디한의원* 친구추가 / 네이버 예약",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "438451e9577d": {
+    "source": "휴진",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "570e7242e406": {
+    "source": "일요일, 공휴일",
+    "contexts": [
+      "index.html:text"
+    ]
+  },
+  "402473b26294": {
+    "source": "주차",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "e8220618888f": {
+    "source": "3시간 무료",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "9147e4fa081b": {
+    "source": "네이버 지도 보기",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "731c31667fa2": {
+    "source": "카카오맵 보기",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "ea8852d5b8d5": {
+    "source": "개인 상태에 따라 진료 계획과 경과는 달라질 수 있습니다.",
+    "contexts": [
+      "index.html:text",
+      "contact.html:text"
+    ]
+  },
+  "ffcac235ec42": {
+    "source": "리메디 한의원 공간 사진",
+    "contexts": [
+      "index.html:div@aria-label",
+      "index.html:img@alt",
+      "contact.html:div@aria-label",
+      "contact.html:img@alt"
+    ]
+  },
+  "e3bc4a569e68": {
+    "source": "리메디 한의원 외부 위치 사진",
+    "contexts": [
+      "index.html:img@alt",
+      "contact.html:img@alt"
+    ]
+  },
+  "29f725b7f694": {
+    "source": "리메디 한의원 위치 상세 사진",
+    "contexts": [
+      "index.html:img@alt",
+      "contact.html:img@alt"
+    ]
+  },
+  "407ead81cd46": {
+    "source": "네이버 예약 페이지 새 창으로 열기",
+    "contexts": [
+      "index.html:a@aria-label",
+      "intro.html:a@aria-label",
+      "asymmetry.html:a@aria-label",
+      "posture.html:a@aria-label",
+      "diet.html:a@aria-label",
+      "bride.html:a@aria-label",
+      "pain.html:a@aria-label",
+      "reviews.html:a@aria-label",
+      "contact.html:a@aria-label",
+      "columns.html:a@aria-label",
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "8ce86a6ae65d": {
+    "source": "N",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "ab43f8152b97": {
+    "source": "네이버 예약",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "dc82aac9bfbe": {
+    "source": "바로 예약하기",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "8c432b384abe": {
+    "source": "빠른 상담 메뉴",
+    "contexts": [
+      "index.html:div@aria-label",
+      "intro.html:div@aria-label",
+      "asymmetry.html:div@aria-label",
+      "posture.html:div@aria-label",
+      "diet.html:div@aria-label",
+      "bride.html:div@aria-label",
+      "pain.html:div@aria-label",
+      "reviews.html:div@aria-label",
+      "contact.html:div@aria-label",
+      "columns.html:div@aria-label",
+      "columns/facial-asymmetry-photos.html:div@aria-label"
+    ]
+  },
+  "46d7c6aaf136": {
+    "source": "오시는 길",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "6f0b89f09285": {
+    "source": "맨 위로 이동",
+    "contexts": [
+      "index.html:button@aria-label",
+      "intro.html:button@aria-label",
+      "asymmetry.html:button@aria-label",
+      "posture.html:button@aria-label",
+      "diet.html:button@aria-label",
+      "bride.html:button@aria-label",
+      "pain.html:button@aria-label",
+      "reviews.html:button@aria-label",
+      "contact.html:button@aria-label",
+      "columns.html:button@aria-label",
+      "columns/facial-asymmetry-photos.html:button@aria-label"
+    ]
+  },
+  "d5cdfcf7ff75": {
+    "source": "Top",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "249e500030a5": {
+    "source": "자연스럽게 가장 아름다운 균형을 찾는 안면비대칭·골격교정·라인관리 중심 한의원입니다.",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "92808772bb0b": {
+    "source": "병원 사업자 정보",
+    "contexts": [
+      "index.html:dl@aria-label",
+      "intro.html:dl@aria-label",
+      "asymmetry.html:dl@aria-label",
+      "posture.html:dl@aria-label",
+      "diet.html:dl@aria-label",
+      "bride.html:dl@aria-label",
+      "pain.html:dl@aria-label",
+      "reviews.html:dl@aria-label",
+      "contact.html:dl@aria-label",
+      "columns.html:dl@aria-label",
+      "columns/facial-asymmetry-photos.html:dl@aria-label"
+    ]
+  },
+  "565e88669f68": {
+    "source": "상호명",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "261b57a79be0": {
+    "source": "대표자명",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "404a97470410": {
+    "source": "홍은빈",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "7b3d2b3589e6": {
+    "source": "사업자번호",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "28e058c7cec8": {
+    "source": "주소",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "dae1fd185b30": {
+    "source": "서울특별시 마포구 월드컵로1길 14, 마포한강푸르지오 1차아파트 1층",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "4edc94394fee": {
+    "source": "전화번호",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "bc099b4da948": {
+    "source": "© 2026 re:medi Korean Medicine Clinic. All rights reserved.",
+    "contexts": [
+      "index.html:text",
+      "intro.html:text",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "0c2262079b67": {
+    "source": "리메디소개 | re:medi 한의원",
+    "contexts": [
+      "intro.html:text",
+      "intro.html:meta"
+    ]
+  },
+  "26686f380657": {
+    "source": "리메디 한의원 소개, 대표원장 홍은빈, 야간진료, 원장상담, 원내 직접 탕전과 오시는 길 정보를 안내합니다.",
+    "contexts": [
+      "intro.html:meta"
+    ]
+  },
+  "97520eaf883f": {
+    "source": "리메디소개, re:medi 한의원, 홍은빈 원장, 마포 한의원, 합정 한의원, 원내 직접 탕전",
+    "contexts": [
+      "intro.html:meta"
+    ]
+  },
+  "e282a8fa21a0": {
+    "source": "현재 위치",
+    "contexts": [
+      "intro.html:nav@aria-label",
+      "asymmetry.html:nav@aria-label",
+      "posture.html:nav@aria-label",
+      "diet.html:nav@aria-label",
+      "bride.html:nav@aria-label",
+      "pain.html:nav@aria-label",
+      "reviews.html:nav@aria-label",
+      "contact.html:nav@aria-label",
+      "columns.html:nav@aria-label",
+      "columns/facial-asymmetry-photos.html:nav@aria-label"
+    ]
+  },
+  "034999faab05": {
+    "source": "홈",
+    "contexts": [
+      "intro.html:text",
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text",
+      "columns.html:schema:name",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:schema:name",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e7dd59e0d7bb": {
+    "source": "리메디 한의원은 얼굴과 몸의 균형을 함께 보고, 다시 나답게 회복되는 지점을 찾는 진료를 지향합니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "ffe893bace2a": {
+    "source": "홈으로",
+    "contexts": [
+      "intro.html:text",
+      "posture.html:text",
+      "diet.html:text",
+      "bride.html:text",
+      "pain.html:text",
+      "reviews.html:text",
+      "contact.html:text"
+    ]
+  },
+  "44b63e034d84": {
+    "source": "리메디 한의원 대표원장 홍은빈 소개 이미지",
+    "contexts": [
+      "intro.html:img@alt"
+    ]
+  },
+  "441a811d869b": {
+    "source": "리메디는 상담에서 현재 고민과 진료 방향을 직접 확인합니다. 안면비대칭, 골격교정, 통증, 다이어트 진료를 개인 상태와 생활 습관에 맞춰 설명합니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "de6d94a3b972": {
+    "source": "학력·수련",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "f359f470fd7b": {
+    "source": "경희대학교 한의과대학 졸업",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "b80c2e34a634": {
+    "source": "경희대학교 한방병원 경희의료원 일반수련의 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "cafec59fc9d9": {
+    "source": "안산동산고 졸업",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "c6018b88c190": {
+    "source": "경희의료원 임상과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "94ee30fec5b6": {
+    "source": "강동경희대학교병원 임상 과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "333c57dd3e2f": {
+    "source": "주요 경력",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "0c7f21572f5f": {
+    "source": "전) 경희대학교 신내봉사팀 지도한의사",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "96758df29678": {
+    "source": "전) 이비안한의원 진료원장",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "c8ed4f805667": {
+    "source": "전) 더하다한방병원 진료원장",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "e2f0ebd3046d": {
+    "source": "전) 영동한의원 진료원장",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "d4554b263b08": {
+    "source": "전) 경희소나무한의원 진료원장",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "7395e000734d": {
+    "source": "학회·대외활동",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "ec43fa54d709": {
+    "source": "대한 한의사 협회 정회원",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "27dcff1825c6": {
+    "source": "경희대학교 침구학회 정회원",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "daeb87738cd3": {
+    "source": "서울특별시한의사회 의료기기위원회 위원",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "1374b475133c": {
+    "source": "대한침도의학회 회원",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "5e5253c5d334": {
+    "source": "교육·연수·수상",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "fb4b0dd90365": {
+    "source": "턱관절 균형의학 FCST 기초과정, 전문가과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "1c855c4a996f": {
+    "source": "임상약침학회 미주란전문가 과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "e54149e03aea": {
+    "source": "중국 상하이 중의약대학교 임상교육과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "b8fcbae0b388": {
+    "source": "중국 베이징 중의약대학교 임상교육과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "d6a337fe3776": {
+    "source": "중국 항저우 중의약대학교 임상교육과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "7f5c098b0f73": {
+    "source": "대만 중의약대학교 임상교육과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "cce7266437eb": {
+    "source": "KIOM(한국한의학 연구원) 선정 URP(학부생 연구프로그램) 우수상(우수논문)",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "c7696fd103a5": {
+    "source": "골타추나 정규과정 수료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "ff8cff6dec7d": {
+    "source": "대표원장이 상담과 진료 방향을 직접 확인합니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "c838b56f71c9": {
+    "source": "야간진료",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "a3d2d9d20527": {
+    "source": "월·화·수·목·금 야간진료와 토·대체공휴일 진료를 운영합니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "fe6f12394ee8": {
+    "source": "얼굴 균형, 체형, 통증, 다이어트 고민을 함께 정리합니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "0160b4cf7b3a": {
+    "source": "직접 탕전",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "f414132c9d19": {
+    "source": "진료 본 한의사가 원내에서 직접 탕전하여 더 믿을 수 있습니다.",
+    "contexts": [
+      "intro.html:text"
+    ]
+  },
+  "db61ff34e58b": {
+    "source": "안면비대칭 원인·증상·진단과 치료 방향 | 리메디한의원",
+    "contexts": [
+      "asymmetry.html:text",
+      "asymmetry.html:meta",
+      "asymmetry.html:schema:name"
+    ]
+  },
+  "12b81dac4f5d": {
+    "source": "안면비대칭의 의미와 원인, 동반 증상, 진단과 치료 방향을 알아보세요. 진료가 필요한 경우와 마포 리메디한의원의 상담·예약 방법을 안내합니다.",
+    "contexts": [
+      "asymmetry.html:meta",
+      "asymmetry.html:schema:description"
+    ]
+  },
+  "8bbc48d67f2c": {
+    "source": "마포 안면비대칭, 합정 안면비대칭 한의원, 리메디 안면비대칭, 턱관절, 얼굴비대칭",
+    "contexts": [
+      "asymmetry.html:meta"
+    ]
+  },
+  "b2b8e51d4871": {
+    "source": "서울대학교병원 · 안면비대칭",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "3059466024fb": {
+    "source": "서울아산병원 · 안면 비대칭 질환백과",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "1fed6da5fcd8": {
+    "source": "미국 국립치과·두개안면연구소(NIDCR) · 턱관절장애",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "1c575fc479b6": {
+    "source": "질병관리청 국가건강정보포털 · 뇌졸중",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "16b6fd4c1176": {
+    "source": "미국소아과학회(AAP) · 영아 두개골 보조기 안내",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "8a454a12564b": {
+    "source": "영국 Leeds Teaching Hospitals NHS Trust · 턱관절장애",
+    "contexts": [
+      "asymmetry.html:schema:name",
+      "asymmetry.html:text"
+    ]
+  },
+  "e8789a5a0614": {
+    "source": "리메디한의원에서 얼굴 부위를 살펴보는 진료 모습",
+    "contexts": [
+      "asymmetry.html:img@alt"
+    ]
+  },
+  "d095942d1c84": {
+    "source": "리메디 건강정보 · Facial asymmetry",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ebd7c4e917f0": {
+    "source": "원인부터 진료가 필요한 경우까지",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4c03191b81bb": {
+    "source": "좌우 얼굴의 차이가 신경 쓰인다면, 어떤 변화인지 이해하는 것부터 시작하세요. 원인과 증상, 진료 시 확인할 내용을 차례로 안내합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "da94e9f8c85d": {
+    "source": "안면비대칭 정보 목차",
+    "contexts": [
+      "asymmetry.html:nav@aria-label"
+    ]
+  },
+  "dc015df639b9": {
+    "source": "개요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b84254868f62": {
+    "source": "원인",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c6698e9793ab": {
+    "source": "유형·체크",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b07a9359f4c7": {
+    "source": "진단·치료",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "bbba9886c420": {
+    "source": "자주 묻는 질문",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d6d6ee7d83eb": {
+    "source": "리메디 진료",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "88e0825a74aa": {
+    "source": "01 · 개요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "6ad91252b77e": {
+    "source": "안면비대칭이란?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d88f5b9a7dee": {
+    "source": "안면비대칭(Facial Asymmetry)은 얼굴의 좌우에서 크기, 형태, 높이 또는 위치가 서로 다르게 나타나는 상태입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f12ec3830aa2": {
+    "source": "참고 자료 1, 서울대학교병원",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "802dda37825f": {
+    "source": "가벼운 좌우 차이는 흔하며, 비대칭이 있다는 사실만으로 치료가 필요한 것은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5ccc3ecc93b4": {
+    "source": "중심선이 일치하는 예",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "03756ceb24ea": {
+    "source": "턱이 한쪽으로 치우친 예",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "fdc23ad531da": {
+    "source": "안면비대칭 비교 그림 크게 보기 (새 창)",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "ee6470eb97be": {
+    "source": "왼쪽은 중심선이 일치하는 두개골, 오른쪽은 회색 기준선과 주황색으로 기울어진 선을 통해 턱의 위치 차이를 비교한 개념도",
+    "contexts": [
+      "asymmetry.html:img@alt"
+    ]
+  },
+  "c9907910b63c": {
+    "source": "리메디 안면비대칭 가이드",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "baceedda117b": {
+    "source": "얼굴 중심선과 턱의 위치 비교",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b1e8098c6bbb": {
+    "source": "오른쪽 그림의 회색 점선은 기준선, 주황색 점선은 턱이 기울어진 방향을 보여줍니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "64288dff2e3f": {
+    "source": "위치 차이와 기울기를 강조해 단순화한 설명용 개념도입니다. 실제 환자나 치료 전후를 나타내지 않으며, 진단 기준으로 사용할 수 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4ad24f444b8b": {
+    "source": "비교 그림 크게 보기",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "29b385ed5e6e": {
+    "source": "(새 창)",
+    "contexts": [
+      "asymmetry.html:text",
+      "contact.html:text"
+    ]
+  },
+  "d9ae666f6016": {
+    "source": "비대칭은 얼굴의 특정 부위에 국한되어 나타날 수도 있고, 여러 부위에서 동시에 관찰될 수도 있습니다. 예를 들어 눈썹 높이는 다르지만 턱끝은 중앙에 위치할 수 있으며, 턱끝이 한쪽으로 치우치면서 입술과 치아의 중심선도 함께 달라 보일 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4afc6e8f8cfb": {
+    "source": "안면비대칭을 평가할 때 살펴보는 부위",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "cf462a2ac441": {
+    "source": "① 눈과 눈썹의 높이",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "32abc3be3e1d": {
+    "source": "양쪽 눈썹의 높이, 눈꺼풀의 형태, 눈 주변 연부조직의 차이를 살펴봅니다. 눈의 크기가 달라 보인다고 해서 반드시 안와골이나 두개골의 구조적 차이가 원인인 것은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "279a0ea9955a": {
+    "source": "② 코와 중안면의 중심",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "76eee8964197": {
+    "source": "코의 방향, 코 주변의 형태, 양쪽 광대와 볼의 돌출 정도를 확인합니다. 코의 비대칭과 중안면의 골격 차이는 서로 구분해 평가할 필요가 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0ee0713469a2": {
+    "source": "③ 입꼬리와 입술의 위치",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4b41362739c9": {
+    "source": "가만히 있을 때와 웃을 때 입꼬리의 높이가 다르게 나타날 수 있습니다. 입술 주변 근육의 움직임, 치아의 맞물림, 턱의 위치 등 여러 요소가 관여할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3c9c70306c0a": {
+    "source": "④ 턱끝과 하악의 형태",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "2719f2da4af4": {
+    "source": "턱끝이 한쪽으로 치우쳐 보이거나 한쪽 하악각이 더 발달한 것처럼 보일 수 있습니다. 턱뼈 자체의 형태 차이인지, 아래턱의 위치나 움직임에 따른 차이인지 구분해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "6e1b82cecf66": {
+    "source": "⑤ 치아 중심선과 교합",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "81048615698d": {
+    "source": "위아래 앞니의 중심선이 일치하지 않거나, 씹을 때 아래턱이 한쪽으로 이동하는 양상이 나타날 수 있습니다. 치아의 배열과 교합, 턱의 움직임을 함께 확인하는 것이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3eede88d9892": {
+    "source": "안면비대칭은 한 가지 원인으로만 설명하기 어려운 경우가 많습니다. 외형에서 관찰되는 차이와 실제 기능적 문제를 구분해 살펴보는 것이 평가의 출발점입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "2f25789b5895": {
+    "source": "참고 자료 2, 서울아산병원",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "477dcc2fa3ec": {
+    "source": "외형의 차이와 기능의 불편을 함께 살펴야 합니다. 이 페이지는 일반 건강정보이며, 개인의 원인과 치료 필요성은 진찰을 통해 확인합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "473d4b6d488d": {
+    "source": "02 · 원인",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "54cced93309f": {
+    "source": "안면비대칭의 주요 원인",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1fed5211e5db": {
+    "source": "안면비대칭은 골격의 발달, 치아와 교합, 턱관절과 저작근, 연부조직 등 다양한 요인과 관련될 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b76f793344b4": {
+    "source": "1) 선천적·성장 과정의 골격 비대칭",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "98ba04463ba3": {
+    "source": "얼굴뼈는 성장 과정에서 발달하며, 좌우의 성장 정도가 완전히 같지 않을 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "6550e9c286d7": {
+    "source": "상악과 하악의 크기 또는 위치 차이, 턱끝의 편위, 좌우 하악각의 형태 차이 등은 얼굴 윤곽의 비대칭으로 이어질 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "44015b08d4b5": {
+    "source": "이러한 경우에는 얼굴의 표면만 관찰하기보다 턱뼈의 형태와 위치, 치아의 맞물림 등을 구분해 평가해야 합니다. 골격성 비대칭이 의심된다면 치과 교정과 또는 구강악안면외과의 평가가 필요할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1a7c5399dbdb": {
+    "source": "2) 치아 배열과 교합의 차이",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1535bd6d6b26": {
+    "source": "치아의 배열이나 위아래 치아가 맞물리는 방식은 아래턱의 위치와 움직임에 영향을 줄 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ea3dd0f6bbac": {
+    "source": "예를 들어 좌우 교합이 다르거나 치아가 맞물릴 때 아래턱이 한쪽으로 이동하는 경우, 입을 다물거나 씹을 때 얼굴의 중심이 달라 보일 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "092510169ff3": {
+    "source": "다만 치아 중심선이 어긋나 있다는 사실만으로 턱뼈 자체의 비대칭을 확정할 수는 없습니다. 치아 배열과 턱의 구조적 위치를 구분해 살펴봐야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c016e3b7e102": {
+    "source": "3) 턱관절과 저작근의 기능적 차이",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f6d6a023546f": {
+    "source": "턱관절은 아래턱의 움직임을 담당하며, 주변 저작근은 씹기와 입 벌리기 등의 기능에 관여합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ae502f815982": {
+    "source": "턱관절의 통증이나 움직임 제한, 입을 벌릴 때의 편위, 저작근의 긴장 차이 등이 동반된다면 얼굴의 움직임이나 턱 주변의 불편을 함께 평가할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3693a41c74d0": {
+    "source": "그러나 턱관절장애가 있다고 해서 반드시 안면비대칭이 발생하는 것은 아니며, 턱관절의 증상만으로 얼굴뼈의 구조적 변화를 판단할 수도 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "a479499c223a": {
+    "source": "참고 자료 3, NIDCR",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "8eed0b5fb513": {
+    "source": "4) 연부조직과 근육의 차이",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5215c719e9c6": {
+    "source": "얼굴의 윤곽은 뼈뿐 아니라 피부, 피하지방, 근육 등 연부조직의 영향을 받습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c75b6065e416": {
+    "source": "양쪽 볼의 볼륨 차이, 저작근의 발달 정도, 피부와 피하조직의 차이 등에 따라 얼굴의 좌우가 다르게 보일 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "db6798dea7e4": {
+    "source": "이러한 경우에는 골격 자체의 차이와 연부조직에서 비롯된 외형적 차이를 구분하는 것이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5a6fa84d5209": {
+    "source": "5) 외상과 후천적인 변화",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "79c6b40319d1": {
+    "source": "얼굴이나 턱을 다친 이력, 치과 치료 이후의 변화, 턱관절 부위의 질환 등도 평가 과정에서 확인할 수 있는 항목입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "8f4ef1199513": {
+    "source": "특히 이전에는 뚜렷하지 않았던 비대칭이 점차 심해지거나 한쪽 얼굴의 크기와 형태가 새롭게 달라졌다면, 단순한 미용상의 문제로만 생각하지 말고 원인을 확인해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "bfb78ac228dd": {
+    "source": "6) 자세와 생활습관",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "001a488e38de": {
+    "source": "한쪽으로만 씹는 습관, 이를 악무는 습관, 수면 자세, 목과 어깨의 긴장 등은 턱과 주변 근육의 부담을 평가할 때 참고할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ec45b62d87ab": {
+    "source": "다만 특정한 자세나 생활습관만으로 얼굴뼈가 틀어졌다고 단정하기는 어렵습니다. 생활습관의 관리와 실제 골격 비대칭의 원인 평가는 구분해서 접근해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0b62dfdbc010": {
+    "source": "03 · 유형과 자가 체크",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d9bcf3137475": {
+    "source": "얼굴의 차이와 함께 느끼는 불편을 살펴보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f827c918c9ba": {
+    "source": "안면비대칭이 나타나는 양상",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "07c8559d85e9": {
+    "source": "안면비대칭은 어느 부위에서 차이가 나타나는지, 얼굴의 정적인 형태와 움직임 중 어느 상황에서 두드러지는지에 따라 여러 양상으로 구분해 살펴볼 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b86adcca17c0": {
+    "source": "아래 분류는 이해를 돕기 위한 설명이며, 모든 환자를 하나의 유형에 정확히 대응시키는 표준 진단 체계는 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9d0a37322311": {
+    "source": "유형 A. 턱끝 편위형",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "700faaf53525": {
+    "source": "아래턱의 중심이나 턱끝이 얼굴의 중심선에서 한쪽으로 치우쳐 보이는 양상입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5534af2b7da3": {
+    "source": "턱끝이 좌우 한쪽으로 이동해 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ed31e831a14f": {
+    "source": "아래턱의 좌우 윤곽이 다르게 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "15a2f702ac60": {
+    "source": "위아래 치아의 중심선이 서로 어긋나 보일 수 있음",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "009997a7a179": {
+    "source": "씹거나 입을 벌릴 때 아래턱의 움직임 차이가 관찰될 수 있음",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "cadc3a70aa76": {
+    "source": "이러한 양상에서는 하악골의 형태와 위치, 치아의 교합, 턱관절의 움직임을 구분해 확인해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "edcb5791fd2f": {
+    "source": "유형 B. 입꼬리·미소 비대칭형",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ab35355937cd": {
+    "source": "가만히 있을 때는 차이가 크지 않지만 웃거나 말할 때 한쪽 입꼬리가 더 높게 올라가거나 입술의 움직임이 다르게 나타나는 양상입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "84ee21899ddf": {
+    "source": "한쪽 입꼬리가 더 올라가 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9673c4b27365": {
+    "source": "웃을 때 입술의 중심이 한쪽으로 이동함",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "8a155ff742c0": {
+    "source": "사진을 찍을 때 미소가 한쪽으로 기울어 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0abb2ff75c90": {
+    "source": "입술 주변의 움직임과 치아 노출 정도가 좌우에서 다르게 나타남",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9fa1bb39e589": {
+    "source": "이러한 차이는 안면근육의 움직임, 치아와 교합, 턱의 위치 등 여러 요인과 관련될 수 있습니다. 입꼬리의 높이만으로 원인을 판단하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "46c570aca0fa": {
+    "source": "유형 C. 광대·중안면 비대칭형",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0ed5eaf872ea": {
+    "source": "양쪽 광대의 돌출 정도나 볼의 볼륨, 코 주변의 형태가 다르게 나타나는 양상입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "10ad860b4eb2": {
+    "source": "한쪽 광대가 더 도드라져 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "61e40ccfe75a": {
+    "source": "양쪽 볼의 볼륨이나 윤곽이 다르게 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "bac6dfda5066": {
+    "source": "얼굴 중앙부의 좌우 폭이 달라 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c92ca189dd7c": {
+    "source": "정면 사진에서 얼굴의 중심이 한쪽으로 치우쳐 보임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e20094545d9c": {
+    "source": "골격의 형태 차이와 연부조직의 차이는 외관상 비슷하게 나타날 수 있으므로 구분이 필요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "81fec6a20f27": {
+    "source": "유형 D. 눈썹·눈 주변 비대칭형",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "8f1a75fdc328": {
+    "source": "눈썹의 높이나 눈꺼풀의 형태, 눈 주변의 연부조직 차이로 인해 양쪽 눈의 크기나 높이가 다르게 보이는 양상입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "8586925e0926": {
+    "source": "눈의 크기 차이가 반드시 두개골의 비대칭을 의미하는 것은 아닙니다. 눈꺼풀의 변화나 안과적 원인 등도 고려해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "92986a1381c0": {
+    "source": "유형 E. 복합형 안면비대칭",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c369de56e13e": {
+    "source": "턱끝의 편위, 입꼬리의 높이 차이, 광대의 돌출 정도 등 여러 부위에서 비대칭이 동시에 관찰되는 양상입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c421ddbca946": {
+    "source": "이때는 한 부위의 외형만으로 전체 얼굴의 원인을 설명하기 어렵습니다. 골격과 교합, 턱의 움직임, 연부조직을 각각 구분해 살펴보는 것이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b90bc9508d64": {
+    "source": "안면비대칭 자가 체크리스트",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "dbc9bd38a37c": {
+    "source": "해당하는 항목을 선택한 뒤 ‘선택 항목 안내 보기’를 누르면 선택 개수와 상담에서 확인할 내용을 정리해 드립니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "17ce64b6a6d8": {
+    "source": "본인이 느끼는 변화를 정리하는 참고용 목록입니다. 체크한 개수로 원인이나 심한 정도를 진단하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "074951f48daa": {
+    "source": "얼굴의 형태",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c6113d7ea8fe": {
+    "source": "양쪽 눈썹의 높이가 다르게 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "486af727a2c1": {
+    "source": "양쪽 눈의 크기나 눈꺼풀의 형태가 다르게 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "2156e5377b66": {
+    "source": "코가 한쪽으로 휘어 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ef20a5c40c5d": {
+    "source": "양쪽 광대의 높이 또는 돌출 정도가 다르다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0b40bbbd9b1f": {
+    "source": "양쪽 볼의 볼륨이나 얼굴 윤곽이 다르게 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4abb02f01be4": {
+    "source": "턱끝이 얼굴의 중앙에서 한쪽으로 치우쳐 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "320f59bde8d9": {
+    "source": "양쪽 턱선이나 하악각의 형태가 다르게 보인다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "610a06ef11a4": {
+    "source": "입과 턱의 움직임",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "13b565d25c2f": {
+    "source": "입꼬리의 높이가 좌우에서 다르다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0dd36e7c0361": {
+    "source": "웃을 때 한쪽 입꼬리만 더 올라가는 것 같다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b89c1d5c55e9": {
+    "source": "위아래 치아의 중심선이 서로 맞지 않는 것 같다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1d82a34e74b5": {
+    "source": "입을 벌릴 때 아래턱이 한쪽으로 이동한다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c6f3cb4e47b4": {
+    "source": "한쪽으로 씹는 것이 더 편하거나 익숙하다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5cf7493b0ca3": {
+    "source": "입을 벌릴 때 턱에서 소리가 나거나 통증이 있다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "12dfed61d356": {
+    "source": "입이 충분히 벌어지지 않거나 턱이 잠기는 느낌이 있다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "82bc21c17afa": {
+    "source": "함께 확인할 불편",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "eba1fee5c3f0": {
+    "source": "턱 주변이나 씹는 근육에 통증이 있다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1abb67fd037b": {
+    "source": "이를 악물거나 이갈이를 하는 습관이 있다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c2e8ec3d333b": {
+    "source": "목과 어깨가 자주 뻐근하다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "2a16401ce1e1": {
+    "source": "얼굴의 좌우 차이가 이전보다 커지는 것 같다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "cefcb8a32948": {
+    "source": "최근 외상이나 치과 치료 이후 변화가 생겼다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7363c83c8f77": {
+    "source": "19개 중 0개 선택",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "dc7afee41532": {
+    "source": "선택 항목 안내 보기",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "fa3ad491d42f": {
+    "source": "선택 초기화",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "a4bc80e5939e": {
+    "source": "선택 항목별 안내는 자바스크립트를 켜면 볼 수 있습니다. 지금은 해당 항목과 변화가 시작된 시점을 메모하고",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7bec21ee8ced": {
+    "source": "진료에서 확인하는 내용",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7967d49f58b2": {
+    "source": "을 참고해 주세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1cd9b6e29f60": {
+    "source": "선택한 내용과 상담 준비",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5c013297e938": {
+    "source": "선택한 항목이 없습니다. 해당하는 변화를 선택하면 상담 전에 정리할 내용을 안내합니다. 선택 여부만으로 정상이나 이상을 판정하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "a1346c9e8af9": {
+    "source": "선택 개수는 느끼는 변화의 수를 정리한 것으로, 비대칭의 정도나 치료 필요성을 뜻하지 않습니다. 항목을 바꾸면 아래 안내도 함께 바뀝니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e1a0ce7b1b70": {
+    "source": "/ 7개",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "64d915e5499e": {
+    "source": "/ 5개",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "00160901daba": {
+    "source": "변화가 생긴 시점부터 확인해 보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b51e61df06b9": {
+    "source": "변화를 처음 느낀 시점과 이후 경과, 외상·치과 치료 시기를 정리해 의료진에게 알려주세요. 차이가 점차 커진다면 체크 개수와 관계없이 진료에서 원인을 확인하는 것이 좋습니다. 시기가 겹친다는 사실만으로 원인을 단정하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "16f9bf145e35": {
+    "source": "진료에서 확인하는 내용 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b62ad0f5ae89": {
+    "source": "턱의 움직임과 불편을 함께 정리해 보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9a80c5dea97d": {
+    "source": "불편이 생기는 위치와 시점, 씹기·입 벌리기에 미치는 영향을 정리해 진료에서 확인하세요. 통증·입 벌리기 제한·잠김이 있는지도 구분해 주세요. 이 선택만으로 턱관절장애나 골격의 비대칭을 진단할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7e9f2b038a13": {
+    "source": "턱관절장애와 안면비대칭의 차이 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "288aa0a9e17d": {
+    "source": "턱 소리와 통증을 구분해 주세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "66c556ae9ff5": {
+    "source": "통증 없는 턱 소리는 흔하며 그 자체로 치료가 필요한 것은 아닙니다. 소리만 나는지, 통증이나 입 벌리기 제한·잠김이 함께 있는지 구분해 주세요. 불편이 동반된다면 발생 시점과 상황을 정리해 진료에서 확인하세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "16eda9e3c42d": {
+    "source": "턱 소리 관련 설명 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "76b62dba42c7": {
+    "source": "습관이 나타나는 상황을 기록해 보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3c33d54f8e03": {
+    "source": "어느 쪽으로 씹는지, 언제 이를 악물거나 이갈이를 하는지, 그때 불편도 있는지 정리해 보세요. 습관만으로 얼굴뼈의 비대칭 원인을 판단하거나 습관을 바꾸면 골격이 교정된다고 단정할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f871543810ce": {
+    "source": "생활습관과 비대칭 관련 설명 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "06aebdcdf925": {
+    "source": "목·어깨 불편은 별도로 살펴보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d5cbae11df56": {
+    "source": "불편한 부위와 시작된 시점, 심해지거나 나아지는 상황을 기록해 보세요. 목·어깨 통증에는 여러 원인이 있으므로 이 항목을 선택했다고 안면비대칭이 원인이라는 뜻은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c016cc7c073f": {
+    "source": "동반 통증 관련 설명 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "61154b9bb205": {
+    "source": "신경 쓰이는 부위와 변화 시점을 정리해 보세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5c9f84d0db91": {
+    "source": "특히 신경 쓰이는 부위와 변화를 느낀 시점을 정리해 보세요. 사진은 각도와 표정에 따라 다르게 보일 수 있습니다. 외형의 차이나 선택 개수만으로 원인·치료 필요성을 판단할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "da1caa15462f": {
+    "source": "사진·자가 체크로 알 수 있는 범위 보기 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "df531ca64e9e": {
+    "source": "선택한 항목 자세히 보기",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "cf7d40a3c2b0": {
+    "source": "이 안내는 진단 결과가 아닌 상담 준비용 요약입니다. 선택 내용은 서버로 전송하거나 별도로 저장하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "dce898bebc9f": {
+    "source": "체크 결과와 관계없이 갑자기 한쪽 얼굴이나 팔다리에 힘이 빠지거나 말이 어눌해지면, 증상이 사라져도 즉시 119에 연락하세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b158d0111658": {
+    "source": "응급 증상 안내",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "eb472a6e5a9f": {
+    "source": "여러 항목에 해당하더라도 안면비대칭의 원인이나 심한 정도를 자가 체크만으로 확정할 수는 없습니다. 체크리스트는 본인이 느끼는 변화를 정리하기 위한 참고 자료입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4d9027c5cfd4": {
+    "source": "특히 목·어깨 통증이나 두통은 다양한 원인으로 발생하므로, 이러한 증상이 있다는 이유만으로 안면비대칭과 직접적인 인과관계가 있다고 판단해서는 안 됩니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "813c06054ad1": {
+    "source": "얼굴의 변화가 갑자기 발생했거나 점차 진행된다면 진료를 통해 원인을 확인하는 것이 좋습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "71ad6b6cc1d6": {
+    "source": "04 · 진단과 치료 방향",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "286d9469afb2": {
+    "source": "안면비대칭 진료에서는 무엇을 확인할까요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "16faed21291f": {
+    "source": "안면비대칭을 평가할 때는 외형의 좌우 차이만 확인하는 것이 아니라 변화가 나타난 시점, 턱의 기능, 치아의 맞물림, 동반 증상 등을 함께 고려합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c0fae9cbf812": {
+    "source": "아래는 일반적인 평가 항목입니다. 리메디에서 상담하는 범위는",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ae6062edaf3c": {
+    "source": "진료 안내",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "142c81519d23": {
+    "source": "에서 확인하세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5be46e2f01c9": {
+    "source": "1단계. 발생 시점과 변화 양상 확인",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0fe22130a5b9": {
+    "source": "언제부터 얼굴의 좌우 차이가 신경 쓰였는지, 어릴 때부터 있었는지 또는 최근에 새롭게 나타났는지 확인합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "762c8cdea2ab": {
+    "source": "외상, 치과 치료, 턱관절 증상 등의 이력이 있는지도 살펴봅니다. 이전 사진이 있다면 얼굴의 변화 양상을 이해하는 데 참고할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0168d6d3eaf9": {
+    "source": "2단계. 얼굴의 좌우 형태 관찰",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "fdcccde6060d": {
+    "source": "눈썹과 눈 주변, 코, 광대, 입꼬리, 턱끝과 턱선 등 주요 부위의 좌우 차이를 관찰합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c1ec66df4591": {
+    "source": "필요한 경우 얼굴의 정적인 형태뿐 아니라 웃거나 입을 벌릴 때 나타나는 움직임의 차이도 확인할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c5972beeca62": {
+    "source": "사진은 관찰 자료로 활용할 수 있지만, 촬영 각도와 표정, 렌즈 왜곡 등에 따라 차이가 달라 보일 수 있으므로 사진만으로 원인을 확정하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1c4385d0e723": {
+    "source": "3단계. 턱의 움직임과 저작 기능 확인",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "aed707f3df38": {
+    "source": "입을 벌리고 다무는 움직임, 턱의 편위, 씹을 때의 불편, 턱관절 주변의 통증 등을 확인합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1df104affc18": {
+    "source": "필요한 경우 저작근의 긴장과 압통, 목과 어깨의 불편도 함께 살펴볼 수 있습니다. 다만 이러한 소견만으로 골격의 구조적 비대칭을 진단할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ce59008db520": {
+    "source": "4단계. 교합과 구조적 문제의 감별",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9fc7d7e1f0fe": {
+    "source": "치아 중심선과 교합의 차이, 턱뼈의 형태 및 위치에 대한 추가 평가가 필요한지 판단합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "653ccf4ff5b9": {
+    "source": "골격성 비대칭이나 치열·교합의 문제가 의심되면 치과 교정과 또는 구강악안면외과의 평가가 필요할 수 있습니다. 영상검사는 모든 환자에게 일률적으로 시행하는 것이 아니라 임상적 필요성에 따라 결정합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3efa6ac04148": {
+    "source": "5단계. 개인별 진료 목표 설정",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e3906679281d": {
+    "source": "얼굴의 형태에 대한 고민인지, 턱의 움직임이나 통증과 같은 기능적 불편인지 구분하고 현재 상태에서 평가할 수 있는 범위를 설명합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c333de4a737d": {
+    "source": "외형적인 개선을 기대하는 경우에도 어떤 부분을 목표로 삼을 수 있는지, 기대하기 어려운 변화는 무엇인지, 추가적인 평가가 필요한지 충분히 확인하는 과정이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "bb292115a00a": {
+    "source": "안면비대칭 치료, 무엇이 다를까요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b6c8e4bd1564": {
+    "source": "안면비대칭 치료는 원인과 목표에 따라 달라집니다. 얼굴의 형태를 개선하는 것과 턱관절의 통증 및 기능을 관리하는 것은 서로 다른 치료 목표입니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d1afd858f8ba": {
+    "source": "차이가 가볍고 불편이 없다면",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3a2faef223ed": {
+    "source": "모양이나 기능에 큰 불편이 없다면 특별한 치료가 필요하지 않을 수 있습니다. 치료 여부는 원인과 본인이 느끼는 불편을 고려해 결정합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "616e6c535f4d": {
+    "source": "턱관절과 저작근의 기능적 불편이 있는 경우",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4e32402615da": {
+    "source": "턱관절 주변의 통증이나 입 벌리기 불편, 저작근의 긴장 등이 있다면 해당 증상의 원인을 평가하고 보존적인 관리 방법을 검토할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "53998ef63158": {
+    "source": "생활습관 조절이나 적절한 운동·물리적 관리 등은 증상에 따라 고려할 수 있지만, 이러한 관리가 골격성 안면비대칭을 교정한다는 의미는 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "69ecd902383b": {
+    "source": "골격과 교합의 차이가 의심되는 경우",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "52e260fc5cfb": {
+    "source": "턱뼈의 크기와 위치 차이, 치아의 맞물림 문제 등이 의심된다면 치과 교정과 또는 구강악안면외과에서 구조적 평가를 받아야 할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c8d3a08f0df8": {
+    "source": "치료 방향은 비대칭의 원인과 정도, 성장 상태, 기능적 문제 등을 고려해 결정합니다. 모든 비대칭에 교정치료나 수술이 필요한 것은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5c65c8ab5cfa": {
+    "source": "연부조직과 외형적 차이가 고민되는 경우",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "60b0b109cc67": {
+    "source": "얼굴의 볼륨이나 근육의 형태, 연부조직의 좌우 차이가 주된 고민이라면 해당 부위의 특성과 원인을 먼저 살펴봐야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "648650658f51": {
+    "source": "치료 방법에 따라 기대할 수 있는 변화의 범위가 다르며, 연부조직의 차이를 관리하는 방법이 골격의 형태를 바꾸는 치료와 동일한 것은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b8bff3b4e90d": {
+    "source": "두개골 교정과 구강 내 장치에 관하여",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "de339655f6f6": {
+    "source": "두개골 보조기나 교정 장치는 적용 대상과 목적에 따라 구분해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "400f58c5323b": {
+    "source": "영유아의 자세성 사두증·단두증 등에 사용하는 두개골 보조기는 특정한 두개골 변형을 관리하기 위한 장치입니다. 이를 성인의 얼굴 축소, 중안부 축소 또는 안면비대칭 교정 효과가 입증된 방법으로 일반화할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e1f09ac0cbf0": {
+    "source": "참고 자료 5, 미국소아과학회",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "750156e20752": {
+    "source": "구강 내 장치 역시 장치의 종류와 적응증에 따라 목적이 다릅니다. 치열과 교합, 턱관절 증상 또는 구강 구조의 문제를 평가한 뒤 적절한 의료진이 적용 여부를 판단해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b8a0c09267e8": {
+    "source": "따라서 특정 장치가 얼굴의 좌우 차이를 모두 교정하거나 얼굴뼈의 위치를 확실하게 바꾼다고 단정하기보다, 어떤 구조에 어떤 목적으로 사용하는지 확인하는 것이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "dbf910249b81": {
+    "source": "05 · 자주 묻는 질문",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7e05a679d298": {
+    "source": "안면비대칭에 관한 자주 묻는 질문",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "507396b7492e": {
+    "source": "안면비대칭은 왜 생기나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b421c3e89712": {
+    "source": "안면비대칭은 얼굴뼈의 성장과 형태, 치아 배열과 교합, 턱관절과 저작근, 연부조직 등 다양한 요인과 관련될 수 있습니다. 외형만으로 원인을 단정하기는 어렵기 때문에 발생 시점과 동반 증상 등을 함께 확인해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3a997408156f": {
+    "source": "안면비대칭 자가진단은 어떻게 하나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "66a93650c91b": {
+    "source": "눈썹과 눈의 높이, 코의 방향, 광대와 턱선의 형태, 입꼬리의 높이, 턱의 움직임 등을 관찰할 수 있습니다. 다만 거울이나 사진은 촬영 조건에 따라 차이가 달라 보일 수 있으며, 자가 체크만으로 원인이나 치료 필요성을 확정할 수는 없습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0345a8304b44": {
+    "source": "턱관절장애와 안면비대칭은 같은 것인가요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3717aab6a1e2": {
+    "source": "서로 다른 개념입니다. 안면비대칭은 얼굴 좌우의 형태나 위치가 다른 상태를 의미하고, 턱관절장애는 턱관절과 씹는 근육 등에 통증이나 기능장애가 나타나는 여러 상태를 의미합니다. 두 문제가 함께 나타날 수는 있지만 반드시 동반되는 것은 아닙니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1078060aaad5": {
+    "source": "한쪽으로만 씹으면 안면비대칭이 생기나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "1fdbd649b087": {
+    "source": "한쪽으로 씹는 습관은 턱과 저작근의 부담을 평가할 때 참고할 수 있는 요소입니다. 그러나 한쪽으로 씹는 습관만으로 얼굴뼈가 비대칭적으로 발달했다고 단정할 수는 없습니다. 기존의 교합 차이, 통증, 치아 문제 등 다른 원인도 확인해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "61020df35fcd": {
+    "source": "습관을 바꾸는 것만으로 골격의 비대칭이 교정된다고 단정할 수도 없습니다. 턱에 부담을 주는 습관의 관리와 구조적 원인의 평가는 구분해서 생각해야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "4832d21878c0": {
+    "source": "두통이나 어깨 통증도 안면비대칭 때문인가요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "85a590b603d0": {
+    "source": "두통과 목·어깨 통증은 근골격계 문제, 신경학적 문제 등 여러 원인으로 나타날 수 있습니다. 턱관절과 저작근의 불편이 함께 있는 경우 관련 증상을 평가할 수 있지만, 두통이나 어깨 통증이 있다는 사실만으로 안면비대칭이 원인이라고 판단해서는 안 됩니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "ba50e2e77928": {
+    "source": "참고 자료 6, Leeds Teaching Hospitals NHS Trust",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "3182a43f2253": {
+    "source": "얼굴이 비대칭이면 꼭 치료해야 하나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e3535ece0ad9": {
+    "source": "가벼운 비대칭은 흔합니다. 모양이나 기능에 큰 불편이 없다면 치료가 필요하지 않을 수 있습니다. 변화가 신경 쓰이거나 기능상 불편이 있다면 원인을 상담하세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "53170fe03598": {
+    "source": "턱에서 소리가 나면 비대칭 치료가 필요한가요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d68b52196ad3": {
+    "source": "통증 없는 턱관절 소리는 흔하며 그 자체로 치료가 필요한 것은 아닙니다. 통증, 움직임 제한, 잠김이 동반되는지 확인하는 것이 좋습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "402bee754fc5": {
+    "source": "안면비대칭은 완전히 대칭으로 만들 수 있나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "02a68722300b": {
+    "source": "치료 결과는 비대칭의 원인과 정도, 치료 방법에 따라 달라집니다. 치료 후에도 일부 좌우 차이가 남을 수 있으며, 기능적 불편을 관리하는 것과 골격의 형태를 변화시키는 것은 서로 다른 목표입니다. 치료 전 기대할 수 있는 변화와 한계를 확인하는 것이 중요합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "bf7fc7d9cead": {
+    "source": "얼굴이 갑자기 한쪽으로 처지면 어떻게 해야 하나요?",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "437b91366c9f": {
+    "source": "갑자기 한쪽 얼굴이 처지거나 웃기 어렵거나, 말이 어눌해지거나 한쪽 팔·다리에 힘이 빠지는 증상이 나타나면 뇌졸중 등 응급질환의 가능성이 있습니다. 증상이 잠시 후 사라지더라도 즉시 119에 연락해 응급 평가를 받아야 합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f81c30e759a2": {
+    "source": "참고 자료 4, 질병관리청",
+    "contexts": [
+      "asymmetry.html:a@aria-label"
+    ]
+  },
+  "43bd927d25ca": {
+    "source": "06 · 리메디 진료 안내",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "aff626279386": {
+    "source": "마포 경희 리메디한의원 안면비대칭 상담 안내",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "6cff4ff95104": {
+    "source": "얼굴의 좌우 차이가 고민될 때는 단순히 어느 쪽이 더 크거나 높은지를 확인하는 것만으로 충분하지 않을 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f5a3ef282c48": {
+    "source": "경희리메디한의원에서는 안면비대칭에 대한 상담 시 환자가 가장 신경 쓰는 부위와 불편을 먼저 확인하고, 얼굴의 좌우 형태와 턱의 움직임, 저작근의 긴장, 목과 어깨의 불편 및 생활습관 등을 함께 살펴봅니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "3681321e2e47": {
+    "source": "다만 관찰되는 모든 차이가 근육이나 자세에서 비롯되는 것은 아닙니다. 골격과 교합의 문제, 턱관절 질환 또는 다른 의학적 원인이 의심되는 경우에는 해당 분야의 평가가 필요할 수 있습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9e0fa0cb9906": {
+    "source": "상담 전 준비하면 좋은 내용",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "84ca98f89a50": {
+    "source": "얼굴의 좌우 차이를 처음 인지한 시점",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "07a82f07af3f": {
+    "source": "특히 신경 쓰이는 부위: 눈, 광대, 입꼬리, 턱끝, 턱선 등",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "e08763e447d7": {
+    "source": "입을 벌리거나 씹을 때 느끼는 불편",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "33aed5dd74a5": {
+    "source": "턱관절 통증이나 소리, 입 벌리기 제한 여부",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d57687543230": {
+    "source": "얼굴이나 턱의 외상 및 치과 치료 이력",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "7880daf35867": {
+    "source": "기존에 촬영한 검사 영상이나 관련 진료 자료",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "f4e21555456d": {
+    "source": "상담에서 확인해 주세요",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9210288f21ec": {
+    "source": "현재 상태에 대한 평가와 고려할 수 있는 진료 방향",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "d0302099e23b": {
+    "source": "치료의 목적과 기대할 수 있는 변화 및 한계",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "58c03ac0c953": {
+    "source": "추가 검사나 다른 진료과 평가의 필요성",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c2c02c4f5ed5": {
+    "source": "상담에서는 현재 상태에 대한 평가, 고려할 수 있는 진료 방향, 치료의 목적과 한계, 추가적인 검사가 필요한지 등을 확인하는 것이 좋습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "b126665e1be7": {
+    "source": "경희리메디한의원은 환자 개개인의 고민과 상태를 바탕으로 필요한 평가와 진료 방향을 안내합니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c500988ff8c7": {
+    "source": "골격·교합 문제나 갑작스러운 신경 증상은 해당 분야의 평가가 필요할 수 있습니다. 구체적인 치료 방법과 기간·비용은 진찰 후 안내받으세요.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "fd3ef62c9ff1": {
+    "source": "네이버로 상담 예약",
+    "contexts": [
+      "asymmetry.html:text",
+      "contact.html:text"
+    ]
+  },
+  "75e85e2e10a6": {
+    "source": "전화 문의 02-6951-1075",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "91921da7c67d": {
+    "source": "의료진·한의원 소개 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "0e16347ead69": {
+    "source": "오시는 길·진료 안내 →",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9a544ee468b2": {
+    "source": "리메디 네이버 블로그",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c11db7ef3bb6": {
+    "source": "리메디 네이버 플레이스",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "c3a2f370fdde": {
+    "source": "참고 자료",
+    "contexts": [
+      "asymmetry.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "36d005544a58": {
+    "source": "일반 건강정보 작성에 참고한 자료입니다. 개인의 진단이나 치료 결과를 의미하지 않습니다.",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "5dc0db42fcca": {
+    "source": "진료·예약 안내",
+    "contexts": [
+      "asymmetry.html:text"
+    ]
+  },
+  "9b8b5db98b34": {
+    "source": "바른자세 클리닉 | re:medi 한의원",
+    "contexts": [
+      "posture.html:text",
+      "posture.html:meta"
+    ]
+  },
+  "e9bdf5bd4461": {
+    "source": "거북목, 편평등, 고관절 틀어짐 등 바른자세와 골격교정 상담을 리메디 한의원에서 안내합니다.",
+    "contexts": [
+      "posture.html:meta"
+    ]
+  },
+  "a0df53810132": {
+    "source": "거북목 한의원, 편평등, 고관절 틀어짐, 골격교정, 바른자세 클리닉, 마포 골격교정",
+    "contexts": [
+      "posture.html:meta"
+    ]
+  },
+  "c3d644e8c63c": {
+    "source": "바른자세 클리닉",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "ddaf1f7997c2": {
+    "source": "골격교정 집중치료를 바탕으로 거북목, 편평등, 고관절 틀어짐처럼 반복되는 자세 문제를 함께 확인합니다.",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "75728a7a7d98": {
+    "source": "리메디 한의원 바른자세 클리닉 이미지",
+    "contexts": [
+      "posture.html:img@alt"
+    ]
+  },
+  "f59b98599037": {
+    "source": "Posture Program",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "3001819f99e1": {
+    "source": "반복되는 자세 문제를 체형과 통증 흐름으로 봅니다",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "881321e326b7": {
+    "source": "거북목, 편평등, 고관절 틀어짐은 얼굴선과 어깨·허리 통증, 보행 습관까지 함께 영향을 줄 수 있습니다.",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "a883c8a1bf12": {
+    "source": "목과 턱 주변 긴장이 얼굴선과 어깨 불편감에 미치는 영향을 확인합니다.",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "0815abeb7b93": {
+    "source": "골반과 고관절의 좌우 차이를 허리 긴장, 보행, 체형 변화와 연결합니다.",
+    "contexts": [
+      "posture.html:text"
+    ]
+  },
+  "e7a77cfab695": {
+    "source": "심플 다이어트 | re:medi 한의원",
+    "contexts": [
+      "diet.html:text",
+      "diet.html:meta"
+    ]
+  },
+  "c884c8d6645b": {
+    "source": "리메디 한의원 심플 다이어트는 부분비만시술, 바디리프팅, 비대면진료, 팔뚝·허벅지·뱃살 라인관리를 상담합니다.",
+    "contexts": [
+      "diet.html:meta"
+    ]
+  },
+  "333b9a2ff134": {
+    "source": "심플 다이어트, 부분비만시술, 바디리프팅, 비대면진료, 팔뚝 라인관리, 허벅지 라인관리, 뱃살 관리",
+    "contexts": [
+      "diet.html:meta"
+    ]
+  },
+  "7dde8d9e5013": {
+    "source": "리메디 한의원 심플 다이어트 대표 이미지",
+    "contexts": [
+      "diet.html:img@alt"
+    ]
+  },
+  "b1bb3e925310": {
+    "source": "Simple Diet Program",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "53fd2bf5560f": {
+    "source": "목표 부위와 생활 패턴에 맞춘 단순한 다이어트",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "175468ae1c0c": {
+    "source": "체중만 보지 않고 팔뚝, 허벅지, 뱃살, 탄력, 붓기처럼 실제로 신경 쓰이는 변화를 중심으로 상담합니다.",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "786819e18227": {
+    "source": "부위별 고민과 체형 흐름을 함께 확인합니다.",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "18ee207d99f2": {
+    "source": "라인과 탄력 변화를 목표로 상담합니다.",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "a9bd74881cca": {
+    "source": "가능 범위와 기준을 확인한 뒤 안내합니다.",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "58249454a8e5": {
+    "source": "라인관리",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "413c2713714d": {
+    "source": "얼굴과 바디 라인을 자연스럽게 정리하는 방향을 봅니다.",
+    "contexts": [
+      "diet.html:text"
+    ]
+  },
+  "5a709fb097ab": {
+    "source": "예비신부클리닉 | re:medi 한의원",
+    "contexts": [
+      "bride.html:text",
+      "bride.html:meta"
+    ]
+  },
+  "f6f4c9cfc87e": {
+    "source": "리메디 한의원 예비신부클리닉은 촬영과 본식 일정에 맞춰 안면비대칭, 붓기, 팔뚝·허벅지·뱃살 라인관리를 상담합니다.",
+    "contexts": [
+      "bride.html:meta"
+    ]
+  },
+  "32c7da849445": {
+    "source": "예비신부클리닉, 웨딩관리, 안면비대칭, 붓기관리, 팔뚝관리, 허벅지관리, 뱃살관리",
+    "contexts": [
+      "bride.html:meta"
+    ]
+  },
+  "086eed8b8415": {
+    "source": "촬영, 본식, 드레스 피팅처럼 일정이 정해진 순간을 앞두고 얼굴선과 바디라인, 컨디션을 함께 관리합니다.",
+    "contexts": [
+      "bride.html:text"
+    ]
+  },
+  "c179fa61e6f6": {
+    "source": "리메디 한의원 예비신부클리닉 대표 이미지",
+    "contexts": [
+      "bride.html:img@alt"
+    ]
+  },
+  "f236f01d728e": {
+    "source": "Wedding Timeline",
+    "contexts": [
+      "bride.html:text"
+    ]
+  },
+  "781088785e1b": {
+    "source": "촬영과 본식 일정에 맞춰 얼굴선과 바디라인을 정리합니다",
+    "contexts": [
+      "bride.html:text"
+    ]
+  },
+  "6f16e95a5796": {
+    "source": "일정이 정해진 예비신부에게 필요한 것은 무리한 변화보다 컨디션, 붓기, 얼굴 균형, 드레스 라인을 함께 관리하는 계획입니다.",
+    "contexts": [
+      "bride.html:text"
+    ]
+  },
+  "5d158bdb4947": {
+    "source": "촬영일과 본식일을 기준으로 우선순위를 정합니다.",
+    "contexts": [
+      "bride.html:text"
+    ]
+  },
+  "2f75baf69c24": {
+    "source": "교통사고후유증·통증 클리닉 | re:medi 한의원",
+    "contexts": [
+      "pain.html:text",
+      "pain.html:meta"
+    ]
+  },
+  "9da2d790079e": {
+    "source": "리메디 한의원은 교통사고후유증, 자동차사고 이후 목·허리·어깨 불편감, 급만성통증 상담을 안내합니다.",
+    "contexts": [
+      "pain.html:meta"
+    ]
+  },
+  "2123b6a4f280": {
+    "source": "교통사고후유증 한의원, 자동차사고 후유증, 급만성통증, 마포 통증 한의원, 합정 통증 한의원",
+    "contexts": [
+      "pain.html:meta"
+    ]
+  },
+  "d73e3568ece5": {
+    "source": "리메디 한의원 교통사고후유증 클리닉 이미지",
+    "contexts": [
+      "pain.html:img@alt"
+    ]
+  },
+  "b420f8f1c5c2": {
+    "source": "Pain Care",
+    "contexts": [
+      "pain.html:text"
+    ]
+  },
+  "a4e9aacc5100": {
+    "source": "사고 이후 남는 불편감과 반복되는 통증을 구분해 봅니다",
+    "contexts": [
+      "pain.html:text"
+    ]
+  },
+  "f7716f6c010e": {
+    "source": "자동차사고 이후 목, 허리, 어깨에 남는 불편감과 오래 반복된 급만성통증은 경과와 악화 요인을 함께 정리해야 합니다.",
+    "contexts": [
+      "pain.html:text"
+    ]
+  },
+  "cd3d1511e697": {
+    "source": "교통사고후유증",
+    "contexts": [
+      "pain.html:text"
+    ]
+  },
+  "2801848f4bf7": {
+    "source": "통증 위치, 기간, 반복 패턴과 악화 요인을 정리합니다.",
+    "contexts": [
+      "pain.html:text"
+    ]
+  },
+  "24effd0d59f3": {
+    "source": "치료후기 | re:medi 한의원",
+    "contexts": [
+      "reviews.html:text",
+      "reviews.html:meta"
+    ]
+  },
+  "7431b830a104": {
+    "source": "리메디 한의원 치료후기 페이지입니다. 안면비대칭, 라인관리, 교통사고후유증과 통증 후기를 진료 과목별로 정리합니다.",
+    "contexts": [
+      "reviews.html:meta"
+    ]
+  },
+  "e0908da788b3": {
+    "source": "리메디 치료후기, 안면비대칭 후기, 라인관리 후기, 교통사고후유증 후기, 한의원 후기",
+    "contexts": [
+      "reviews.html:meta"
+    ]
+  },
+  "801eee229f76": {
+    "source": "실제 환자 동의가 확인된 후기만 게시하고, 진료 과목별로 확인하기 쉽게 정리합니다.",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "70c36b697391": {
+    "source": "리메디 한의원 치료후기 페이지 이미지",
+    "contexts": [
+      "reviews.html:img@alt"
+    ]
+  },
+  "5b034e108fb0": {
+    "source": "Review Archive",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "d6e9a70dd4df": {
+    "source": "진료 과목별 후기를 준비하고 있습니다",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "57b95ba30207": {
+    "source": "환자 동의가 확인된 후기만 게시하며, 과장된 표현보다 실제 고민과 변화의 맥락을 중심으로 정리합니다.",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "1008f7bb6708": {
+    "source": "좌우 얼굴선, 턱관절, 자세 변화 중심으로 정리 예정입니다.",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "b0c3a6680f94": {
+    "source": "팔뚝, 허벅지, 뱃살, 바디리프팅 중심으로 정리 예정입니다.",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "dcffd15bb276": {
+    "source": "통증 후기",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "1b48501b3801": {
+    "source": "사고 후 불편감과 급만성통증 중심으로 정리 예정입니다.",
+    "contexts": [
+      "reviews.html:text"
+    ]
+  },
+  "83e174d62bb3": {
+    "source": "오시는길 및 예약 | re:medi 한의원",
+    "contexts": [
+      "contact.html:text",
+      "contact.html:meta"
+    ]
+  },
+  "e2cd7efdb5c8": {
+    "source": "리메디 한의원 오시는길과 예약 안내입니다. 서울 마포구 월드컵로1길 14 마포한강푸르지오 1차아파트 1층입니다.",
+    "contexts": [
+      "contact.html:meta"
+    ]
+  },
+  "3a9c787fa357": {
+    "source": "리메디 한의원 오시는길, 리메디 예약, 마포구 월드컵로1길 14, 합정 한의원, 마포 한의원",
+    "contexts": [
+      "contact.html:meta"
+    ]
+  },
+  "512242bd8dc0": {
+    "source": "리메디 한의원 오시는길 대표 이미지",
+    "contexts": [
+      "contact.html:img@alt"
+    ]
+  },
+  "0596b746ae36": {
+    "source": "마포구 월드컵로1길 14, 1층",
+    "contexts": [
+      "contact.html:text"
+    ]
+  },
+  "2a033ff70c5c": {
+    "source": "마포한강푸르지오 1차아파트 1층에서 예약 중심으로 상담합니다.",
+    "contexts": [
+      "contact.html:text"
+    ]
+  },
+  "e7efb3ff369f": {
+    "source": "카카오톡 경희 리메디한의원 친구추가 / 네이버 예약",
+    "contexts": [
+      "contact.html:text"
+    ]
+  },
+  "f9009c892dbd": {
+    "source": "월·화·수·목·금 야간진료 / 토·대체공휴일 진료",
+    "contexts": [
+      "contact.html:text"
+    ]
+  },
+  "78ae60419ca8": {
+    "source": "안면비대칭 칼럼 | 경희 리메디한의원",
+    "contexts": [
+      "columns.html:text",
+      "columns.html:meta"
+    ]
+  },
+  "887d225eb15c": {
+    "source": "안면비대칭과 사진·거울 속 얼굴 차이에 관한 질문을 살펴보고, 원인·증상·진료 안내로 이어집니다.",
+    "contexts": [
+      "columns.html:meta"
+    ]
+  },
+  "f355701f15c6": {
+    "source": "안면비대칭 칼럼",
+    "contexts": [
+      "columns.html:schema:name",
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:schema:name",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "32e2b5c01be2": {
+    "source": "re:medi columns",
+    "contexts": [
+      "columns.html:text"
+    ]
+  },
+  "c7afc391bcda": {
+    "source": "사진과 거울에서 느끼는 얼굴의 좌우 차이부터 상담 전 확인할 점까지, 안면비대칭에 관한 질문을 살펴봅니다.",
+    "contexts": [
+      "columns.html:text"
+    ]
+  },
+  "8a0a7e7573df": {
+    "source": "안면비대칭 원인·증상·진료 안내 보기",
+    "contexts": [
+      "columns.html:text"
+    ]
+  },
+  "fd2d2f7e63e7": {
+    "source": "셀카와 거울에서 얼굴이 다르게 보일 때는 촬영 거리, 고개와 목의 자세, 조명, 사진의 좌우 방향을 함께 살펴보세요. 사진 한 장만으로 안면비대칭의 원인이나 치료 필요성을 판단하기는 어렵습니다.",
+    "contexts": [
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "3537f0cc3ec9": {
+    "source": "수정",
+    "contexts": [
+      "columns.html:text",
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "00ff4134cc70": {
+    "source": "사진 속 안면비대칭, 거울과 다르게 보이는 이유 읽기",
+    "contexts": [
+      "columns.html:a@aria-label"
+    ]
+  },
+  "4ec338ba0f9e": {
+    "source": "칼럼 읽기",
+    "contexts": [
+      "columns.html:text"
+    ]
+  },
+  "211d2df4c6de": {
+    "source": "리메디 홈으로",
+    "contexts": [
+      "columns.html:text"
+    ]
+  },
+  "020d41892321": {
+    "source": "사진 속 안면비대칭, 거울과 다르게 보이는 이유 | 리메디 안면비대칭 칼럼",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text",
+      "columns/facial-asymmetry-photos.html:meta"
+    ]
+  },
+  "08bef50e0d61": {
+    "source": "사진과 거울에서 안면비대칭이 다르게 보이는 이유를 거리·자세·조명·좌우 반전으로 나누어 설명하고, 사진 비교의 조건과 한계를 안내합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:meta",
+      "columns/facial-asymmetry-photos.html:schema:description"
+    ]
+  },
+  "fc7cea28ade6": {
+    "source": "같은 얼굴 그림을 좌우로 반전하면 볼의 표시와 턱끝의 방향도 반대편에 보이는 설명 그림",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:schema:description",
+      "columns/facial-asymmetry-photos.html:img@alt"
+    ]
+  },
+  "4f961469c457": {
+    "source": "작성",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "91b43cb5c3e2": {
+    "source": "게시",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "560a041b778f": {
+    "source": "이 글의 순서",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:nav@aria-label"
+    ]
+  },
+  "25ddd0d412ba": {
+    "source": "이 글에서 살펴볼 내용",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "8a3e994a5a55": {
+    "source": "사진과 거울의 차이",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e25a8e7b7a67": {
+    "source": "달라 보이는 네 가지 조건",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "7fc670e3e012": {
+    "source": "사진을 비교할 때",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "8968ea168c23": {
+    "source": "사진으로 알 수 없는 것",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "9d025e043626": {
+    "source": "01 · 사진과 거울",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "7edac3e0b31f": {
+    "source": "거울에서는 괜찮은데, 사진에서는 왜 낯설까요?",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "84b31abf8120": {
+    "source": "거울로 볼 때와 사진을 찍을 때는 얼굴을 보는 거리와 방향, 조명이 같지 않을 수 있습니다. 셀카 미리보기와 저장된 사진의 좌우 방향이 다른 경우도 있습니다. 따라서 두 모습을 비교하기 전에 어떤 조건이 달랐는지 살펴볼 필요가 있습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "28f64b7e29bd": {
+    "source": "참고 자료 1",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "4756c597ae6d": {
+    "source": "참고 자료 2",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "6f43abfd7937": {
+    "source": "참고 자료 3",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "5182e2bfccca": {
+    "source": "참고 자료 4",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "dd7918c4d38d": {
+    "source": "예를 들어 iPhone의 ‘전면 카메라 좌우 방향 유지’ 설정은 전면 카메라 화면에서 보이는 방향으로 셀카를 저장하는 기능입니다. 다른 기기나 앱에서는 설정 이름과 동작이 다를 수 있으므로, 촬영 화면과 저장 사진의 방향을 직접 확인해 보세요.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "ca506fe4945e": {
+    "source": "같은 그림의 좌우 방향만 바꾼 예시입니다. 색 점과 턱끝의 위치가 반대로 보이지만, 얼굴의 형태 자체를 바꾼 것은 아닙니다. 리메디 제작 설명 그림이며 실제 환자나 치료 전후 사진이 아닙니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "205904f0150e": {
+    "source": "좌우 반전만으로 얼굴의 비대칭 정도가 커지거나 작아지는 것은 아닙니다. 어느 방향으로 저장됐는지와 실제 얼굴 상태를 구분해서 보세요.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "80805cadb723": {
+    "source": "02 · 촬영 조건",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "d6a9deb9f698": {
+    "source": "사진 속 인상을 바꾸는 네 가지 조건",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "6680bf24d247": {
+    "source": "아래 자료는 촬영 조건이 사진 속 얼굴의 비율이나 인상에 영향을 줄 수 있다는 근거입니다. 각 연구가 안면비대칭의 정도나 치료 효과를 직접 측정한 것은 아닙니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e233fd5c25c4": {
+    "source": "표를 좌우로 밀면 나머지 내용을 볼 수 있습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "c79e2fb8a979": {
+    "source": "촬영 조건별 비교표",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:div@aria-label"
+    ]
+  },
+  "eeb383012f37": {
+    "source": "사진을 비교하기 전에 확인할 조건",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "291ac97193c1": {
+    "source": "조건",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "a2bfe72b3a1f": {
+    "source": "달라 보일 수 있는 부분",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "1e405c17be52": {
+    "source": "비교할 때 확인할 점",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "d6f77d24b952": {
+    "source": "촬영 거리",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "de05e57e06ba": {
+    "source": "가까운 거리에서는 코의 상대적인 크기가 과장될 수 있습니다. 코의 비율을 다룬 수학적 모델 연구로, 얼굴 전체의 좌우 비대칭을 진단한 결과는 아닙니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "5c507dc40638": {
+    "source": "얼굴과 카메라의 거리가 크게 다르지 않은지 확인합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "79d101e73f3e": {
+    "source": "고개·목의 자세",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "4411cb4305db": {
+    "source": "목을 펴거나 머리를 앞으로 내미는 자세에 따라 턱선과 턱 아래 모습이 달라질 수 있습니다. 세 명의 사진을 평가한 소규모 연구 결과입니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "0bbb8c398d69": {
+    "source": "카메라 높이와 고개 방향, 목의 자세가 비슷한지 확인합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "af833196a780": {
+    "source": "조명의 방향",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "02cfa3705c42": {
+    "source": "빛과 그림자의 분포, 얼굴에서 받는 전체적인 인상이 달라질 수 있습니다. 다만 인용 연구에서 볼·턱선 등 부위별 평가가 모두 달라진 것은 아닙니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "c14d7a2c9ee9": {
+    "source": "빛이 들어오는 방향과 밝기가 크게 다른 사진은 구분해서 봅니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "aa69a82b58c7": {
+    "source": "좌우 방향",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "61ecae0e9691": {
+    "source": "좌우가 반전되면 눈에 띄는 특징이 반대편에 보입니다. iPhone은 전면 카메라의 저장 방향을 설정할 수 있습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "bcc09a21cf28": {
+    "source": "미리보기와 저장 사진의 방향, 앱의 좌우 반전 설정을 확인합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "25e9e805640c": {
+    "source": "03 · 비교하는 방법",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "a77e31eeae54": {
+    "source": "변화를 기록하려면 조건부터 비슷하게 맞추세요",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "d8b309c757d9": {
+    "source": "시기가 다른 사진을 비교할 때는 촬영 조건의 차이가 섞이지 않도록 하는 것이 도움이 됩니다. 다음은 위 자료를 바탕으로 정리한 일상적인 기록 제안이며, 의료기관의 표준 촬영이나 진단을 대신하지 않습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "fa6c0f21cbe5": {
+    "source": "같은 기기와 설정을 사용합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "dc19503d9a3d": {
+    "source": "전면·후면 카메라, 좌우 방향, 필터와 보정 기능의 사용 여부를 함께 기록합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e8eddd001f80": {
+    "source": "거리·높이·자세를 비슷하게 맞춥니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "a41728ea20a2": {
+    "source": "턱을 들거나 고개를 돌린 사진과 정면 사진을 같은 조건처럼 비교하지 않습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "574dbb33b91d": {
+    "source": "조명과 표정을 확인합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "a60971ff5acf": {
+    "source": "빛이 들어오는 방향이 비슷한 곳에서, 촬영할 때의 표정도 함께 확인합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "459da58d47e4": {
+    "source": "사진 외의 변화도 적어 둡니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "b0b4efaaa6b0": {
+    "source": "언제부터 차이를 느꼈는지, 턱의 움직임이나 불편감이 함께 달라졌는지 기록해 상담할 때 설명합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "6f98a1df10d0": {
+    "source": "사진마다 보이는 차이가 크더라도 그 이유를 촬영 조건 하나로 단정할 수는 없습니다. 반대로 조건을 맞춰 촬영했다고 해서 사진만으로 원인을 구분할 수 있는 것도 아닙니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "b62e076e3e7c": {
+    "source": "04 · 판단의 범위",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "7df30c43ed96": {
+    "source": "사진만으로 안면비대칭의 원인을 알 수 있나요?",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "eeddcfc27f8c": {
+    "source": "사진은 겉으로 보이는 차이를 기록하는 자료가 될 수 있지만, 얼굴뼈·연부조직·턱관절 등 어떤 요인이 관련됐는지 사진 한 장만으로 구분하기는 어렵습니다. 서울대학교병원은 면담과 구강 안팎의 임상 검사를 바탕으로 평가하고, 필요한 추가 검사를 통해 분석한다고 설명합니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "4f1379fff33d": {
+    "source": "참고 자료 5",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:a@aria-label"
+    ]
+  },
+  "4d9599efa7cf": {
+    "source": "원인과 진단 과정이 궁금하다면",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "b438fee71059": {
+    "source": "안면비대칭의 원인·진단과 치료 방향 읽기",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "5bf95de9a2fe": {
+    "source": "리메디의 대표 안내에서 자가 확인의 범위와 진료 시 살펴보는 내용을 이어서 확인할 수 있습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "146345e9c785": {
+    "source": "촬영 조건은 원저 연구와 기기 제조사의 안내를, 진단의 범위는 의료기관의 질환 정보를 참고했습니다. 촬영 연구의 결과와 실제 상태의 평가는 구분해서 읽어 주세요.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "9a03c62de448": {
+    "source": "Ward B 외. Nasal Distortion in Short-Distance Photographs: The Selfie Effect. 2018.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "fd38be562160": {
+    "source": "짧은 촬영 거리와 코의 상대적 크기를 다룬 수학적 모델 연구.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "bcd9c3b0348f": {
+    "source": "Sommer DD, Mendelsohn M. Pitfalls of nonstandardized photography in facial plastic surgery patients. 2004.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "7d3fadaf31c4": {
+    "source": "세 명의 자세별 사진을 20명이 평가한 연구.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "dba9644a7f89": {
+    "source": "Hernandez CA 외. The Influence of Different Light Angles During Standardized Patient Photographic Assessment on the Aesthetic Perception of the Face. 2021.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "6b814f2e6963": {
+    "source": "51명의 얼굴 사진에 대해 조명 각도에 따른 평가 차이를 살핀 연구.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "e256e175f9fd": {
+    "source": "Apple. Take a selfie with your iPhone camera.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "543fdf221afe": {
+    "source": "전면 카메라의 좌우 방향 유지 기능 안내. 기기와 앱에 따라 설정이 다를 수 있습니다.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "b3a45c0ecaee": {
+    "source": "서울대학교병원. 안면비대칭.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "78639639a34a": {
+    "source": "진단·검사의 범위와 치료 필요성에 관한 의학정보.",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "878c43c2bedd": {
+    "source": "안면비대칭 칼럼 목록",
+    "contexts": [
+      "columns/facial-asymmetry-photos.html:text"
+    ]
+  },
+  "27ba73539b10": {
+    "source": "같은 얼굴, 다른 좌우 방향",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "ae826ad70dfc": {
+    "source": "같은 얼굴 그림을 좌우로 반전한 비교. 볼의 색 점과 턱끝의 방향이 함께 반대편으로 이동한다. 실제 환자나 치료 전후가 아닌 설명용 그림.",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "f72d49a3d422": {
+    "source": "원래 방향",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "6ab85eebffc4": {
+    "source": "좌우 반전",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "014dd4924444": {
+    "source": "좌우만 반전",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "9e2fd4c348fc": {
+    "source": "표시와 턱끝의 방향을 보세요",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "ddf6f45a6e68": {
+    "source": "같은 특징이 반대편에 보입니다",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "557e1432fab2": {
+    "source": "re:medi · 형태를 설명하기 위한 도식",
+    "contexts": [
+      "assets/columns/photo-direction.svg:text"
+    ]
+  },
+  "7b19f27e492c": {
+    "source": "{selected} / {total}개 선택",
+    "contexts": [
+      "shared:interface"
+    ]
+  },
+  "eede854168a5": {
+    "source": "언어 버전",
+    "contexts": [
+      "shared:interface"
+    ]
+  },
+  "bcb6fde8c5c3": {
+    "source": "예약 서비스와 지도는 외부 사이트에서 열립니다. 연결된 서비스는 한국어로 표시될 수 있습니다.",
+    "contexts": [
+      "shared:interface"
+    ]
+  }
+}

@@ -26,6 +26,14 @@
     <link rel="stylesheet" href="styles.css?v=20261103-single-nav" />
     <!-- Meta Pixel -->
     <script src="meta-pixel.js?v=20261030-base" defer></script>
+    <!-- i18n:head -->
+    <link rel="alternate" hreflang="ko" href="https://k-remedi.com/contact" />
+    <link rel="alternate" hreflang="en" href="https://k-remedi.com/en/contact" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://k-remedi.com/zh/contact" />
+    <link rel="alternate" hreflang="ja" href="https://k-remedi.com/ja/contact" />
+    <link rel="alternate" hreflang="x-default" href="https://k-remedi.com/contact" />
+    <link rel="stylesheet" href="/i18n.css?v=20261109-languages" />
+    <!-- /i18n -->
   </head>
   <body data-page="contact">
     <!-- Meta Pixel: JavaScript-disabled fallback -->
@@ -58,9 +66,9 @@
         <div class="header-actions">
           <label class="language-control">
             <span class="sr-only" data-i18n="languageLabel">언어 선택</span>
-            <select id="language-select" aria-label="언어 선택">
-              <option value="ko">한국어</option>
-              <option value="zh">中文</option>
+            <select id="language-select" aria-label="언어 선택" data-language-ko="/contact" data-language-en="/en/contact" data-language-zh="/zh/contact" data-language-ja="/ja/contact">
+              <option value="ko" selected="">한국어</option>
+              <option value="zh">简体中文</option>
               <option value="ja">日本語</option>
               <option value="en">English</option>
             </select>
@@ -165,9 +173,12 @@
         <div><dt>주소</dt><dd>서울특별시 마포구 월드컵로1길 14, 마포한강푸르지오 1차아파트 1층</dd></div>
         <div><dt>전화번호</dt><dd><a href="tel:0269511075">02-6951-1075</a></dd></div>
       </dl>
+      <!-- i18n:links -->
+      <nav class="language-links" aria-label="언어 버전"><a href="/contact" lang="ko" hreflang="ko" aria-current="page">한국어</a> · <a href="/en/contact" lang="en" hreflang="en">English</a> · <a href="/zh/contact" lang="zh-Hans" hreflang="zh-Hans">简体中文</a> · <a href="/ja/contact" lang="ja" hreflang="ja">日本語</a></nav>
+      <!-- /i18n -->
       <p class="footer-copy">© 2026 re:medi Korean Medicine Clinic. All rights reserved.</p>
     </footer>
 
-    <script src="script.js?v=20261104-column-nav" defer></script>
+    <script src="script.js?v=20261109-languages" defer></script>
   </body>
 </html>
