@@ -435,12 +435,6 @@
       "index.html:section@aria-label"
     ]
   },
-  "14b670709969": {
-    "source": "re:medi scenes",
-    "contexts": [
-      "index.html:text"
-    ]
-  },
   "fa8510af62a3": {
     "source": "대표 이미지 넘기기",
     "contexts": [
@@ -471,8 +465,8 @@
       "index.html:text"
     ]
   },
-  "6543f1573d6f": {
-    "source": "리메디 한의원 내부 공간 이미지",
+  "4a52692e40d1": {
+    "source": "리메디한의원 접수 공간",
     "contexts": [
       "index.html:img@alt"
     ]
@@ -483,14 +477,15 @@
       "index.html:text"
     ]
   },
-  "1bddd7d2df09": {
-    "source": "리메디 한의원 공간 상세 이미지",
+  "e8789a5a0614": {
+    "source": "리메디한의원에서 얼굴 부위를 살펴보는 진료 모습",
     "contexts": [
-      "index.html:img@alt"
+      "index.html:img@alt",
+      "asymmetry.html:img@alt"
     ]
   },
-  "f3427466290c": {
-    "source": "예약 중심의 세심한 진료 동선",
+  "616e258549e9": {
+    "source": "세심하게 살펴보는 진료",
     "contexts": [
       "index.html:text"
     ]
@@ -1951,12 +1946,6 @@
     "contexts": [
       "asymmetry.html:schema:name",
       "asymmetry.html:text"
-    ]
-  },
-  "e8789a5a0614": {
-    "source": "리메디한의원에서 얼굴 부위를 살펴보는 진료 모습",
-    "contexts": [
-      "asymmetry.html:img@alt"
     ]
   },
   "d095942d1c84": {

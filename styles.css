@@ -2967,6 +2967,30 @@ body[data-page="contact"] .page-quick-actions .button.ghost {
   object-position: center;
 }
 
+.hero-slide:nth-child(2) img {
+  object-position: center 62%;
+}
+
+.hero-slide:nth-child(3) img {
+  object-position: center 48%;
+}
+
+@media (min-width: 761px) {
+  .hero-slide:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("assets/리메디_인테리어 (4).jpg") center 48% / cover no-repeat;
+    filter: blur(22px) brightness(0.58);
+    transform: scale(1.08);
+  }
+
+  .hero-slide:nth-child(3) img {
+    position: relative;
+    object-fit: contain;
+  }
+}
+
 .hero-slide::after {
   height: 48%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.58));
