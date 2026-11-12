@@ -2395,12 +2395,6 @@ body[data-page="contact"] .page-quick-actions .button.ghost {
   background: var(--soft);
 }
 
-.intro-section .section-heading p.clinic-alias {
-  color: #52645b;
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .asymmetry-section {
   background: var(--green);
   color: var(--soft);
