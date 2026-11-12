@@ -5,8 +5,8 @@
       "index.html:text"
     ]
   },
-  "4347c0a8dc82": {
-    "source": "안면비대칭의 원인·증상과 진료 정보를 안내합니다. 마포·합정 경희 리메디한의원의 상담·예약을 확인하세요.",
+  "1bf88300ffc3": {
+    "source": "안면비대칭의 원인·증상과 진료 정보를 안내합니다. 곰추한의원으로도 불리는 마포·합정 리메디한의원의 상담·예약을 확인하세요.",
     "contexts": [
       "index.html:meta"
     ]
@@ -65,6 +65,12 @@
   },
   "62e47901d162": {
     "source": "re:medi 한의원 | 자연스럽게 가장 아름다운 균형을 찾다",
+    "contexts": [
+      "index.html:meta"
+    ]
+  },
+  "4347c0a8dc82": {
+    "source": "안면비대칭의 원인·증상과 진료 정보를 안내합니다. 마포·합정 경희 리메디한의원의 상담·예약을 확인하세요.",
     "contexts": [
       "index.html:meta"
     ]
@@ -175,18 +181,11 @@
       "columns/facial-asymmetry-photos.html:text"
     ]
   },
-  "cec5cf327ef3": {
-    "source": "re:medi 한의원 홈",
+  "f7eb275d80ca": {
+    "source": "re:medi 한의원 홈, 별칭 곰추한의원",
     "contexts": [
       "index.html:a@aria-label",
-      "intro.html:a@aria-label",
       "asymmetry.html:a@aria-label",
-      "posture.html:a@aria-label",
-      "diet.html:a@aria-label",
-      "bride.html:a@aria-label",
-      "pain.html:a@aria-label",
-      "reviews.html:a@aria-label",
-      "contact.html:a@aria-label",
       "columns.html:a@aria-label",
       "columns/facial-asymmetry-photos.html:a@aria-label"
     ]
@@ -1628,6 +1627,18 @@
     "source": "리메디소개, re:medi 한의원, 홍은빈 원장, 마포 한의원, 합정 한의원, 원내 직접 탕전",
     "contexts": [
       "intro.html:meta"
+    ]
+  },
+  "cec5cf327ef3": {
+    "source": "re:medi 한의원 홈",
+    "contexts": [
+      "intro.html:a@aria-label",
+      "posture.html:a@aria-label",
+      "diet.html:a@aria-label",
+      "bride.html:a@aria-label",
+      "pain.html:a@aria-label",
+      "reviews.html:a@aria-label",
+      "contact.html:a@aria-label"
     ]
   },
   "e282a8fa21a0": {
